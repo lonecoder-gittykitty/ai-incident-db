@@ -1110,6 +1110,20 @@ const governanceData = {
       type: "Policy Debate",
       description: "Citizens and education experts petitioned the Chief Minister to halt Karnataka's AI facial-recognition attendance system in government schools, citing risks of child data misuse, identity theft, and lack of consent frameworks.",
       link: "https://timesofindia.indiatimes.com/city/bengaluru/ai-facial-recognition-move-in-karnataka-schools-triggers-privacy-alarm-bells/articleshow/123369447.cms"
+    },
+    {
+      title: "Global Centre for Artificial Intelligence with Partnership of WEF",
+      date: "Jun 24, 2024",
+      type: "Policy Framework",
+      description: "Karnataka's cabinet approved a ₹28 crore investment to establish a Global Centre for Artificial Intelligence in Bengaluru, in partnership with the World Economic Forum's Centre for the Fourth Industrial Revolution (C4IR) Network. Signed in February 2024, the initiative aims to develop inclusive AI governance frameworks, promote responsible digital transformation in public and private sectors, and create decentralised AI-driven economic clusters beyond Bengaluru.",
+      link: "https://www.weforum.org/stories/2024/06/how-regions-can-attract-innovative-industries-like-ai-and-also-help-them-to-grow/"
+    },
+    {
+      title: "Centre for Applied AI for Tech Solutions (CATS) & AI-Driven Governance Tools",
+      date: "Jun 10, 2025",
+      type: "Policy Framework",
+      description: "Under its IT Policy 2025-30, Karnataka proposed the ₹50 crore Centre for Applied AI for Tech Solutions (CATS) to drive AI integration in governance and public services. The policy introduces an AI-based Government Order Summary and Information Extraction Tool, IPGRS 2.0 (AI-driven grievance redressal), Shiksha Copilot (GenAI assistant for 1,000+ government school teachers with Microsoft Research), and AI-powered Digital Agricultural Service Centres.",
+      link: "https://egov.eletsonline.com/2025/06/karnataka-charts-ai-focused-future-in-new-it-policy-eyes-%E2%82%B950-crore-applied-ai-centre/"
     }
   ],
 
@@ -1134,6 +1148,27 @@ const governanceData = {
       type: "Law Enforcement",
       description: "Bihar Police's Economic Offences Unit (EOU) filed 21 FIRs against BJP, Congress, and RJD for religious- and caste-based hate posts. Of these, 6 FIRs specifically targeted AI-generated deepfake videos. The EOU monitored 135 social media accounts and 28 YouTube channels throughout the election period.",
       link: "https://patnapress.com/eou-firs-ai-deepfake-bjp-congress-rjd-bihar-elections/"
+    },
+    {
+      title: "Bihar's AI-Powered Digital Democracy Showcase at India AI Impact Expo 2026",
+      date: "Feb 18, 2026",
+      type: "Policy Framework",
+      description: "Bihar's State Election Commission launched India's first state-level mobile e-voting system using AI facial recognition and blockchain for secure, inclusive elections — targeting migrants, elderly, and disabled voters. An AI-based OCR counting system enables real-time EVM data validation. This demonstrates AI governance applied to democratic processes: rule-making, tech-driven implementation, and built-in audit oversight.",
+      link: "https://patnapress.com/bihar-ai-digital-democracy-smart-governance-india-expo/"
+    },
+    {
+      title: "Mega AI Centre of Excellence — Bihar Government, Tiger Analytics & IIT Patna",
+      date: "Feb 18, 2026",
+      type: "Partnership",
+      description: "Bihar signed an MoU with Tiger Analytics and IIT Patna at the India AI Impact Summit 2026 to build a Mega AI Centre of Excellence — one of India's largest. It targets 10,000+ jobs, 50,000+ youth trained, and AI-driven solutions in agriculture, healthcare, and governance. The 'Bihar AI Mission' formalizes a state-level governance ecosystem for responsible AI adoption.",
+      link: "https://www.tigeranalytics.com/news/tiger-analytics-and-govt-of-bihar-sign-mou-to-build-a-mega-ai-centre-of-excellence-in-bihar/"
+    },
+    {
+      title: "Unified AI-Powered Digital Governance Platform 'BiharOne' Launched",
+      date: "Mar 27, 2026",
+      type: "Policy Framework",
+      description: "Bihar launched BiharOne, an ₹87 crore unified digital governance platform integrating all government services into a single window. It features AI-powered chatbots in local languages and real-time analytics for data-driven policymaking. Implemented by CIPL with BELTRON support, it eliminates multi-office visits, enabling transparent, efficient, and citizen-centric service delivery across the state.",
+      link: "https://www.oneindia.com/india/biharone-digital-governance-platform-launch-2024-012-8038857.html"
     }
   ],
 
@@ -1158,6 +1193,27 @@ const governanceData = {
       type: "Industry Response",
       description: "Airtel rolled out an AI-powered fraud detection system in AP scanning over 1 billion URLs daily and blocking malicious sites in under 100 milliseconds. Warnings are delivered in Telugu, making it accessible for local populations. The service is free and requires no user installation.",
       link: "https://www.deccanchronicle.com/southern-states/andhra-pradesh/airtel-cracks-down-on-online-fraud-in-andhra-pradesh-shields-8-million-users-in-real-time-1886462"
+    },
+    {
+      title: "IndiaAI and Andhra Pradesh Government Partnership in Transforming Governance Challenge",
+      date: "Jan 25, 2026",
+      type: "Policy",
+      description: "IndiaAI, under MeitY, partnered with Andhra Pradesh's Real Time Governance Society to launch an innovation challenge across six domains — rural entrepreneurship, supply chain optimization, renewable energy land allocation, urban planning, school infrastructure, and land-use monitoring. The challenge invites startups and researchers to build AI solutions enhancing transparency and efficiency in AP's government processes.",
+      link: "https://indiaai.gov.in/article/indiaai-innovation-challenge-for-transforming-governance-with-government-of-andhra-pradesh"
+    },
+    {
+      title: "AI-Police Hackathon Held in Guntur",
+      date: "Jun 28, 2025",
+      type: "Law Enforcement",
+      description: "CM Chandrababu Naidu inaugurated the AI-Police Hackathon in Guntur, bringing together 160+ teams of engineers, startups, and police officials to develop AI-driven solutions for crime prediction, drone surveillance, and digital monitoring. The initiative aims to improve response times, resource allocation, and crime prevention, embedding AI directly into AP's law enforcement framework.",
+      link: "https://egov.eletsonline.com/2025/06/andhra-pradesh-cm-launches-ai-hackathon-to-fortify-policing/"
+    },
+    {
+      title: "Real Time Governance Society (RTGS) — AI-Powered Grievance & Service Delivery",
+      date: "Feb 17, 2025",
+      type: "Policy Framework",
+      description: "AP's Real Time Governance Society uses AI, predictive analytics, and geo-tagging across 13 district centres and one state centre to monitor citizen grievances, track service delivery, and hold departments accountable in real-time. Bill Gates visited in February 2026 to review the system, which also integrates AI-powered health screening and agriculture monitoring across the state.",
+      link: "https://www.teluguvaaditv.com/2026/02/bill-gates-visits-andhra-pradesh-ai-governance.html"
     }
   ],
 
@@ -1182,6 +1238,27 @@ const governanceData = {
       type: "Platform Action",
       description: "Responding to Kerala Police's flagging, Facebook, Instagram and YouTube removed over 1,000 AI-generated deepfake investment scam videos in a single year. The case highlighted the importance of state-platform coordination in countering AI fraud.",
       link: "https://www.newindianexpress.com/states/kerala/2025/Jun/26/deepfake-investment-scams-on-the-rise-in-kerala-over-1k-videos-taken-down-last-year"
+    },
+    {
+      title: "Keralam AI Mission (K-AI): AI for Governance Programme",
+      date: "Sep 13, 2025",
+      type: "Policy Framework",
+      description: "Keralam launched the K-AI (Keralam Artificial Intelligence) Mission — a flagship initiative by Keralam State IT Mission in collaboration with Keralam Startup Mission (KSUM). It invites startups, researchers, and innovators to co-create AI solutions for real-world governance challenges identified by state departments. The programme focuses on predictive analytics in land management, AI-based citizen feedback systems, disaster risk forecasting, and service automation — enabling smarter, citizen-centric governance.",
+      link: "https://startupnews.fyi/2025/09/13/proposals-for-ai-solutions-invited-under-Kerala-ai-initiative/"
+    },
+    {
+      title: "Keralam High Court's AI Policy for District Judiciary",
+      date: "Aug 14, 2025",
+      type: "Judicial Action",
+      description: "In July 2025, the Keralam High Court issued India's first formally binding AI policy for the district judiciary, categorically prohibiting AI from being used for judicial decision-making, findings, or judgments. It mandates AI as purely 'assistive,' bans cloud-based tools like ChatGPT for case data, requires human verification of all AI outputs, and mandated the AI-enabled Adalat.AI tool for recording witness depositions from November 2025.",
+      link: "https://ssrana.in/articles/Kerala-high-courts-new-ai-guidelines-set-national-standard-for-judicial-integrity/"
+    },
+    {
+      title: "AI-Powered Unified Service Delivery Platform Integrated with GenAI",
+      date: "Jul 12, 2024",
+      type: "Policy Framework",
+      description: "Keralam's IT Department is developing an AI-powered unified service delivery platform consolidating 104 government services under a single digital umbrella, with AI chatbots strengthening e-governance. Complementing this, Keralam made a first-of-its-kind AI Declaration at the 2024 International GenAI Conclave (with IBM), announcing a dedicated AI policy with ESG compliance, an AI Cluster with GPU centres, and regulatory sandboxes for responsible AI governance.",
+      link: "https://www.business-standard.com/economy/news/Kerala-govt-unveils-slew-of-sops-to-promote-ai-focused-policy-on-anvil-124071201039_1.html"
     }
   ],
 
@@ -1234,6 +1311,34 @@ const governanceData = {
       type: "Legislation",
       description: "The central government's Prohibition of Sexually Explicit Deep Fake Material Rules 2025 directly addresses cases documented in Haryana — including AI-generated obscene imagery used for blackmail. The rules criminalise creation and distribution of deepfake sexual content of identifiable individuals, with penalties up to 7 years imprisonment. Haryana Police have been directed by MeitY to register applicable cases under these rules in addition to existing IT Act provisions for sextortion and blackmail.",
       link: "https://www.meity.gov.in"
+    },
+    {
+      title: "India Hosts the AI Impact Summit 2026 in New Delhi",
+      date: "Feb 24, 2026",
+      type: "Policy",
+      description: "The AI Impact Summit 2026, held in New Delhi on 18–19 February 2026, concluded with the adoption of the New Delhi Declaration on AI Impact, endorsed by 89 countries and international organisations. Built around seven strategic pillars and the philosophy of 'Sarvajan Hitaya, Sarvajan Sukhaya,' it launched platforms like Global AI Impact Commons and Trusted AI Commons, establishing India as a convening power in global AI governance from its capital.",
+      link: "https://www.drishtiias.com/daily-updates/daily-news-analysis/new-delhi-declaration-on-ai-impact"
+    },
+    {
+      title: "Delhi Police Deploys 10,000 AI-Enabled CCTV Cameras Under ₹800 Crore Safe City Project",
+      date: "Dec 25, 2025",
+      type: "Surveillance",
+      description: "Delhi Police's Safe City Project, funded under the Nirbhaya Fund at an estimated ₹800 crore, is deploying 10,000 AI-powered CCTV cameras across the city with facial recognition, distress detection via sound and gestures, and a C4I Command Centre. The system can analyse footage from over a hundred cameras simultaneously, match one million records in 200 milliseconds, and operate despite poor lighting conditions — representing one of India's largest urban AI surveillance deployments.",
+      link: "https://swarajyamag.com/security/delhi-polices-safe-city-project-with-10000-ai-cameras-to-enable-automatic-distress-alerts-launch-expected-in-2026-report"
+    },
+    {
+      title: "Delhi Police Upgrades DRDO-Built Netra System with AI to Monitor Cyber Threats",
+      date: "Jun 23, 2025",
+      type: "Law Enforcement",
+      description: "Delhi Police upgraded its DRDO-built Netra surveillance system with AI-powered servers capable of monitoring internet traffic across WhatsApp, Telegram, and VoIP, flagging threats in real time. Integrated with the C4I Centre's 10,000 CCTV feeds, Netra adds facial recognition and predictive analytics, processing 20 faces in a crowd simultaneously. It tackles 700 daily cybercrime complaints and an estimated ₹500 crore in annual losses across Delhi.",
+      link: "https://theweeklynews.in/delhi-polices-netra-upgrade-can-ai-surveillance/"
+    },
+    {
+      title: "MeitY Notifies IT Amendment Rules Mandating Due Diligence for Synthetically Generated Content",
+      date: "Feb 11, 2026",
+      type: "Legislation",
+      description: "On February 10, 2026, MeitY notified the Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Amendment Rules, 2026, timed with the AI Impact Summit's closing. The amendments define a new category of synthetically generated content (SGI) and impose due diligence obligations on intermediaries that enable the creation or dissemination of deepfakes, marking India's first enforceable rule specifically targeting AI-generated synthetic media.",
+      link: "https://www.csohate.org/2026/02/11/ai-impact-summit-2026/"
     }
   ],
 
@@ -1272,6 +1377,27 @@ const governanceData = {
       type: "Policy Framework",
       description: "Maharashtra became the first Indian state to constitute a formal AI Ethics Committee, tasked with reviewing state government use of AI tools in policing, surveillance, and welfare delivery. The committee's initial remit included audit of the Ganesh Chaturthi surveillance deployment, a review of the Mantralaya facial recognition system failures, and recommendations for consent-based AI use in public spaces. Civil society organisations were granted two observer seats on the committee — a transparency measure noted by digital rights groups as a positive step.",
       link: "https://www.hindustantimes.com/cities/mumbai-news/maharashtra-ai-ethics-committee-deepfakes-surveillance-2025"
+    },
+    {
+      title: "MahaCrimeOS — AI-Powered Cybercrime Investigation Platform",
+      date: "Dec 12, 2025",
+      type: "Law Enforcement",
+      description: "Unveiled by Microsoft CEO Satya Nadella in December 2025, MahaCrimeOS AI is a pioneering Azure OpenAI-powered platform developed by CyberEye with Maharashtra's MARVEL. Currently live in 23 Nagpur police stations, CM Fadnavis proposed scaling it to all 1,100 police stations statewide — enabling AI-assisted digital evidence analysis, case-linking, and accelerated cybercrime investigations.",
+      link: "https://news.microsoft.com/source/asia/2025/12/12/maharashtra-leads-indias-ai-powered-cybercrime-fight-microsoft-unveils-mahacrimeos-ai-to-combat-cybercrime-at-scale/"
+    },
+    {
+      title: "MoU by Microsoft & Maharashtra Government for 3 AI Centres of Excellence",
+      date: "Apr 02, 2025",
+      type: "Partnership",
+      description: "Maharashtra signed an MoU with Microsoft (April 2025) to establish three AI Centres of Excellence: a Geospatial Analytics Centre in Mumbai (satellite imagery and GIS-based governance), a Forensic Research & AI Centre in Pune (AI-enhanced criminal investigation and evidence management), and the MARVEL Centre in Nagpur (AI-driven law enforcement, anti-corruption, and regulatory oversight). Microsoft will train government employees via Copilot and MS Learn platforms.",
+      link: "https://egov.eletsonline.com/2025/04/maharashtra-government-collaborates-with-microsoft-to-establish-ai-centres-of-excellence/"
+    },
+    {
+      title: "Maharashtra AI Policy 2025 — 16-Member Taskforce Formed",
+      date: "Jan 17, 2025",
+      type: "Policy Framework",
+      description: "Maharashtra formed a 16-member AI Policy Taskforce in January 2025 under IT Minister Ashish Shelar to draft India's first dedicated state AI policy, aligned with the IndiaAI Mission. The policy prioritises education (AI integration in schools under NEP), employment (skill development over job displacement), cybersecurity regulation, and a framework addressing AI-generated content authenticity — targeting Maharashtra's ₹6 lakh crore digital economy and $1 trillion GDP ambition.",
+      link: "https://www.deccanherald.com/india/maharashtra/maharashtra-government-forms-panel-for-artificial-intelligence-policy-3360405"
     }
   ],
 
@@ -1289,6 +1415,27 @@ const governanceData = {
       type: "Electoral Regulation",
       description: "BJP approached the State Election Commission with a complaint against the BJD for allegedly circulating AI-generated distorted images of BJP leaders to mislead voters ahead of the Nuapada bypoll. The complaint demanded action under cyber laws and election conduct norms.",
       link: "https://argusenglish.in/odisha/bjp-files-complaint-against-bjd-over-ai-misinformation-ahead-of-nuapada-bypoll"
+    },
+    {
+      title: "Odisha AI Policy 2025 & Odisha AI Mission (India's First State AI Policy)",
+      date: "May 28, 2025",
+      type: "Policy Framework",
+      description: "Odisha became India's first state to officially adopt a dedicated AI Policy (May 2025), establishing the Odisha AI Mission with a two-tier governance structure — an AI Taskforce for strategic oversight and an AI Cell within OCAC for execution. Built on four pillars (infrastructure, skills, energy management, regulatory frameworks), it targets healthcare, agriculture, education, disaster management and governance, with AI officers mandated in every department.",
+      link: "https://pragativadi.com/odisha-unveils-ai-policy-2025-to-drive-innovation-and-governance/"
+    },
+    {
+      title: "SushasanSahAIyak — Unified AI Platform for Governance",
+      date: "Mar 27, 2026",
+      type: "Policy Framework",
+      description: "Odisha is developing 'SushasanSahAIyak,' a unified AI platform for governance use-cases embedding 'Sushashan' (good governance) across departments. Key deployments include AI-assisted clinical decision support for rural healthcare in tribal Rayagada, voice-first Odia-language AI systems for citizen grievance redressal, precision agriculture advisories via AI-powered IVR, and urban flood prevention models using digital twins.",
+      link: "https://egov.eletsonline.com/2026/03/ai-for-scalable-and-inclusive-governance-the-odisha-model/"
+    },
+    {
+      title: "Sovereign AI Hub with Sarvam AI — ₹20,000 Crore Investment",
+      date: "Mar 19, 2026",
+      type: "Partnership",
+      description: "Odisha signed an MoU with Sarvam AI to establish India's first sovereign AI hub with a proposed investment of ₹20,000 crore, expected to generate 5,000 high-skilled jobs. Complementing this, AI labs are being set up at IIT Bhubaneswar, NIT Rourkela, IIIT Bhubaneswar, and NISER, alongside a State Open AI Hub for open-source tools, datasets, hackathons, and micro-grants — with mandatory AI training for all government officers.",
+      link: "https://www.business-standard.com/industry/news/odisha-rolls-out-operational-roadmap-for-ai-policy-ai-mission-labs-126031901091_1.html"
     }
   ],
 
@@ -1306,6 +1453,27 @@ const governanceData = {
       type: "Law Enforcement",
       description: "Delhi Police registered a First Information Report against the creator of a manipulated video falsely depicting Amit Shah advocating abolition of SC/ST/OBC reservations — a significant misrepresentation of his actual speech. The case set a precedent for FIRs on politically motivated AI-manipulated content.",
       link: "https://www.business-standard.com/india-news/delhi-police-files-fir-over-fake-video-of-amit-shah-s-remark-on-reservation-124042900203_1.html"
+    },
+    {
+      title: "UP AI Mission — ₹25,000 Crore MoU and Launch of Puch AI",
+      date: "Feb 14, 2026",
+      type: "Policy Framework",
+      description: "CM Yogi Adityanath's 2025-26 budget allocated ₹225 crore for the Uttar Pradesh Artificial Intelligence Mission plus ₹32.82 crore for AI Centres of Excellence and data labs. A landmark ₹25,000 crore MoU with Puch AI will establish AI Parks, large-scale data centre infrastructure, AI Commons, and an AI University. An MoU with IndiaAI Mission designates UPDESCO as state nodal agency, with 65 Data & AI Labs planned statewide.",
+      link: "https://organiser.org/2026/02/14/340043/bharat/uttar-pradesh-data-centres-and-ai-mission-to-make-state-a-future-tech-powerhouse/"
+    },
+    {
+      title: "'JARVIS' AI-Enabled Video Analytics Launched in 70 Prisons",
+      date: "Jan 06, 2025",
+      type: "Surveillance",
+      description: "Uttar Pradesh deployed 'JARVIS,' India's first AI-enabled video analytics platform for prison monitoring, across 70 prisons housing 24% of India's total inmates. The platform analyses real-time feeds from 700+ CCTV cameras to detect suspicious inmate behaviour, violence, and security breaches. Additionally, an AI-based beneficiary database streamlines welfare scheme targeting, which was instrumental in managing 35 lakh migrants during the COVID-19 lockdown.",
+      link: "https://egov.eletsonline.com/2025/01/ai-infrastructure-in-uttar-pradesh-paving-the-way-for-trillion-dollar-economy/"
+    },
+    {
+      title: "AI-Powered Road Safety Project and Maha Kumbh AI Surveillance",
+      date: "Jul 31, 2025",
+      type: "Surveillance",
+      description: "MoRTH approved India's first AI-based road safety project in UP with ₹100 million budget allocation, using big data analytics to identify accident-prone zones and generate real-time risk dashboards. At Maha Kumbh 2025 in Prayagraj, 2,700 AI-enhanced CCTV cameras with facial recognition were deployed for crowd surge detection, barricade breach alerts, fire detection, and reuniting lost visitors — managing approximately 1 crore daily visitors.",
+      link: "https://news.fundsforngos.org/2025/07/31/india-launches-first-ai-powered-road-safety-project-in-uttar-pradesh/"
     }
   ],
 
@@ -1323,6 +1491,34 @@ const governanceData = {
       type: "Law Enforcement",
       description: "Rajasthan Police arrested 6 members of a gang using AI to create fake candidate photos for NEET exam impersonation. The case triggered a review of biometric verification procedures in public examinations across the state.",
       link: "https://www.livehindustan.com/rajasthan/jaipur-neet-ug-2025-scam-dummy-gang-was-active-makes-fake-faces-with-ai-know-how-they-were-arrested-201746435668639.html"
+    },
+    {
+      title: "Rajasthan Cabinet Approves AI/ML Policy 2026",
+      date: "Jan 07, 2026",
+      type: "Policy Framework",
+      description: "Rajasthan's Cabinet approved the AI/ML Policy 2026 (December 2025), launched by CM Bhajanlal Sharma at the Regional AI Impact Conference in Jaipur. Built on ethical AI, skills development, and digital infrastructure pillars, it mandates every government department to identify AI use-cases and appoint an AI Nodal Officer. The policy establishes a multi-tiered governance framework — AI Apex Committee, Steering Committee, AI Taskforce — with provisions against algorithmic bias and AI-linked cybercrime.",
+      link: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2212007&reg=3&lang=1"
+    },
+    {
+      title: "Regional AI Impact Conference 2026 — MoUs with Google, IIT Delhi & NLU Jodhpur",
+      date: "Jan 06, 2026",
+      type: "Partnership",
+      description: "Rajasthan hosted the Regional AI Impact Conference (January 2026) as a precursor to the India AI Impact Summit 2026. Three key MoUs were signed: with Google for AI/ML pilot projects in healthcare, agriculture, transport, and citizen services; with IIT Delhi for an AI Centre of Excellence, hackathons, and startup mentoring; and with NLU Jodhpur for promoting trustworthy and ethical AI through capacity building of officials.",
+      link: "https://changingtomorrow.in/rajasthan-launches-ai-ml-policy-2026-and-national-ai-literacy-programme-at-digifest-rajasthan-x-tie-global-summit/"
+    },
+    {
+      title: "AI-Based Competency Exams for 25.87 Lakh School Students",
+      date: "Oct 12, 2025",
+      type: "Policy",
+      description: "Rajasthan launched an AI-based competency assessment across government schools in all 41 districts (March 2025), covering approximately 25.87 lakh students of Classes 3, 4, 6, and 7, including Sanskrit school students. The initiative uses AI to evaluate learning levels and improve education quality at scale. Additionally, the state has integrated AI into the school curriculum and launched the iStart Learning Management System for digital skill development.",
+      link: "https://doitc.rajasthan.gov.in/Content/AiInitiative.aspx?menu_id=67"
+    },
+    {
+      title: "AI-Driven Facial Authentication for MGNREGA & Pensioner Verification",
+      date: "Feb 10, 2026",
+      type: "Policy",
+      description: "Rajasthan deployed AI-driven facial authentication to verify 80 lakh MGNREGA job cardholders (starting from Kota) to curb identity fraud in welfare delivery. Simultaneously, the state introduced AI-powered face recognition via mobile app and an analytical dashboard for pensioner verification and pension disbursement — ensuring timely payments, reducing delays, and improving transparency and monitoring in governance of social welfare schemes.",
+      link: "https://doitc.rajasthan.gov.in/Content/AiInitiative.aspx?menu_id=67"
     }
   ],
 
@@ -1347,6 +1543,27 @@ const governanceData = {
       type: "Surveillance",
       description: "Ahmedabad Police deployed AI-powered crowd analytics across 6,000 CCTVs for the 148th Jagannath Rath Yatra. While credited with stampede prevention, rights groups raised concerns about the scale of facial-recognition based surveillance at public religious gatherings and the absence of data retention policies.",
       link: "https://english.gujaratsamachar.com/news/gujarat/how-ai-powered-surveillance-will-prevent-stampede-during-jagannath-rathyatra-2025"
+    },
+    {
+      title: "AI Centre of Excellence at GIFT City (Microsoft Partnership)",
+      date: "Jan 27, 2025",
+      type: "Partnership",
+      description: "CM Bhupendra Patel inaugurated the AI Centre of Excellence at GIFT City, Gandhinagar, developed in partnership with Microsoft. The centre focuses on machine learning, cognitive services, and chatbot services, supporting government and industry across manufacturing, healthcare, and education. An AI Innovation Challenge was also launched, awarding MSMEs for AI and IoT solutions. It serves as a bridge between startups and industries, addressing AI knowledge gaps statewide.",
+      link: "https://deshgujarat.com/2025/01/27/ai-centre-of-excellence-launched-in-gift-city/"
+    },
+    {
+      title: "Surat Police Launches 'Cyber Mitra' — AI-Powered Cybercrime Chatbot",
+      date: "Feb 16, 2024",
+      type: "Law Enforcement",
+      description: "Surat Police launched 'Cyber Mitra,' India's first AI-powered WhatsApp chatbot for cybercrime assistance, offering round-the-clock help to citizens in their chosen language. The chatbot communicates with victims, helps locate the nearest police station via a 'Find My Police Station' feature, and provides real-time safety tips — bridging the gap between existing cybercrime laws and on-the-ground citizen protection.",
+      link: "https://cyberpeace.org/resources/blogs/cyber-mitra-ai-chatbot-launched-by-surat-police"
+    },
+    {
+      title: "Gujarat Cyber Centre of Excellence Busts ₹200-Crore Fraud Network",
+      date: "Nov 03, 2025",
+      type: "Law Enforcement",
+      description: "Gujarat's Cyber Centre of Excellence, led by SP Dr. Rajdeep Singh Jhala, busted a ₹200-crore cyber fraud network linked to Dubai. Coordinated raids across Morbi, Surat, and Savarkundla led to six arrests. The accused used bogus firms and bank accounts to launder defrauded money via angadia couriers and crypto wallets. Over 100 bank accounts linked to 386 nationwide cybercrime cases were uncovered.",
+      link: "https://english.gujaratsamachar.com/news/gujarat/gujarat-cyber-cell-busts-200-crore-cyber-fraud-network-linked-to-dubai-6-held-87725566849.html"
     }
   ],
 
@@ -1371,6 +1588,27 @@ const governanceData = {
       type: "Law Enforcement",
       description: "West Bengal Police filed FIRs against multiple social media accounts for circulating AI-generated communally inflammatory content in the wake of the Pahalgam terror attack. Bengali-language WhatsApp groups and Facebook pages were specifically targeted by coordinated disinformation. The state government issued a high-level directive to district SPs to monitor AI-generated content and proactively approach platforms for removal of content designed to incite communal violence.",
       link: "https://www.telegraphindia.com/west-bengal/bengal-police-firs-ai-communal-content-pahalgam-2025"
+    },
+    {
+      title: "WEBEL — AI-Powered Surveillance for Safe City Project",
+      date: "Jun 25, 2023",
+      type: "Surveillance",
+      description: "West Bengal's WEBEL implemented AI-driven surveillance infrastructure across the state: CCTV-based Face Recognition System under the Safe City Project (Phase-II), an Intelligent Traffic Management System (ITMS) with AI-powered automatic number plate recognition, speed detection, and seat belt detection, plus AI-based attendance systems. Under the Nirbhaya Project, 1,020 CCTV cameras with AI capabilities were deployed within Kolkata Police jurisdiction for women's safety.",
+      link: "https://webel.in/Artificial-Intelligence"
+    },
+    {
+      title: "'Duare Sarkar' — Predictive Analytics for Doorstep Governance",
+      date: "Jan 24, 2025",
+      type: "Policy Framework",
+      description: "West Bengal's flagship 'Duare Sarkar' (Government at Doorstep) programme uses machine learning algorithms and predictive analytics to deliver public service benefits to citizens. The AI-powered portal enables enrollment across twelve identified welfare schemes, using data-driven targeting to match eligible beneficiaries with appropriate government services — representing one of India's largest state-level deployments of ML in direct citizen-centric welfare delivery.",
+      link: "https://indiaai.gov.in/government/government-of-west-bengal"
+    },
+    {
+      title: "National Emerging Technology Summit & Bengal Silicon Valley AI Ecosystem",
+      date: "Nov 25, 2024",
+      type: "Policy",
+      description: "WEBEL hosted the 2nd National Emerging Technology Summit (November 2024) in Kolkata, with panels on 'Utilising Digital Innovations for Citizen Engagement' exploring AI in public services. The Bengal Silicon Valley Tech Hub — a ₹1 trillion investment zone housing AI, IoT, and R&D firms — anchors the state's AI ecosystem, while WEBEL's incubation centre has supported 100+ startups in AI, cybersecurity, and data analytics with national recognition.",
+      link: "https://egov.eletsonline.com/2024/11/webel-celebrates-50-years-of-innovation-at-2nd-national-emerging-technology-summit-in-kolkata/"
     }
   ],
 
@@ -1388,6 +1626,13 @@ const governanceData = {
       type: "Policy",
       description: "Goa's CM told the state legislature that police are using 'Spot the Scam' (AI fraud detection) and a 'Radical Content Analyser' (extremism/hate speech scanning). Critics noted the absence of published guidelines defining what constitutes 'radical content', raising free speech concerns.",
       link: "https://theprint.in/india/goa-police-uses-ai-tools-to-tackle-cybercrimes-cm-sawant/2698729/"
+    },
+    {
+      title: "Goa AI Mission 2027 to Build State-Level AI Ecosystem",
+      date: "Jan 25, 2026",
+      type: "Policy Framework",
+      description: "Goa launched the AI Mission 2027, a strategic blueprint to build an inclusive, innovation-driven AI ecosystem aligned with India's national AI Mission. Built on four pillars — Skilling, Startups & Companies, Capital, and Governance & Infrastructure — it plans to introduce AI in schools/colleges, set up AI labs, develop a Konkani Large Language Model via Bhashini, and train teachers. A proposed AI Mission Council will draft Goa's AI Policy, aiming to make every technical graduate AI-ready by 2028.",
+      link: "https://www.ibef.org/news/goa-government-rolls-out-artificial-intelligence-ai-mission-2027-to-boost-governance-and-innovation"
     }
   ],
 
@@ -1405,6 +1650,27 @@ const governanceData = {
       type: "Political Accountability",
       description: "Telangana's IT Minister publicly accused the BRS opposition party of using AI to create doctored images and videos misrepresenting events at the University of Hyderabad. The case illustrated how governing parties are beginning to use 'AI misuse' accusations as a political accountability tool.",
       link: "https://timesofindia.indiatimes.com/city/hyderabad/telangana-minister-accuses-brs-of-misleading-uoh-students-using-ai/articleshow/120238018.cms"
+    },
+    {
+      title: "AI Advisory Council — 'AI-Powered Telangana' Strategy (2024–2027)",
+      date: "Oct 03, 2024",
+      type: "Policy Framework",
+      description: "Telangana released its 'AI-Powered Telangana' strategy paper (September 2024) — a three-year roadmap targeting 20% government workforce productivity boost and improved public service delivery for 10+ million citizens. An AI Advisory Council under the CM's Office functions as 'NITI Aayog for AI in Telangana.' All 35 government departments must appoint trained AI nodal officers, with AI curriculum in 100% senior secondary schools by 2027 and 5 lakh professionals trained.",
+      link: "https://www.cio.inc/government-telangana-develops-ambitious-ai-strategy-a-26438"
+    },
+    {
+      title: "Telangana AI Mission (T-AIM) with NASSCOM",
+      date: "Jul 12, 2021",
+      type: "Partnership",
+      description: "Telangana established T-AIM (Telangana AI Mission) in partnership with NASSCOM, driving execution across six pillars of the state's AI Framework. In July 2025, Telangana launched India's first state-led Digital Public Infrastructure (DPI) for AI — an open-source, privacy-compliant platform democratising AI access for startups, researchers, and citizens across healthcare, agriculture, education, and governance, alongside the TGDeX data exchange platform.",
+      link: "https://ai.telangana.gov.in/"
+    },
+    {
+      title: "Telangana Launches Artificial Intelligence Innovation Hub (TAIH)",
+      date: "Jun 25, 2025",
+      type: "Policy Framework",
+      description: "IT Minister D. Sridhar Babu established TAIH (Telangana AI Innovation Hub) in Hyderabad, targeting a top-20 global AI hub position by 2035, with partnerships with IIIT, IIT Hyderabad, ISB, Google, Microsoft, and Amazon. Separately, Telangana embedded AI into TG-iPASS — its industrial project approval system processing 27,500+ projects worth ₹3 lakh crore — to accelerate clearance speed and transparency.",
+      link: "https://ai.telangana.gov.in/"
     }
   ],
 
@@ -1429,6 +1695,20 @@ const governanceData = {
       type: "Electoral Regulation",
       description: "The Assam Election Commission deployed a dedicated deepfake monitoring cell during the 2025 bypolls, resulting in 432 AI-generated posts being flagged and removed from social media. Seven FIRs were filed. The monitoring cell used a combination of automated AI detection tools and manual review, and coordinated directly with Facebook, YouTube, and WhatsApp India for expedited removal. The operation was cited by the Election Commission of India as a model for state-level AI content governance during elections.",
       link: "https://assamtribune.com/assam-election-432-ai-posts-deepfake-election-commission-2025"
+    },
+    {
+      title: "Assam Government and Google AI Partnership for AI Centre of Excellence",
+      date: "Nov 12, 2025",
+      type: "Partnership",
+      description: "Assam signed an MoU with Google Cloud in November 2025 to establish an AI Centre of Excellence for governance. The partnership pilots AI chatbots, multilingual interfaces, and analytics across health, education, and agriculture. It includes training 500+ officials in AI skills and defines ethical, data-residency, and audit frameworks — embedding responsible AI into state administration.",
+      link: "https://www.cxodigitalpulse.com/assam-government-partners-with-google-to-advance-ai-driven-governance-and-digital-transformation/"
+    },
+    {
+      title: "AI-First Assam — Sewa Setu 2.0 and Assam State Data Policy 2026",
+      date: "Mar 24, 2026",
+      type: "Policy Framework",
+      description: "Assam declared an 'AI-First State' vision, embedding Agentic AI into governance via Sewa Setu 2.0 for citizen service delivery. The Assam State Data Policy 2026 — aligned with the DPDP Act — provides the legal framework. A World Bank-backed Centre for Data Management operationalizes data analytics, while mandatory AI training for all officials ensures institutional capacity for sustained AI governance.",
+      link: "https://egov.eletsonline.com/2026/03/ai-first-assam-reimagining-governance-for-a-digital-decade/"
     }
   ],
 
@@ -1463,6 +1743,20 @@ const governanceData = {
       type: "Law Enforcement",
       description: "Shimla Police registered a case under the Bharatiya Nyaya Sanhita and IT Act after a suspect created fake Facebook profiles posing as a female SDM (Sub-Divisional Magistrate) and posted AI-generated obscene images to harass and defame her.",
       link: "https://www.tribuneindia.com/news/himachal/one-booked-for-creating-fake-social-media-accounts-of-sdm/"
+    },
+    {
+      title: "Himachal Pradesh Plans 650-Bigha Cyber City in Solan for AI-Driven Enterprises",
+      date: "Oct 10, 2025",
+      type: "Policy Framework",
+      description: "Chief Minister Sukhvinder Singh Sukhu announced the establishment of a 'Cyber City' in Waknaghat, Solan district, spanning 650 bighas, to accommodate data storage and AI-driven enterprises. Officials were directed to swiftly complete the detailed project plan, alongside a Centre of Excellence at Waknaghat and IT parks in Kangra and Shimla. This positions Himachal Pradesh as a rare hill state building dedicated physical AI infrastructure.",
+      link: "https://www.devdiscourse.com/article/technology/3659370-himachal-pradesh-embarks-on-digital-transformation-with-cyber-city-initiative"
+    },
+    {
+      title: "Himachal Pradesh — India's First State Data Hosting Policy & AI-Based Document Verification",
+      date: "Feb 13, 2026",
+      type: "Policy Framework",
+      description: "Himachal Pradesh became India's first state to adopt a State Data Hosting Policy, backed by a 1,000 TB state data centre housing all government data under one roof — a prerequisite for advanced analytics and AI deployment. The state also introduced AI-based document verification to validate records faster, reduce errors, and strengthen safeguards against fraud in service delivery and welfare disbursement. Database integration across departments saved the state ₹60 crore annually by filtering ineligible welfare beneficiaries.",
+      link: "https://thenewsmill.com/2026/02/himachal-pradesh-launches-first-state-data-hosting-policy-with-200-e-services-online/"
     }
   ],
 
@@ -1473,6 +1767,20 @@ const governanceData = {
       type: "Law Enforcement",
       description: "Ghatshila Police registered Jharkhand's first FIR specifically targeting AI-generated fake posts meant to mislead voters — following a viral manipulated video of BJP candidate Babulal Soren. The Election Commission had pre-warned districts to act swiftly on deepfakes during the bypoll.",
       link: "https://timesofindia.indiatimes.com/city/ranchi/bjp-candidate-babulal-soren-targets-ai-generated-misinformation-during-ghatshila-elections/articleshow/125020279.cms"
+    },
+    {
+      title: "I4C-Led National Crackdown on Jharkhand's Cybercrime Hotspots — 400+ Arrests",
+      date: "Jan 03, 2024",
+      type: "Law Enforcement",
+      description: "Under the Indian Cyber Crime Coordination Centre (I4C) and MHA's direction, Jharkhand Police conducted a massive crackdown on the state's notorious cybercrime hotspots, making over 400 arrests in a single month. There is concrete evidence of decline in offences committed from the area, and MHA confirmed this model will be expanded nationally to eliminate similar hotspots — a central-state enforcement loop dismantling organized AI-enabled fraud infrastructure from Jharkhand's hinterlands.",
+      link: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1992949"
+    },
+    {
+      title: "Jharkhand Police Launches India's First Online Inter-State Cybercrime Investigation Portal",
+      date: "Nov 30, 2022",
+      type: "Law Enforcement",
+      description: "The DGP of Jharkhand launched an online portal allowing police forces from across India to submit investigation cooperation requests for cybercrime cases linked to Jharkhand. The system enables requesting IOs to lodge requests, track ATR status, and receive real-time updates — endorsed by supervising SPs for authentication. Jharkhand Police stated it is committed to not allowing its territory to be used by cyber criminals involved in vishing, phishing, and digital banking fraud.",
+      link: "https://jhpolice.gov.in/node/32549"
     }
   ],
 
@@ -1490,6 +1798,20 @@ const governanceData = {
       type: "Institutional Response",
       description: "IIIT Naya Raipur suspended and facilitated the arrest of a student who used AI to create obscene morphed images of 36 female classmates. Cases were filed under the IT Act. The institution's swift response was noted as a positive example of university-level accountability for AI-enabled harassment.",
       link: "https://www.jagran.com/news/national-iiit-student-arrested-for-aigenerated-obscene-images-of-36-students-40005275.html"
+    },
+    {
+      title: "Chief Minister's AI Mission — ₹100 Crore Annual Budget Allocation",
+      date: "Feb 24, 2026",
+      type: "Policy Framework",
+      description: "Chhattisgarh launched the Chief Minister's AI Mission in its 2026-27 'Sankalp' budget, committing ₹100 crore annually for five years. Part of a ₹1.72 lakh crore state budget, this is Chhattisgarh's first dedicated AI governance initiative — aiming to integrate AI into public service delivery, education, and industry, signalling a formal transition from reactive cybercrime response to proactive AI ecosystem building.",
+      link: "https://yourstory.com/2026/02/chhattisgarh-budget-2026-27-rs-1-72-lakh-crore-bastar-ai-mission"
+    },
+    {
+      title: "'One State – One Platform' AI-Powered E-Governance Platform",
+      date: "Mar 26, 2025",
+      type: "Policy Framework",
+      description: "Chhattisgarh's State Urban Development Agency (SUDA) launched a comprehensive e-governance project delivering fully online services across all 192 urban bodies under 'One State – One Platform' and 'Digital Chhattisgarh.' The project incorporates AI and data analytics to track patterns in citizen complaints, predict potential issues, and evaluate official performance — enabling evidence-based policy decisions and elevating urban administration to 'smart governance' across the state.",
+      link: "https://egov.eletsonline.com/2025/03/chhattisgarh-on-the-path-of-digital-progress-emergence-as-a-progressive-digital-state/"
     }
   ],
 
@@ -1500,6 +1822,27 @@ const governanceData = {
       type: "Awareness Campaign",
       description: "Following a wave of AI voice-cloning scams in Ludhiana — where fraudsters mimicked family members to demand ransom — Punjab Police issued public advisories warning citizens to verify emergency calls through a secondary contact before transferring money.",
       link: "https://timesofindia.indiatimes.com/city/ludhiana/voice-cloning-conmen-use-ai-to-lay-new-traps/articleshow/102963547.cms"
+    },
+    {
+      title: "Punjab Artificial Intelligence System (PAIS) — AI-Driven Policing",
+      date: "Sep 22, 2023",
+      type: "Surveillance",
+      description: "Punjab Police deployed the Punjab Artificial Intelligence System (PAIS), a facial recognition technology integrated with CCTV surveillance networks for real-time identification of criminals and suspects. CM Bhagwant Mann announced further AI integration into Punjab Police operations, alongside the launch of Sadak Surakhya Force with AI-equipped vehicles deployed every 30 km for road accident prevention and traffic management.",
+      link: "https://www.business-standard.com/india-news/punjab-police-to-have-artificial-intelligence-based-technology-cm-mann-123092200900_1.html"
+    },
+    {
+      title: "Punjab — First State to Launch AI-Based Cancer & Eye Screening",
+      date: "Sep 24, 2025",
+      type: "Policy",
+      description: "Punjab became India's first state to deploy AI-powered medical devices for detection of breast cancer, cervical cancer, and eye disorders (September 2025), inaugurated by Health Minister Dr. Balbir Singh. The programme targets 600 eye screenings and 300 cancer screenings daily using AI-enabled diagnostic devices, prioritising women's health — positioning AI as a frontline governance tool for early disease detection and public health delivery.",
+      link: "https://www.newindian.in/punjab-becomes-first-state-to-use-ai-for-cancer-and-eye-screenings/"
+    },
+    {
+      title: "AI-Enabled Prison Surveillance with 5G Jammer Deployment",
+      date: "Jan 17, 2025",
+      type: "Surveillance",
+      description: "Punjab's Jail Minister Laljit Singh Bhullar announced AI-enabled CCTV systems installed across eight central jails, capable of generating real-time alarms for wall-scaling, rioting, and unauthorised mobile phone use by inmates. The AI surveillance is complemented by 5G signal jammers, forming a comprehensive tech-driven prison security overhaul — making Punjab among the first states to deploy AI-based 24/7 automated monitoring in correctional facilities.",
+      link: "https://news24online.com/india/punjab-jails-to-go-high-tech-ai-to-provide-24-7-surveillance-with-ultra-modern-upgrades-to-enhance-prison-security/438025/"
     }
   ],
 
@@ -1524,6 +1867,27 @@ const governanceData = {
       type: "Policy Framework",
       description: "Tamil Nadu released a draft AI policy in October 2025 that explicitly addressed deepfake liability — one of the first state-level AI policy documents in India to do so. The draft proposed that platforms hosting AI-generated content be required to implement pre-upload synthetic media detection for political and adult content. It also called for a state-level AI Grievance Cell to handle deepfake-related complaints, separate from general cybercrime units, given the volume and specificity of AI-harm cases.",
       link: "https://www.newindianexpress.com/states/tamil-nadu/2025/Oct/15/tamil-nadu-ai-policy-draft-deepfake-liability-provisions"
+    },
+    {
+      title: "Tamil Nadu Artificial Intelligence Mission (TNAIM)",
+      date: "Nov 05, 2024",
+      type: "Policy Framework",
+      description: "Tamil Nadu launched TNAIM (November 2024), a five-year mission chaired by CM M.K. Stalin with ₹13.93 crore initial allocation, implemented by TNeGA in collaboration with iTNT, ICT Academy, and ELCOT. Guided by 'Social Good by Design,' TNAIM focuses on AI-driven predictive policymaking, governance adoption, capacity building, and startup engagement — targeting compute infrastructure, data gaps, and AI financing to position Tamil Nadu as a leading AI hub within five years.",
+      link: "https://www.dtnext.in/news/tamilnadu/tn-govt-to-soon-implement-tamil-nadu-artificial-intelligence-mission-810098"
+    },
+    {
+      title: "Safe & Ethical AI Policy 2020 with DEEP-MAX Scorecard",
+      date: "Sep 21, 2020",
+      type: "Policy Framework",
+      description: "Tamil Nadu became India's first state to release a dedicated Safe & Ethical AI Policy (2020), introducing the DEEP-MAX Scorecard — a seven-parameter rating system (Diversity, Equity, Ethics, Privacy, Misuse Protection, Audit, Digital Divide) — mandatory for all government AI procurement. An Ethical AI Monitoring Committee chaired by the Chief Secretary oversees implementation, with AI ethics scores stored on the blockchain-based ACTS interface developed by TNeGA.",
+      link: "https://indiaai.gov.in/news/tamilnadu-first-state-to-produce-ai-blockchain-and-cybersecurity-policies-in-india"
+    },
+    {
+      title: "TNeGA's AI-Powered Governance Applications — FRS, Uzhavan & Anil Chatbot",
+      date: "Mar 09, 2020",
+      type: "Policy",
+      description: "TNeGA's Centre of Excellence in Emerging Technologies (CEET) deployed multiple AI governance tools: a Face Recognition System (FRS) for school attendance reducing tardiness by 85%; 'Uzhavan' app with AI-powered pest identification for farmers; AI-based rural drinking water supply monitoring using IoT and ML; smart street light failure detection; and 'Anil,' a Tamil-language AI chatbot (with Anna University) guiding citizens to access government services.",
+      link: "https://indiaai.gov.in/article/how-tamil-nadu-is-using-ai-for-better-governance"
     }
   ],
 
@@ -1534,6 +1898,20 @@ const governanceData = {
       type: "Media & Platform Response",
       description: "After an AI-generated video falsely depicting a massive peace rally in Manipur went viral, fact-checking platform Boomlive confirmed it was fabricated. News outlets issued corrections. The case highlighted the role of independent fact-checkers in countering AI-generated political misinformation in conflict-sensitive regions.",
       link: "https://www.boomlive.in/fact-check/viral-video-rally-protest-manipur-claim-online-social-media-26515"
+    },
+    {
+      title: "'AI for Good Governance' Capacity Building Workshop",
+      date: "Aug 24, 2025",
+      type: "Policy",
+      description: "Manipur's Department of Information Technology, in partnership with MeitY's National e-Governance Division (NeGD), convened a two-day 'AI for Good Governance' workshop in Imphal (August 2025) for 50+ senior officials including all Deputy Commissioners. Secretary (IT) Thokchom Kiran Kumar announced that Manipur is actively integrating AI into legal case management and GIS-based habitation mapping of villages to enable transparent, citizen-centric service delivery.",
+      link: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2160363"
+    },
+    {
+      title: "Imphal Smart City — AI-Driven Urban Surveillance & Governance (ICCC)",
+      date: "Oct 25, 2024",
+      type: "Surveillance",
+      description: "Imphal Smart City Limited (ISCL) established an Integrated Command and Control Centre (ICCC) under the Smart Cities Mission, serving as a centralised AI-powered hub integrating real-time CCTV surveillance with video analytics, traffic monitoring, solid waste management tracking, disaster response coordination, and citizen grievance redressal. The ICCC uses data analytics for urban planning decisions — deployed alongside biometric attendance systems across all government offices in Manipur.",
+      link: "https://mahud.mn.gov.in/project/"
     }
   ],
 
@@ -1544,6 +1922,20 @@ const governanceData = {
       type: "Law Enforcement",
       description: "Uttarakhand Police arrested a person for circulating false information about a stampede at Purnagiri Mela — part of broader AI-amplified misinformation during the Maha Kumbh season. The case demonstrated proactive use of cyber laws to counter panic-inducing fake news.",
       link: "https://timesofindia.indiatimes.com/city/dehradun/man-held-for-spreading-fake-news-about-firing-stampede-at-purnagiri-mela/articleshow/121193825.cms"
+    },
+    {
+      title: "Uttarakhand AI Mission 2025 — Himalayan AI Policy",
+      date: "Nov 26, 2025",
+      type: "Policy Framework",
+      description: "Governor Lt Gen (Retd.) Gurmit Singh launched the Uttarakhand AI Mission 2025 policy at Raj Bhawan (November 2025), with measurable goals across six priority sectors — healthcare, disaster management, agriculture, governance, education, and tourism. The policy leverages satellite data and real-time digital solutions for landslide prediction and crop advisories, with multi-lingual interfaces, offline capabilities for remote hill villages, and ethical AI principles aligned with IndiaAI and MeitY frameworks.",
+      link: "https://governoruk.gov.in/26-11-2025-governor-launched-the-uttarakhand-ai-mission-2025-policy-at-raj-bhawan/"
+    },
+    {
+      title: "Uttarakhand AI Impact Summit 2025 — AI-Driven Governance",
+      date: "Oct 22, 2025",
+      type: "Policy",
+      description: "Uttarakhand's IT Department hosted the AI Impact Summit 2025 in Dehradun (October 2025) as an official pre-summit event of India AI Impact Summit 2026, inaugurated by MoS MeitY Jitin Prasada. In January 2026, IT Secretary Nitesh Kumar Jha briefed the Governor on phased AI adoption across all departments — AI-based solutions are strengthening local governance, enabling data-driven policy decisions, and making citizen services more responsive and efficient.",
+      link: "https://negd.gov.in/press_release/uttarakhand-ai-impact-summit-2025-in-dehradun/"
     }
   ],
 
@@ -1554,6 +1946,20 @@ const governanceData = {
       type: "Policy Review",
       description: "Following widespread public complaints that AI-generated traffic challans were inaccurate and unjust, the Sikkim Transport Department issued Standard Operating Procedures for the e-challan system. The case became an example of public pressure successfully triggering governance review of automated AI decision-making.",
       link: "https://northeastlivetv.com/around-ne/sikkim/facing-backlash-sikkim-issues-sops-for-e-challan-amid-public-outrage-over-ai-traffic-system-2/"
+    },
+    {
+      title: "State-Wide AI Training for Government Officials — 'Smart Proposals, Smarter Governance'",
+      date: "Jul 08, 2025",
+      type: "Policy",
+      description: "Sikkim State Council of Science & Technology conducted a state-wide AI training programme titled 'Smart Proposals, Smarter Governance — One Day Training for Government Officials on AI Tools for DPR Preparation' across all six districts (Pakyong, Gangtok, Namchi, Mangan, Gyalshing, Soreng) plus eight batches for line departments. The programme equipped officials with practical AI skills for data-driven decision-making, DPR formulation, and workflow optimisation.",
+      link: "https://dstsikkim.gov.in/"
+    },
+    {
+      title: "Digital India AI Awareness Workshop — Gangtok Smart City ICCC",
+      date: "Jan 31, 2026",
+      type: "Policy",
+      description: "Sikkim's Department of IT and NeGD organised a Digital India Awareness Workshop on India AI Impact Summit 2026 in Gangtok (January 2026), attended by 300+ officials, CISOs, students, and industry representatives. This builds on the Gangtok Smart City ICCC implemented by Bharat Electronics Ltd — integrating AI-enabled CCTV surveillance, GIS, smart parking, adaptive traffic management, and disaster response across 17 municipal wards.",
+      link: "https://negd.gov.in/gallery/digital-india-awareness-workshop-on-india-ai-impact-summit-2026-conducted-in-sikkim/"
     }
   ],
 
@@ -1564,6 +1970,20 @@ const governanceData = {
       type: "Platform Action",
       description: "Following communal violence in Tripura in October 2021 — escalated by WhatsApp and Facebook misinformation — platforms removed flagged content under government direction. The incident prompted early calls for algorithmic accountability and faster content moderation in communally sensitive regions.",
       link: "https://www.aljazeera.com/news/2021/11/5/india-tripura-muslims-mosques-violence-bjp-vhp"
+    },
+    {
+      title: "India's First State AI Policy & Tripura AI Centre of Excellence",
+      date: "Feb 27, 2026",
+      type: "Policy Framework",
+      description: "CM Manik Saha announced India's first state-level AI policy (February 2026), developed with Atal Innovation Mission and NITI Aayog support, alongside launching the Tripura State Innovation Mission (T-NEST) with IIM Calcutta, IIT Delhi, IIM Bangalore, and T-Hub. AI-based smart city solutions for Agartala will address traffic, flood control, waste management, and power supply. A Tripura AI Centre of Excellence is being established with MeitY assistance.",
+      link: "https://thenewsmill.com/2026/02/tripura-to-launch-indias-first-state-ai-policy-with-atal-innovation-mission-support/"
+    },
+    {
+      title: "AI Integration in e-Office, e-Cabinet & Generative AI Training for Officers",
+      date: "May 17, 2025",
+      type: "Policy",
+      description: "Tripura — India's only fully paperless state from Cabinet to Gram Panchayats — began integrating AI tools into e-Office, e-Cabinet, and the Beneficiary Management System (BMS) for data-driven decision-making and faster service delivery. The Directorate of Economics & Statistics conducted a three-day generative AI workshop upskilling 60+ officials (including census personnel) in AI-enabled governance, planning, and policy formulation.",
+      link: "https://apacnewsnetwork.com/2025/05/tripura-to-integrate-ai-tools-into-administrative-processes-for-efficient-governance/"
     }
   ],
 
@@ -1595,6 +2015,27 @@ const governanceData = {
       type: "Law Enforcement",
       description: "Following the Pahalgam attack, J&K authorities implemented targeted internet restrictions in sensitive areas and directed district police to actively monitor social media for AI-generated content designed to incite communal violence or spread false narratives about casualties. Police advisories warned citizens that sharing AI-generated fake images or videos related to the attack was a punishable offence under the IT Act and BNS.",
       link: "https://newschecker.in/ai-deepfake/pahalgam-terror-attack-ai-generated-photo-goes-viral"
+    },
+    {
+      title: "Jammu & Kashmir Artificial Intelligence Mission (JK-AIM)",
+      date: "Mar 06, 2026",
+      type: "Policy Framework",
+      description: "J&K's IT Department initiated the Jammu & Kashmir Artificial Intelligence Mission (JK-AIM) in March 2026 to integrate AI into governance and public service delivery. A high-level Steering Committee involving IIT Jammu, BISAG-N, and IndiaAI Mission CEO was constituted. The roadmap includes a Centre of Excellence in Emerging Technologies, Data Innovation Labs, and AI pilots across five priority governance sectors.",
+      link: "https://www.greaterkashmir.com/jammu/jk-govt-begins-process-to-establish-ai-mission-for-governance"
+    },
+    {
+      title: "Holistic Agriculture Development Programme Integrated with AI",
+      date: "Nov 25, 2025",
+      type: "Policy",
+      description: "J&K's ₹5,013 crore Holistic Agriculture Development Programme integrates AI-powered monitoring systems and real-time tracking tools across 29 agricultural projects. The Output Tracking App (OTA) monitors 75,000+ operational units, while the Kisan Sathi Portal and Daksh Kisan LMS use data analytics for transparent service delivery, farmer skill-building, and evidence-based decision-making — generating ₹298 crore revenue and strengthening grassroots AI-enabled governance.",
+      link: "https://hadp.in/"
+    },
+    {
+      title: "Global Centre of Excellence for AI in Healthcare at AIIMS Jammu",
+      date: "Dec 30, 2024",
+      type: "Partnership",
+      description: "AIIMS Jammu proposed establishing a Global Centre of Excellence for AI in Healthcare to the Union Health Ministry, in collaboration with UK and Israeli institutions. The centre aims to deploy AI-enabled diagnostics, predictive medicine, and clinical decision support systems to enhance patient care accuracy, reduce treatment costs, and improve healthcare delivery speed in the underserved J&K region.",
+      link: "https://kashmirobserver.net/2025/12/30/aiims-jammu-proposes-traumatology-institute-ai-centre-for-healthcare"
     }
   ],
 
@@ -1619,6 +2060,20 @@ const governanceData = {
       type: "Legislation",
       description: "The central government's Prohibition of Sexually Explicit Deep Fake Material Rules 2025 directly applies to cases like the 'Sweet Zannat' deepfake controversy in Meghalaya. The rules criminalise creation, storage, and distribution of AI-generated sexually explicit content of identifiable individuals. Offenders face up to 7 years imprisonment and fines up to ₹10 lakh. State police in the Northeast have been directed by MeitY to register cases under these rules in addition to existing IT Act provisions.",
       link: "https://www.meity.gov.in"
+    },
+    {
+      title: "First Regional AI Impact Conference 2025 & Data/AI Lab MoU",
+      date: "Dec 04, 2025",
+      type: "Policy Framework",
+      description: "Meghalaya hosted India's first Regional AI Impact Conference (December 2025) in Shillong, organised by IndiaAI Mission and MeitY with IIM Shillong, attracting 700+ delegates. CM Conrad Sangma unveiled AI use in weather prediction for farmers, pregnant mother tracking, and spring mapping. An MoU with IndiaAI established two Data & AI Labs, plus BHASHINI Hackathon for Khasi and Garo language AI model training was launched.",
+      link: "https://newsable.asianetnews.com/amp/india/meghalayas-first-regional-ai-conference-focuses-on-citizen-empowerment-articleshow-k6bphlz"
+    },
+    {
+      title: "Meghalaya AI for Good Society (MAIGS) — Ethical AI Governance Body",
+      date: "Dec 03, 2025",
+      type: "Policy Framework",
+      description: "Meghalaya launched the Meghalaya AI for Good Society (MAIGS) at the Regional AI Impact Conference (December 2025) — a dedicated body ensuring AI adoption in the state remains safe, transparent, and people-centric. MAIGS introduced free Ethical AI Badges and Certifications for individuals and organisations, establishing ethical guardrails against algorithmic bias, privacy violations, and opaque decision-making as AI expands across governance, healthcare, and education sectors.",
+      link: "https://themeghalayanexpress.com/maigs-to-ensure-safe-people-centric-use-of-ai/"
     }
   ],
 
@@ -1643,6 +2098,20 @@ const governanceData = {
       type: "Legislation",
       description: "In the absence of Nagaland-specific AI governance measures, offences involving AI-generated fraud are prosecuted under the Information Technology Act 2000 (Sections 66C, 66D for identity fraud and impersonation) and the Bharatiya Nyaya Sanhita 2023 (Sections 318–319 for cheating and personation, Section 356 for digital defamation). Nagaland Police have been trained under MHA's cybercrime capacity building programme to identify and register AI-assisted fraud cases under these provisions.",
       link: "https://legislative.gov.in/acts/bharatiya-nyaya-sanhita-2023/"
+    },
+    {
+      title: "AI Implementation Roadmap Workshop under Nagaland Science Mission",
+      date: "Mar 11, 2026",
+      type: "Policy",
+      description: "Nagaland initiated consultations to assess AI readiness and develop a 24-month roadmap for AI in governance through a two-day workshop on 'AI Implementation for Data Platforms and Public Data' at Kohima (March 2026), organised under the Nagaland Science Mission (Department of Science & Technology). Resource persons from the All India Management Association (AIMA) evaluated the state's preparedness for adopting AI/ML in public administration across government departments.",
+      link: "https://www.easternmirrornagaland.com/workshop-explores-artificial-intelligence-roadmap-for-governance-in-nagaland"
+    },
+    {
+      title: "NIT Nagaland Pre-AI Impact Summit Workshop — Digital India Talk",
+      date: "Feb 06, 2026",
+      type: "Policy",
+      description: "NIT Nagaland hosted a Pre-AI Impact Summit Workshop (January 2026) as part of NeGD/MeitY's nationwide outreach ahead of the India AI Impact Summit 2026. This was followed by a Digital India Talk Show on AI Impact Summit and Digital India Initiatives in Nagaland (February 2026), focusing on safe and responsible AI frameworks, AI-driven governance applications, and building awareness among students, researchers, and state officials on India's ₹10,300 crore IndiaAI Mission.",
+      link: "https://www.digitalindia.gov.in/quick_update_post/nit-nagaland-hosts-successful-pre-ai-impact-summit-workshop/"
     }
   ],
 
@@ -1667,6 +2136,20 @@ const governanceData = {
       type: "Legislation",
       description: "AI-enabled fraud in Mizoram is prosecuted under the IT Act 2000 and Bharatiya Nyaya Sanhita 2023, the applicable national frameworks in the absence of state-specific AI legislation. Section 66D of the IT Act (cheating by personation using computer resources) is the primary provision used against voice cloning and impersonation scams. Mizoram Police have been trained under MHA's national cybercrime capacity building programme to identify AI-specific fraud signatures.",
       link: "https://legislative.gov.in/acts/bharatiya-nyaya-sanhita-2023/"
+    },
+    {
+      title: "'LushAI Healthy Lunglei' — AI-Powered Healthcare App with Mizo-Language Chatbot",
+      date: "Jan 30, 2026",
+      type: "Policy",
+      description: "Mizoram launched 'LushAI Healthy Lunglei,' an AI-powered health application developed by local startup LushAITech under the Healthy Lunglei District Campaign (January 2026). The app features a Mizo-language AI chatbot for healthcare access — among the first such initiatives in the North East. Complemented by Mizoram's first Health ATMs at Civil Hospital Lunglei, it has reached 2,000+ beneficiaries focusing on non-communicable disease screening and preventive healthcare.",
+      link: "https://eastmojo.com/mizoram/2026/01/30/mizoram-ai-powered-health-app-with-mizo-language-chatbot-launched/"
+    },
+    {
+      title: "Digital Transformation Conclave & AI-Driven Governance Tools in Mizoram",
+      date: "May 16, 2025",
+      type: "Policy",
+      description: "CM Lalduhoma addressed the 17th Digital Transformation Conclave (May 2025) in Aizawl, unveiling AI and digital governance initiatives including 'Mipui Aw' (AI-upgraded public grievance redressal system), 'Kai App' (biometric attendance for government accountability), and a Microsoft CSR partnership deploying AI literacy and digital skill courses in schools. The CM also organised AI training in Serchhip with local startup LushAITech, promoting grassroots AI adoption.",
+      link: "https://eastmojo.com/free-digest/2025/05/16/mizoram-cm-highlights-startup-growth-and-ai-push-at-digital-conclave/"
     }
   ],
 
@@ -1691,6 +2174,13 @@ const governanceData = {
       type: "Legislation",
       description: "In the absence of Arunachal Pradesh-specific AI policy, deepfake-related offences are handled under the IT Act 2000 and the Bharatiya Nyaya Sanhita 2023. The state police cyber cell registers cases under Section 66D (cheating by personation via computer), Section 505 IPC/BNS equivalents (statements causing public mischief), and the relevant deepfake provisions introduced under the IT Rules 2021 amendments. Given the state's proximity to a sensitive international border, central agencies including CERT-In also coordinate on cases involving political disinformation.",
       link: "https://legislative.gov.in/acts/bharatiya-nyaya-sanhita-2023/"
+    },
+    {
+      title: "Arunachal Pradesh — First NE State to Integrate Generative AI into Governance",
+      date: "Feb 26, 2025",
+      type: "Policy Framework",
+      description: "Arunachal Pradesh became the first Northeast Indian state to integrate Generative AI into governance, deploying it to analyze Monthly Development Reports from 67 departments. The AI system flags delays, identifies trends, and enables data-driven decisions. Combined with 100% e-Office rollout and satellite-based project monitoring, it marks a shift toward real-time, technology-driven administration statewide.",
+      link: "https://arunachal24.in/arunachal-pradesh-becomes"
     }
   ]
 
