@@ -543,7 +543,7 @@
   const playBtn      = document.getElementById('playBtn');
 
   function updateRangeTrack() {
-    const pct = activeYear ? ((activeYear - 2021) / (2025 - 2021)) * 100 : 0;
+    const pct = activeYear ? ((activeYear - 2021) / (2026 - 2021)) * 100 : 0;
     yearRange.style.setProperty('--pct', pct + '%');
   }
 
@@ -714,7 +714,7 @@
     /* Sparkline */
     const yearMap={};
     incidents.forEach(i=>{ const m=(i.date||'').match(/\b(20\d{2})\b/); if(m) yearMap[m[1]]=(yearMap[m[1]]||0)+1; });
-    const years=['2021','2022','2023','2024','2025'];
+    const years=['2021','2022','2023','2024','2025','2026'];
     const vals=years.map(y=>yearMap[y]||0);
     const svgEl=document.getElementById('spSparkline');
     const W=svgEl.getBoundingClientRect().width||300;

@@ -143,6 +143,15 @@
     <!-- STAT CARDS -->
     <div class="stat-cards-row reveal" id="statCards"></div>
 
+    <!-- YEAR DISTRIBUTION -->
+    <div class="chart-card reveal" style="margin-bottom:16px;">
+      <div class="chart-card-header">
+        <div class="chart-card-title">Year Distribution</div>
+        <div class="chart-card-sub">Incident count by year across the full database</div>
+      </div>
+      <div id="yearDistRow" style="display:flex;flex-wrap:wrap;gap:10px;margin-top:4px;"></div>
+    </div>
+
     <!-- ROW 1: year + category -->
     <div class="chart-two-col reveal reveal-d1">
       <div class="chart-card">
@@ -180,7 +189,7 @@
     <!-- ROW 3: monthly trend -->
     <div class="chart-card reveal reveal-d3">
       <div class="chart-card-header">
-        <div class="chart-card-title">Monthly Trend — 2024 & 2025</div>
+        <div class="chart-card-title">Monthly Trend — 2024–2026</div>
         <div class="chart-card-sub">Incident frequency by month — spikes often align with elections or major events</div>
       </div>
       <div style="position:relative; height:200px;">
@@ -332,7 +341,7 @@
       { num: allIncidents.length, label: "Total Incidents", sub: "Across all 28 states" },
       { num: Object.keys(incidentsData).length, label: "States Covered", sub: "Out of 28 documented" },
       { num: [...new Set(allIncidents.map(i => i.cat.key))].length, label: "Harm Categories", sub: "Distinct types identified" },
-      { num: allIncidents.filter(i => i.year === 2025).length, label: "2025 Incidents", sub: "Most active year on record" },
+      { num: allIncidents.filter(i => i.year === 2025 || i.year === 2026).length, label: "2025–2026 Incidents", sub: "Most active period on record" },
     ];
     document.getElementById("statCards").innerHTML = statData.map(s =>
       `<div class="stat-card-new">
@@ -347,6 +356,22 @@
       entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); revObs.unobserve(e.target); } });
     }, { threshold: 0.08 });
     document.querySelectorAll('.reveal').forEach(el => revObs.observe(el));
+
+    /* ── Year distribution pills ── */
+    const yearDistCounts = {};
+    allIncidents.forEach(i => { if (i.year) yearDistCounts[i.year] = (yearDistCounts[i.year] || 0) + 1; });
+    const maxYearCount = Math.max(...Object.values(yearDistCounts));
+    document.getElementById("yearDistRow").innerHTML = Object.keys(yearDistCounts).sort().map(y => {
+      const count = yearDistCounts[y];
+      const barPct = Math.round((count / maxYearCount) * 100);
+      return `<div style="flex:1;min-width:80px;background:var(--card-bg);border:1px solid var(--card-border);border-radius:10px;padding:12px 14px;text-align:center;">
+        <div style="font-family:'Syne',sans-serif;font-size:1.1rem;font-weight:800;color:var(--amber);">${count}</div>
+        <div style="font-size:0.7rem;color:var(--text-3);margin:2px 0 8px;">${y}</div>
+        <div style="height:4px;background:rgba(255,255,255,0.07);border-radius:2px;">
+          <div style="height:4px;width:${barPct}%;background:var(--amber);border-radius:2px;"></div>
+        </div>
+      </div>`;
+    }).join("");
 
     /* ── Year chart ── */
     const yearCounts = {};
@@ -438,7 +463,7 @@
     /* ── Classify all incidents using the full system from state.js ── */
     allIncidents.forEach(inc => { inc.full = classifyFull(inc); });
 
-    /* ── Monthly trend 2024-2025 ── */
+    /* ── Monthly trend 2024-2026 ── */
     const monthMap = {};
     allIncidents.forEach(i => {
       if (!i.monthData) return;
@@ -449,7 +474,7 @@
     });
     const monthLabels = [];
     const monthVals = [];
-    for (let y = 2024; y <= 2025; y++) {
+    for (let y = 2024; y <= 2026; y++) {
       for (let m = 0; m < 12; m++) {
         const key = `${y}-${String(m+1).padStart(2,'0')}`;
         const names = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
