@@ -117,7 +117,14 @@ Experts warned that AI chatbots providing medical guidance without disclaimer sy
       type: "Policy Framework",
       description: "Under its IT Policy 2025-30, Karnataka proposed the ₹50 crore Centre for Applied AI for Tech Solutions (CATS) to drive AI integration in governance and public services. The policy introduces an AI-based Government Order Summary and Information Extraction Tool, IPGRS 2.0 (AI-driven grievance redressal), Shiksha Copilot (GenAI assistant for 1,000+ government school teachers with Microsoft Research), and AI-powered Digital Agricultural Service Centres.",
       link: "https://egov.eletsonline.com/2025/06/karnataka-charts-ai-focused-future-in-new-it-policy-eyes-%E2%82%B950-crore-applied-ai-centre/"
-    }
+    },
+  {
+    title: "Bengaluru Cybercrime Police File Suo Motu Case — Deepfake Stock Trading Scam",
+    date: "Nov 2025",
+    summary: `Bengaluru's cybercrime unit registered a suo motu case after AI-generated deepfake videos of Virat Kohli, Finance Minister Nirmala Sitharaman, Infosys founder NR Narayana Murthy, philanthropist Sudha Murty, and businessman Anant Ambani were found circulating on social media, falsely portraying them endorsing fraudulent stock trading applications. The videos instructed viewers to download fake apps and invest money with promised returns of ₹10,000–₹1 lakh. Forensic analysis confirmed AI manipulation. Case filed under the IT Act and Section 318 of the Bharatiya Nyaya Sanhita.`,
+    link: "https://the420.in/bengaluru-cybercrime-deepfake-scam-virat-kohli-nirmala-sitharaman/"
+  }
+
   ],
   "Bihar": [
   {
@@ -297,7 +304,14 @@ Microsoft cybersecurity experts at the conference noted that India lost ₹22,84
     date: "Nov 2025",
     summary: `During the Assam assembly bypolls in late 2025, the Election Commission's monitoring cell flagged 432 individual pieces of content identified as AI-generated or heavily manipulated. The content ranged from deepfake videos of state politicians to synthetic news images designed to inflame caste and religious tensions. Assam Police's Cyber Crime unit filed FIRs against seven individuals linked to the disinformation operation, two of whom were found to have used commercial AI video generation tools registered to fake accounts. The scale of AI-driven electoral interference was the largest documented in any northeastern state to date.`,
     link: "https://assamtribune.com/assam-election-432-ai-posts-deepfake-election-commission-2025"
+  },
+  {
+    title: "Babydoll Archi Deepfake Revenge Porn Case — Perpetrator Arrested, Tinsukia",
+    date: "Jul 2024",
+    summary: `A self-taught AI enthusiast and mechanical engineer from Tinsukia district, Assam, created a fake social media persona called "Babydoll Archi" as an act of revenge against a woman named Sanchi (name changed). He used AI image generation tools — including the platform Dzine — to morph Sanchi's real photographs into AI-generated explicit images and videos, then circulated them under the fake profile. Investigators traced his address in Tinsukia and arrested him on July 12, 2024. He was charged with sexual harassment, distribution of obscene material, defamation, forgery with intent to harm reputation, and cheating by personification. One of the first documented arrests in Assam specifically for AI-generated deepfake revenge pornography.`,
+    link: "https://www.newsbytesapp.com/news/science/indian-woman-targeted-in-deepfake-erotica/story"
   }
+
 ],
 
 "Goa": [
@@ -464,7 +478,21 @@ Police have registered a case under cybercrime laws and are investigating the ga
     link: "https://www.thehansindia.com/andhra-pradesh/conmen-dupe-tdp-leaders-with-ai-fake-videos-of-cm-1013693"
 
   }
-  
+  ,
+  {
+    title: "Man Arrested for AI-Generated Deepfakes of President Murmu and PM Modi — Muzaffarpur",
+    date: "Jan 2026",
+    summary: `Pramod Kumar Raj of Muzaffarpur, Bihar, was arrested for creating and circulating AI-generated deepfake videos and audio clips with fabricated speeches attributed to President Droupadi Murmu and Prime Minister Narendra Modi. Muzaffarpur police seized his mobile phone for forensic analysis and formed a Special Investigation Team (SIT) to determine the content's reach, platforms used, the accused's motive, and whether accomplices were involved. Case filed under the IT Act. Authorities described it as a direct threat to national security and democratic stability.`,
+    link: "https://the420.in/ai-deepfake-arrest-muzaffarpur-bihar-president-pm-impersonation/"
+  }
+,
+  {
+    title: "Aadhaar Biometric Fingerprint Cloning Gang Busted — 440 Victims, Kadapa",
+    date: "Feb 2023",
+    summary: `Police in Kadapa, Andhra Pradesh, arrested key members of a criminal gang that defrauded 440 people across Andhra Pradesh and Telangana using cloned Aadhaar biometrics. The gang harvested fingerprint data from land registry websites and replicated them onto silicon or rubber fake fingers using polymer liquid and photographic enhancement. These were used to perform unauthorised withdrawals through the Aadhaar-Enabled Payments System (AePS) — bypassing two-factor authentication without the account holder's knowledge. Police seized biometric cloning equipment including temperature modulators, polymer liquid, rubber thumb impression printers, and unauthorised biometric machines. The gang was linked to 128 fraud cases across multiple states. Investigation led by SP K.K.N. Anburajan.`,
+    link: "https://www.biometricupdate.com/202302/indian-police-nab-fraudsters-who-cloned-fingerprints-to-spoof-aadhaar"
+  }
+
 ],
 
   "Kerala": [
@@ -828,7 +856,26 @@ The victim filed a complaint at the Cyber Crime Police Station, which registered
     date: "Mar 2025",
     summary: `A Gangtok-based accused identified as a repeat cyber offender was arrested in March 2025 for running a coordinated AI deepfake fraud network spanning Sikkim, West Bengal, Bihar, and Assam. The accused used generative AI to create fake investment platforms with deepfaked video testimonials of senior businesspeople, defrauding over 40 victims of a combined ₹38 lakh. Sikkim Police coordinated with Kolkata cyber police to effect the arrest. The case marked the first multi-state AI fraud prosecution originating in Sikkim.`,
     link: "https://www.sikkimexpress.com/news-details/gangtok-accused-deepfake-fraud"
+  },
+  {
+    title: "AI Voice Cloning Fake Kidnapping — Yamuna Vihar, Delhi",
+    date: "Oct 2023",
+    summary: `Lakshmi Chand Chawla, 62, of Yamuna Vihar, Northeast Delhi, received a WhatsApp call in which he heard what sounded exactly like his 25-year-old cousin's son crying and claiming he had been kidnapped. The caller demanded money. Chawla transferred ₹50,000 before contacting the family and discovering the nephew was safe at home. FIR registered by DCP (Northeast) Joy Tirkey. One of Delhi's first documented cases of AI-based voice cloning used to simulate a kidnapping for extortion.`,
+    link: "https://www.indiatvnews.com/crime/delhi-cyber-thugs-dupe-man-by-using-ai-voice-cloning-technology-to-fake-his-relative-s-kidnapping-2023-12-12-906949"
+  },
+  {
+    title: "Rashmika Mandanna Deepfake — Creator Arrested by Delhi Police Special Cell",
+    date: "Nov 2023",
+    summary: `In November 2023, a morphed video showing actress Rashmika Mandanna entering an elevator — originally of British-Indian influencer Zara Patel — went viral. Delhi Police Special Cell traced the creator via IP address to a 24-year-old engineer from Andhra Pradesh and arrested him within weeks. FIR registered under IPC Sections 465 and 469, and Sections 66C and 66E of the IT Act, on a complaint by the Delhi Commission for Women. The case prompted MeitY to issue a formal advisory requiring social media platforms to act on deepfake content within 24 hours.`,
+    link: "https://www.business-standard.com/amp/india-news/rashmika-mandanna-thanks-delhi-police-after-deepfake-video-creator-arrested-124012100166_1.html"
+  },
+  {
+    title: "Delhi Police Facial Recognition — 80% Acquittal Rate in NE Delhi Riot Cases",
+    date: "2021",
+    summary: `An investigation by The Wire and the Pulitzer Center documented how Delhi Police deployed facial recognition technology in 750+ cases related to the North East Delhi communal riots of February 2020. Among documented cases, Mohammad Shahid and Ali were arrested primarily on the basis of blurry CCTV images matched by an algorithm, with minimal corroborating evidence. Delhi police's FRT system was reported to have a verified accuracy rate of only 2%, and surveillance was disproportionately concentrated in Muslim-majority neighbourhoods. More than 80% of riot-related FRT cases resulted in acquittals or discharges.`,
+    link: "https://pulitzercenter.org/stories/ai-took-over-policing-delhi-who-bore-brunt"
   }
+
 ],
 
   "Punjab": [
@@ -990,7 +1037,20 @@ link: "https://timesofindia.indiatimes.com/city/bhopal/ai-voice-cloning-aids-cyb
       type: "Law Enforcement",
       description: "Police arrested 5 people (2 from MP, 3 from Delhi) in connection with a deepfake investment scam that defrauded a Pune businessman of ₹54.6 lakh. Investigators traced funds moved through Tether cryptocurrency to foreign accounts — highlighting challenges of cross-border AI fraud prosecution.",
       link: "https://indianexpress.com/article/cities/pune/deepfake-video-share-fraud-mp-delhi-siphon-fund-crypto-route-10167811/"
-    }
+    },
+  {
+    title: "AI Voice Cloning Fraud — Play School Owner Duped of ₹97,500, Indore",
+    date: "Jan 2026",
+    summary: `Smita Sinha (name changed), running a small play school in Indore, Madhya Pradesh, lost ₹97,500 after fraudsters used AI voice cloning to impersonate her cousin — a UP Police personnel — claiming urgent funds for cardiac surgery. Fabricated QR codes and transaction alerts convinced her the money was going to a hospital. FIR registered at Lasudia police station on January 7, 2026 under BNS 2023 and the IT Act. Police described the voice replication as having "alarming accuracy." Reported as Madhya Pradesh's first confirmed AI voice-cloning fraud case.`,
+    link: "https://the420.in/ai-voice-cloning-fraud-madhya-pradesh-indore-play-school-owner-duped/"
+  },
+  {
+    title: "AI Voice Cloning Used to Lure and Assault Tribal Girls — Sidhi, Madhya Pradesh",
+    date: "2024",
+    summary: `In Sidhi district, MP, a group of four accused used a voice cloning application to impersonate a female professor and contact tribal girls with promises of scholarship opportunities. Victims were directed to isolated locations where they were sexually assaulted. More than four tribal girls were reported as victims. FIRs were registered; the accused used the AI voice tool specifically to overcome victims' hesitation at unknown male callers — highlighting the use of generative AI to facilitate gender-based violence against marginalised communities.`,
+    link: "https://mojostory.com/stories/accused-use-ai-voice-cloning-to-lure-and-assault-tribal-girls-in-madhya-pradesh-551377"
+  }
+
   ],
   "Tamil Nadu": [
     { title: "Dead Leaders Rise In Tamil Nadu, As Deepfake Tools Warp Poll Campaign", date: "Dec 02, 2023",
@@ -1226,7 +1286,26 @@ link: "https://www.youtube.com/shorts/egKNBzPT6yw"
       date: "Oct 2024",
       summary: `Washim district in Maharashtra's Vidarbha region deployed 'Smart Prahari' — an AI surveillance system with facial recognition-equipped cameras across 42 villages. The system was primarily intended to monitor cattle smuggling and illegal mining. However, tribal rights groups and local MLA raised concerns that the system was collecting biometric data from Adivasi communities without informed consent, with no disclosure of data storage periods, access controls, or appeal mechanisms. The Maharashtra State Human Rights Commission (MSHRC) registered a complaint and sought a response from the district administration.`,
       link: "https://www.hindustantimes.com/cities/nagpur/washim-smart-prahari-tribal-privacy-concerns-2024"
-    }
+    },
+  {
+    title: "Sachin Tendulkar Deepfake — FIR Filed by Mumbai Cyber Police",
+    date: "Jan 2024",
+    summary: `Mumbai's West Region Cyber Police Station registered an FIR against a gaming website and Facebook page after cricketer Sachin Tendulkar raised concerns over a deepfake video falsely showing him endorsing an online gaming app called "Skyward Aviator Quest." The video used AI voice cloning and lip-syncing to portray Tendulkar claiming his daughter Sara financially benefits from the app. FIR filed under IPC Section 500 and Section 66A of the IT Act. Tendulkar publicly urged strict action against misuse of technology.`,
+    link: "https://www.theweek.in/news/india/2024/01/18/sachin-tendulkar-deepfake-row-fir-lodged-against-gaming-app-fake-promotion-video.html"
+  },
+  {
+    title: "Woman Uses AI to Disguise Voice as Male, Defrauds Neighbour of ₹6.6 Lakh — Thane",
+    date: "Jun 2024",
+    summary: `Rashmi Kar, of Kashimira, Thane district, was arrested after using AI-based voice modulation to disguise her voice as male and conduct multiple calls to her female neighbour, convincing her to transfer ₹6.6 lakh in instalments. During interrogation, the accused admitted she "needed money urgently and resorted to this trick." Case registered under IPC and IT Act.`,
+    link: "https://www.indiatvnews.com/maharashtra/woman-arrested-for-using-ai-to-dupe-neighbor-of-rs-6-lakh-in-thane-creates-male-voice-during-calls-latest-updates-2024-06-29-939412"
+  },
+  {
+    title: "Retired Engineer Loses ₹10.3 Crore to Digital Arrest Scam — CBI Probe, Mumbai",
+    date: "Oct 2024",
+    summary: `A 73-year-old retired engineer in Mumbai was defrauded of ₹10.3 crore in a "digital arrest" scam beginning September 25, 2024. Fraudsters posed as courier representatives claiming a narcotics parcel — sent using the victim's Aadhaar — had been seized at Mumbai airport, then escalated to impersonating crime branch officials via video call. Through 8 hours of continuous video-call coercion, the victim transferred ₹10.3 crore across multiple accounts between September 25 and October 12. CBI took over the probe; approximately ₹60 lakh was frozen.`,
+    link: "https://the420.in/digital-arrest-scam-retired-engineer-cbi-cyber-fraud-probe/"
+  }
+
   ],
 
   "Manipur": [
@@ -1739,7 +1818,20 @@ NIELIT's Assam & Nagaland centre hosted a cybersecurity conference in November 2
       date: "Feb 2025",
       summary: `Uttar Pradesh's Board of High School and Intermediate Education deployed AI-based surveillance — including CCTV with suspicious activity detection and mobile phone signal jamming — across all 8,265 examination centres during the 2025 board examinations. The system flagged 312 instances of suspected cheating through computer vision. The Madhyamik Shiksha Parishad cited a 67% reduction in paper leak incidents. Privacy advocates raised concerns about the lack of an auditable standard for the AI flagging system and the risk of false positives affecting students' academic futures.`,
       link: "https://upmsp.edu.in/ai-surveillance-board-exams-2025"
-    }
+    },
+  {
+    title: "BJP MP Claims Obscene Video Is AI Deepfake — Barabanki, UP",
+    date: "Mar 2024",
+    summary: `BJP MP Upendra Singh Rawat of Barabanki faced controversy when an obscene video allegedly showing him went viral days after being named in the BJP's 2024 Lok Sabha candidate list. Rawat claimed the video was fabricated using deepfake AI. A complaint was filed at Kotwali police station by his personal secretary alleging the video was doctored. Rawat announced he would not contest elections "till proven innocent." Note: The deepfake claim has not been independently verified by forensic analysis.`,
+    link: "https://www.theweek.in/news/india/2024/03/04/obscene-video-scandal-explained-video-scandal-bjp-mp-upendra-singh-rawat-blames-deepfake-ai-police-files-fir-8-points.html"
+  },
+  {
+    title: "Associate Professor Duped of ₹2.81 Crore in Digital Arrest Scam — SGPGIMS, Lucknow",
+    date: "Aug 2024",
+    summary: `Dr. Ruchika Tandon, Associate Professor at SGPGIMS Lucknow, filed a complaint on August 1, 2024 after losing ₹2.81 crore to fraudsters posing as TRAI officials in a Skype "CBI interrogation." They claimed 22 complaints were filed against her SIM card and her accounts were linked to money laundering. Under sustained video-call coercion, she transferred the funds across multiple transactions. Among the highest-value digital arrest frauds reported in Uttar Pradesh.`,
+    link: "https://www.vifindia.org/article/2024/november/26/The-Growing-Problem-of-Digital-Arrest-Scams-in-Bharat"
+  }
+
 ],
 
   "Rajasthan": [
@@ -1990,8 +2082,16 @@ NIELIT's Assam & Nagaland centre hosted a cybersecurity conference in November 2
     date: "2023",
     summary: `Despite originating some of India's most complex cybercrime syndicates, Jharkhand was identified in the 2023 NCRB report as lacking dedicated cyber police stations outside Ranchi. Victims in Dumka, Deoghar, and Jamtara districts — ironically the epicentres of national cyber fraud — must travel to Ranchi for cyber complaint registration. This structural gap creates week-long delays in fund freeze requests, dramatically reducing victims' chances of recovering defrauded amounts. The irony of India's top cybercrime origin state lacking cyber policing infrastructure has been widely noted by policy analysts.`,
     link: "https://www.prsindia.org/sites/default/files/bill_files/Annual-Report-2023-NCRB.pdf"
+  },,
+  {
+    title: "Digital Arrest Gang Busted — ₹111 Crore Stolen from 866 Victims, Surat",
+    date: "Nov 2024",
+    summary: `On November 13, 2024, Surat Police issued sketches of nine suspects identified as masterminds of a nationwide digital arrest fraud network. Four had already been arrested. The gang stole ₹111 crore from at least 866 victims using 623 bank accounts. Fraudsters impersonated TRAI officials, CBI officers, customs agents, and police via video calls, falsely accusing victims of drug trafficking or money laundering and subjecting them to hours-long "digital arrests." Investigators found victims were contacted using telecom data leaks.`,
+    link: "https://www.freepressjournal.in/mumbai/cbi-launches-probe-into-10-crore-digital-arrest-scam-where-fraudsters-posed-as-mumbai-police-officers"
   }
-]
+
+  ],
+
 };
 
 
