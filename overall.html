@@ -470,7 +470,7 @@
 
   document.getElementById('mapStats').innerHTML = [
     { num: allClassified.length,           label:'Total Incidents'  },
-    { num: Object.keys(incidentsData).length, label:'States Covered' },
+    { num: 28,                                label:'States Covered' },
     { num: topState,                       label:'Most Active State' },
     { num: HARM_TYPES.length - 1,          label:'Harm Categories'  },
   ].map(s=>`<div class="map-stat"><div class="map-stat-num">${s.num}</div><div class="map-stat-label">${s.label}</div></div>`).join('');
