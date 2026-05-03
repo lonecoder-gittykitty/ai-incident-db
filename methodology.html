@@ -397,6 +397,47 @@
       color: var(--amber);
       font-weight: 600;
     }
+
+    /* ── Definitions section ── */
+    .def-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      margin-top: 20px;
+    }
+    .def-item {
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      gap: 0;
+      border-bottom: 1px solid var(--card-border);
+    }
+    .def-item:last-child { border-bottom: none; }
+    .def-term {
+      padding: 16px 18px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      color: var(--amber);
+      background: rgba(240,165,0,0.05);
+      border-right: 1px solid var(--card-border);
+      display: flex;
+      align-items: flex-start;
+      line-height: 1.4;
+    }
+    .def-body {
+      padding: 16px 18px;
+      font-size: 0.9rem;
+      color: var(--text-2);
+      line-height: 1.7;
+    }
+    @media (max-width: 600px) {
+      .def-item { grid-template-columns: 1fr; }
+      .def-term { border-right: none; border-bottom: 1px solid var(--card-border); }
+    }
   </style>
 </head>
 <body>
@@ -449,9 +490,74 @@
   <!-- MAIN CONTENT -->
   <main class="page-wrap">
 
+    <!-- 0. Definitions & Scope -->
+    <div class="content-card">
+      <span class="card-eyebrow">01 / Definitions &amp; Scope</span>
+      <h2 class="card-title">What We Mean — and What We Don't</h2>
+      <div class="card-body" style="margin-bottom:12px;">
+        <p>Our definitions are drawn from the <a href="https://incidentdatabase.ai/editors-guide/" target="_blank" rel="noopener" style="color:var(--amber);text-decoration:underline">AI Incident Database (AIID) Editor's Guide</a> — the international standard for AI harm documentation. We adopt them here to ensure our database is comparable with global repositories and academically replicable.</p>
+      </div>
+
+      <div class="def-grid">
+
+        <div class="def-item">
+          <div class="def-term">AI Incident</div>
+          <div class="def-body">An alleged harm or near-harm event to people, property, or the environment where an AI system is implicated. We make <strong>no distinction between accidental and deliberate harm</strong> — what matters is that harm occurred, not whether it was intended.</div>
+        </div>
+
+        <div class="def-item">
+          <div class="def-term">AI Issue</div>
+          <div class="def-body">An alleged harm by an AI system that has yet to occur or be detected — a risk rather than a realised event. The database includes both incidents (harm confirmed) and issues (harm anticipated or narrowly avoided).</div>
+        </div>
+
+        <div class="def-item">
+          <div class="def-term">Artificial Intelligence (AI)</div>
+          <div class="def-body">The capability of machines to perform functions typically thought of as requiring human intelligence: reasoning, recognising patterns, or understanding natural language. Includes but is not limited to machine learning. An algorithm not traditionally considered AI may qualify when a human transfers decision-making authority to the system — e.g. a hospital selecting vaccine candidates via a black-box rule set.</div>
+        </div>
+
+        <div class="def-item">
+          <div class="def-term">AI System</div>
+          <div class="def-body">Technologies and processes in which AI plays a meaningful role. May include non-AI components (mechanical, manual, or rule-based). Examples: a deepfake generator; facial-recognition software; a credit-scoring algorithm; a voice-cloning service; an AI-powered CCTV camera.</div>
+        </div>
+
+        <div class="def-item">
+          <div class="def-term">Implicated</div>
+          <div class="def-body">A system is implicated in an incident if it played an important role in the chain of events leading to harm — at minimum a <strong>"but-for" cause</strong>: if the AI system hadn't acted as it did, the specific harm would not have occurred. The AI system does not need to be the sole or primary factor; it includes cases where AI had the potential to prevent harm but did not.</div>
+        </div>
+
+        <div class="def-item">
+          <div class="def-term">Real-World Harm</div>
+          <div class="def-body">
+            Includes but is not limited to:
+            <ul style="margin:8px 0 0 16px; line-height:1.7;">
+              <li>Physical health or safety harm</li>
+              <li>Psychological harm</li>
+              <li>Financial harm</li>
+              <li>Damage to physical or intangible property (IP theft, reputational damage)</li>
+              <li>Harm to social or political systems (election interference, erosion of trust in authorities)</li>
+              <li>Civil liberties violations (unjustified punishment, censorship, unlawful surveillance)</li>
+            </ul>
+            <span style="display:block;margin-top:8px;font-style:italic;opacity:0.75;">Harms do not need to be severe — minor, easily remedied expense or inconvenience still qualifies.</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="callout-box" style="margin-top:24px;">
+        <strong style="display:block;margin-bottom:6px;color:var(--amber);">Scope Limitation</strong>
+        <p>This is a repository of AI-related incidents sourced from public media reporting. It documents only what surfaces in the public record — primarily events covered as potential crime or illegal activity by news organisations. It is <strong>not</strong> designed to capture:</p>
+        <ul style="margin:10px 0 0 18px; line-height:1.8; opacity:0.85;">
+          <li>AI harms that go undetected by state institutions</li>
+          <li>Systemic harms made invisible by inadequate legal frameworks</li>
+          <li>Incidents reported only in regional or non-English language media</li>
+        </ul>
+        <p style="margin-top:10px;"><strong>All incident counts should be read as a lower bound on actual AI-related harm in India.</strong></p>
+      </div>
+    </div>
+
     <!-- 1. Background & Motivation -->
     <div class="content-card">
-      <span class="card-eyebrow">01 / Background</span>
+      <span class="card-eyebrow">02 / Background</span>
       <h2 class="card-title">Project Background &amp; Motivation</h2>
       <div class="card-body">
         <p>This project began in 2021 out of a recognition that no centralised documentation of AI-related harms in India existed. While global conversations about AI risk were accelerating, the lived experience of Indian citizens — facing deepfakes, voice-cloning fraud, and algorithmic bias — was going largely unrecorded in any systematic way.</p>
@@ -463,7 +569,7 @@
 
     <!-- 2. Scope -->
     <div class="content-card">
-      <span class="card-eyebrow">02 / Scope</span>
+      <span class="card-eyebrow">03 / Scope</span>
       <h2 class="card-title">Scope of Study</h2>
       <div class="card-body">
         <p>The database covers all 29 states and Union Territories of India for which publicly documented AI misuse incidents could be identified. The time range is 2021 through 2026 — capturing both the pre-GenAI period, the rapid escalation that followed the generative AI wave, and the governance responses through the AI Impact Summit.</p>
@@ -476,7 +582,7 @@
 
     <!-- 3. Data Collection -->
     <div class="content-card">
-      <span class="card-eyebrow">03 / Data Collection</span>
+      <span class="card-eyebrow">04 / Data Collection</span>
       <h2 class="card-title">How We Collected Data</h2>
       <div class="card-body">
         <p>Incidents were identified through systematic keyword searches across Indian and international news archives, court records, parliamentary questions, and civil society reports. The primary search terms used:</p>
@@ -508,7 +614,7 @@
 
     <!-- 4. Filtering Criteria -->
     <div class="content-card">
-      <span class="card-eyebrow">04 / Filtering Criteria</span>
+      <span class="card-eyebrow">05 / Filtering Criteria</span>
       <h2 class="card-title">What Qualified as an Incident</h2>
       <div class="card-body" style="margin-bottom: 18px;">
         <p>Not every AI-adjacent news story was included. Three criteria had to be satisfied for an incident to enter the database:</p>
@@ -534,7 +640,7 @@
 
     <!-- 5. Source Triangulation -->
     <div class="content-card">
-      <span class="card-eyebrow">05 / Source Strategy</span>
+      <span class="card-eyebrow">06 / Source Strategy</span>
       <h2 class="card-title">Source Triangulation Strategy</h2>
       <div class="card-body">
         <p>Indian media operates within a pronounced political landscape, where outlets on different ends of the spectrum may report — or ignore — the same incident depending on its political valence. To counter this bias, we deliberately sourced across the political spectrum.</p>
@@ -570,7 +676,7 @@
 
     <!-- 6. Ethical Principles -->
     <div class="content-card">
-      <span class="card-eyebrow">06 / Ethics</span>
+      <span class="card-eyebrow">07 / Ethics</span>
       <h2 class="card-title">Ethical Principles in Data Handling</h2>
       <div class="card-body" style="margin-bottom: 16px;">
         <p>Documenting harm requires care. Five principles guided our approach throughout the project. Victims' personal details have been anonymised where identification was not essential to understanding the incident, and explicit content has not been reproduced in any form.</p>
@@ -616,7 +722,7 @@
 
     <!-- 7. Limitations -->
     <div class="content-card">
-      <span class="card-eyebrow">07 / Limitations</span>
+      <span class="card-eyebrow">08 / Limitations</span>
       <h2 class="card-title">What This Database Cannot Tell You</h2>
       <div class="card-body" style="margin-bottom: 16px;">
         <p>Honest research requires clear-eyed acknowledgement of its limits. Four structural limitations bear directly on how this database should be read and cited:</p>
@@ -643,7 +749,7 @@
 
     <!-- 8. Future Work -->
     <div class="content-card">
-      <span class="card-eyebrow">08 / Future Work</span>
+      <span class="card-eyebrow">09 / Future Work</span>
       <h2 class="card-title">Where This Research Goes Next</h2>
       <div class="card-body" style="margin-bottom: 14px;">
         <p>Several directions would meaningfully extend the value of this dataset:</p>
