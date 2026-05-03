@@ -234,7 +234,7 @@
       <div class="topnav-brand">
         <span class="brand-dot"></span>
         <span class="brand-name">AI Incident Database</span>
-        <span class="brand-tag">India · 2021–2025</span>
+        <span class="brand-tag">India · 2021–2026</span>
       </div>
       <div class="topnav-links">
         <a href="index.html" class="nav-link">States</a>
@@ -302,7 +302,7 @@
     <div class="map-wrapper">
       <div class="map-header">
         <div>
-          <h2 id="mapTitle">AI Incident Density — India 2021–2025</h2>
+          <h2 id="mapTitle">AI Incident Density — India 2021–2026</h2>
           <p id="mapSubtitle">Green (safe/few) → Red (danger/many) · Click a state to explore</p>
         </div>
         <div class="map-legend">
@@ -323,10 +323,10 @@
         <div class="year-scrubber-right">
           <span class="year-display" id="yearDisplay">All Years</span>
           <div class="year-range-wrap">
-            <input type="range" class="year-range" id="yearRange" min="2021" max="2025" step="1" value="2021">
+            <input type="range" class="year-range" id="yearRange" min="2021" max="2026" step="1" value="2021">
           </div>
           <div class="year-ticks">
-            <span>2021</span><span>2022</span><span>2023</span><span>2024</span><span>2025</span>
+            <span>2021</span><span>2022</span><span>2023</span><span>2024</span><span>2025</span><span>2026</span>
           </div>
         </div>
       </div>
@@ -391,7 +391,7 @@
     <div class="footer-inner">
       <div class="footer-brand">
         <span class="footer-brand-name">AI Incident Database · India</span>
-        <p class="footer-brand-desc">Documenting AI-related harm across India from 2021 to 2025.</p>
+        <p class="footer-brand-desc">Documenting AI-related harm across India from 2021 to 2026.</p>
       </div>
       <div class="footer-links">
         <span class="footer-links-title">Explore</span>
@@ -638,7 +638,7 @@
     document.getElementById('activeFilterLabel').textContent =
       label ? `Showing: ${label} (${filtered.length} incident${filtered.length!==1?'s':''})` : `Showing all ${filtered.length} incidents`;
     document.getElementById('mapTitle').textContent =
-      label ? `Incidents: ${label}` : 'AI Incident Density — India 2021–2025';
+      label ? `Incidents: ${label}` : 'AI Incident Density — India 2021–2026';
 
     const colorScale = d3.scaleSequential()
       .domain([0, maxCount])
