@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Key Insights – AI Incident Database</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* ── Page-specific styles ── */
+    .page-hero {
+      position: relative;
+      padding: 64px 28px 56px;
+      border-bottom: 1px solid var(--card-border);
+      overflow: hidden;
+    }
+    .page-hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(240,165,0,0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(240,165,0,0.04) 1px, transparent 1px);
+      background-size: 40px 40px;
+      pointer-events: none;
+    }
+    .page-hero::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 60% 70% at 50% 0%, rgba(240,165,0,0.07), transparent);
+      pointer-events: none;
+    }
+    .page-hero-inner {
+      max-width: 700px;
+      margin: 0 auto;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+    .page-hero-eyebrow {
+      display: inline-block;
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: var(--amber);
+      background: rgba(240,165,0,0.1);
+      border: 1px solid rgba(240,165,0,0.22);
+      padding: 5px 16px;
+      border-radius: 20px;
+      margin-bottom: 22px;
+    }
+    .page-hero-title {
+      font-family: 'Syne', sans-serif;
+      font-size: clamp(2rem, 5.5vw, 3.2rem);
+      font-weight: 800;
+      color: var(--text);
+      line-height: 1.1;
+      letter-spacing: -0.025em;
+      margin-bottom: 18px;
+    }
+    .page-hero-sub {
+      font-size: 1.05rem;
+      color: var(--text-2);
+      max-width: 580px;
+      margin: 0 auto;
+      line-height: 1.75;
+    }
+
+    /* ── Main content wrap ── */
+    main.page-wrap {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 5rem;
+    }
+
+    /* ── Content card ── */
+    .content-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius-lg);
+      padding: 2rem;
+      margin-bottom: 1.5rem;
+    }
+    .card-eyebrow {
+      font-size: 0.68rem;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--amber);
+      margin-bottom: 10px;
+      display: block;
+    }
+    .card-title {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 16px;
+      line-height: 1.3;
+    }
+    .card-body {
+      color: var(--text-2);
+      font-size: 0.93rem;
+      line-height: 1.8;
+    }
+    .card-body p { margin-bottom: 0.9rem; }
+    .card-body p:last-child { margin-bottom: 0; }
+
+    /* ── Timeline phases ── */
+    .phase-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      margin-top: 4px;
+      position: relative;
+    }
+    .phase-list::before {
+      content: '';
+      position: absolute;
+      left: 28px;
+      top: 10px;
+      bottom: 10px;
+      width: 2px;
+      background: linear-gradient(180deg, var(--amber), rgba(240,165,0,0.1));
+    }
+    .phase-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      padding: 16px 0;
+      position: relative;
+    }
+    .phase-year-wrap {
+      flex-shrink: 0;
+      width: 58px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+    }
+    .phase-dot {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: var(--amber);
+      border: 3px solid var(--navy);
+      flex-shrink: 0;
+      box-shadow: 0 0 8px rgba(240,165,0,0.5);
+      z-index: 1;
+    }
+    .phase-year {
+      font-family: 'Syne', sans-serif;
+      font-size: 0.8rem;
+      font-weight: 800;
+      color: var(--amber);
+      letter-spacing: 0.5px;
+    }
+    .phase-content {
+      flex: 1;
+      padding: 12px 16px;
+      background: var(--navy-3);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      margin-top: -2px;
+    }
+    .phase-label {
+      font-family: 'Syne', sans-serif;
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 5px;
+    }
+    .phase-desc {
+      font-size: 0.85rem;
+      color: var(--text-2);
+      line-height: 1.65;
+    }
+
+    /* ── Top states list ── */
+    .states-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-top: 14px;
+    }
+    .state-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .state-row-name {
+      font-size: 0.88rem;
+      font-weight: 500;
+      color: var(--text);
+      width: 180px;
+      flex-shrink: 0;
+    }
+    .state-bar-wrap {
+      flex: 1;
+      height: 8px;
+      background: rgba(255,255,255,0.05);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    .state-bar {
+      height: 100%;
+      background: linear-gradient(90deg, var(--amber), var(--amber-2));
+      border-radius: 4px;
+      transition: width 0.6s ease;
+    }
+    .state-row-count {
+      font-family: 'Syne', sans-serif;
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: var(--amber);
+      width: 32px;
+      text-align: right;
+      flex-shrink: 0;
+    }
+
+    /* ── Sub-section heading inside card ── */
+    .sub-heading {
+      font-family: 'Syne', sans-serif;
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text);
+      margin: 20px 0 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .sub-heading::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--card-border);
+    }
+    .sub-heading:first-child { margin-top: 0; }
+
+    /* ── Bullet list ── */
+    .bullet-list {
+      list-style: none;
+      padding: 0;
+      margin: 8px 0 0;
+    }
+    .bullet-list li {
+      padding: 5px 0 5px 18px;
+      position: relative;
+      font-size: 0.89rem;
+      color: var(--text-2);
+      line-height: 1.65;
+    }
+    .bullet-list li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 13px;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--amber);
+      opacity: 0.7;
+    }
+
+    /* ── Under-reporting callout ── */
+    .alert-box {
+      border-left: 3px solid #f87171;
+      background: rgba(248,113,113,0.05);
+      border-radius: 0 10px 10px 0;
+      padding: 18px 20px;
+    }
+    .alert-box p {
+      font-size: 0.93rem;
+      color: var(--text-2);
+      line-height: 1.8;
+      margin: 0;
+      font-style: italic;
+    }
+
+    /* ── Governance comparison ── */
+    .gov-compare {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin-top: 6px;
+    }
+    @media (max-width: 620px) { .gov-compare { grid-template-columns: 1fr; } }
+    .gov-col {
+      background: var(--navy-3);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 18px;
+    }
+    .gov-col-label {
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+      display: block;
+    }
+    .gov-col-india .gov-col-label { color: #fb923c; }
+    .gov-col-eu .gov-col-label { color: #60a5fa; }
+    .gov-point {
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      margin-bottom: 9px;
+      font-size: 0.84rem;
+      color: var(--text-2);
+      line-height: 1.55;
+    }
+    .gov-point:last-child { margin-bottom: 0; }
+    .gov-dot-india { color: #fb923c; flex-shrink: 0; margin-top: 1px; }
+    .gov-dot-eu    { color: #60a5fa; flex-shrink: 0; margin-top: 1px; }
+    .gov-note {
+      margin-top: 16px;
+      padding: 14px 16px;
+      background: rgba(240,165,0,0.05);
+      border: 1px solid rgba(240,165,0,0.16);
+      border-radius: var(--radius);
+      font-size: 0.86rem;
+      color: var(--text-2);
+      line-height: 1.7;
+      font-style: italic;
+    }
+
+    /* ── Value cards ── */
+    .value-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 12px;
+      margin-top: 8px;
+    }
+    @media (max-width: 540px) { .value-grid { grid-template-columns: 1fr; } }
+    .value-card {
+      background: var(--navy-3);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 18px 16px;
+      transition: border-color 0.22s, transform 0.22s;
+    }
+    .value-card:hover {
+      border-color: rgba(240,165,0,0.3);
+      transform: translateY(-2px);
+    }
+    .value-icon {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      display: block;
+    }
+    .value-title {
+      font-family: 'Syne', sans-serif;
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+    .value-desc {
+      font-size: 0.82rem;
+      color: var(--text-2);
+      line-height: 1.65;
+    }
+
+    /* ── MANAV callout ── */
+    .manav-card {
+      background: rgba(240,165,0,0.06);
+      border: 1px solid rgba(240,165,0,0.22);
+      border-radius: var(--radius-lg);
+      padding: 28px 24px;
+      margin-bottom: 1.5rem;
+    }
+    .manav-eyebrow {
+      font-size: 0.68rem;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--amber);
+      margin-bottom: 8px;
+      display: block;
+    }
+    .manav-title {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 14px;
+    }
+    .manav-body {
+      font-size: 0.91rem;
+      color: var(--text-2);
+      line-height: 1.8;
+      margin-bottom: 18px;
+    }
+    .manav-acronym {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .manav-letter {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(240,165,0,0.1);
+      border: 1px solid rgba(240,165,0,0.25);
+      border-radius: 8px;
+      padding: 9px 14px;
+    }
+    .manav-char {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 800;
+      color: var(--amber);
+      line-height: 1;
+    }
+    .manav-word {
+      font-size: 0.82rem;
+      color: var(--text-2);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TOP NAV -->
+  <nav class="topnav">
+    <div class="topnav-inner">
+      <div class="topnav-brand">
+        <span class="brand-dot"></span>
+        <span class="brand-name">AI Incident Database</span>
+        <span class="brand-tag">India · 2021–2025</span>
+      </div>
+      <div class="topnav-links">
+        <a href="index.html" class="nav-link">States</a>
+        <a href="dashboard.html" class="nav-link">Dashboard</a>
+        <a href="timeline.html" class="nav-link">Timeline</a>
+        <a href="search.html" class="nav-link">Search</a>
+        <a href="overall.html" class="nav-link">Map</a>
+        <a href="governance.html" class="nav-link">Governance</a>
+        <a href="methodology.html" class="nav-link">Methodology</a>
+        <a href="insights.html" class="nav-link active">Insights</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <!-- MOBILE DRAWER -->
+  <div class="drawer" id="drawer">
+    <ul class="drawer-links">
+      <li><a href="index.html" class="drawer-link"><span>🗺️</span> All States</a></li>
+      <li><a href="dashboard.html" class="drawer-link"><span>📊</span> Dashboard</a></li>
+      <li><a href="timeline.html" class="drawer-link"><span>📅</span> Timeline</a></li>
+      <li><a href="search.html" class="drawer-link"><span>🔍</span> Search</a></li>
+      <li><a href="overall.html" class="drawer-link"><span>🗾</span> Map</a></li>
+      <li><a href="governance.html" class="drawer-link"><span>🏛️</span> Governance</a></li>
+      <li><a href="methodology.html" class="drawer-link"><span>📋</span> Methodology</a></li>
+      <li><a href="insights.html" class="drawer-link"><span>💡</span> Insights</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <header class="page-hero">
+    <div class="page-hero-inner">
+      <span class="page-hero-eyebrow">Key Findings</span>
+      <h1 class="page-hero-title">What the Data Reveals</h1>
+      <p class="page-hero-sub">Patterns, trends, and analysis drawn from 222 documented AI-related incidents across India, 2021–2025.</p>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="page-wrap">
+
+    <!-- 1. How Harm Has Evolved -->
+    <div class="content-card">
+      <span class="card-eyebrow">01 / Evolution of Harm</span>
+      <h2 class="card-title">How Harm Has Evolved (2021–2025)</h2>
+      <div class="card-body" style="margin-bottom: 18px;">
+        <p>AI misuse in India has not remained static. Four distinct phases are visible in the data, each characterised by new tools, new targets, and new scales of harm.</p>
+      </div>
+      <div class="phase-list">
+        <div class="phase-item">
+          <div class="phase-year-wrap">
+            <div class="phase-dot"></div>
+            <div class="phase-year">2021</div>
+          </div>
+          <div class="phase-content">
+            <div class="phase-label">Algorithmic Amplification &amp; Communal Misinformation</div>
+            <div class="phase-desc">Predominantly harmful content surfacing via recommendation algorithms — particularly communal misinformation spreading on WhatsApp chains. AI's role was largely amplification rather than generation: the content was often human-made, but AI-powered recommender systems accelerated its reach into previously unreached communities.</div>
+          </div>
+        </div>
+        <div class="phase-item">
+          <div class="phase-year-wrap">
+            <div class="phase-dot"></div>
+            <div class="phase-year">2022–23</div>
+          </div>
+          <div class="phase-content">
+            <div class="phase-label">Deepfakes Become the Dominant Tool</div>
+            <div class="phase-desc">The widespread availability of consumer deepfake tools following the generative AI wave transformed the threat landscape. Deepfakes became the dominant mode of harm — targeting women (explicit content for blackmail), political figures (electoral disinformation), and celebrities (impersonation for financial fraud). Voice cloning fraud also emerged in this period, with several documented cases of elderly people defrauded by AI-generated calls mimicking relatives' voices.</div>
+          </div>
+        </div>
+        <div class="phase-item">
+          <div class="phase-year-wrap">
+            <div class="phase-dot"></div>
+            <div class="phase-year">2024</div>
+          </div>
+          <div class="phase-content">
+            <div class="phase-label">Sophisticated Social Engineering at Scale</div>
+            <div class="phase-desc">Attacks grew significantly more sophisticated. "Digital arrests" emerged as a new fraud type: fraudsters impersonating CBI, customs, or narcotics officials via live video calls used AI-generated uniforms, backgrounds, and voice modulation to make the deception convincing. AI-generated official documents (FIRs, arrest warrants) were used to intimidate victims. Chatbot-based long-term social engineering — building false trust over weeks — appeared in cases of romance and investment fraud.</div>
+          </div>
+        </div>
+        <div class="phase-item">
+          <div class="phase-year-wrap">
+            <div class="phase-dot"></div>
+            <div class="phase-year">2025</div>
+          </div>
+          <div class="phase-content">
+            <div class="phase-label">Operation Sindoor &amp; Real-Time Synthetic Media at Scale</div>
+            <div class="phase-desc">Operation Sindoor (May 2025) marked a new threshold: a coordinated wave of AI-generated deepfakes tied to a live geopolitical conflict, deployed in real time. Synthetic video calls — where the AI interlocutor responds live — appeared for the first time in documented fraud cases. Cross-border AI disinformation, with suspected state-adjacent amplification, reached a scale that challenged existing takedown infrastructure.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2. Where Incidents Are Concentrated -->
+    <div class="content-card">
+      <span class="card-eyebrow">02 / Geographic Concentration</span>
+      <h2 class="card-title">Where Incidents Are Concentrated</h2>
+      <div class="card-body">
+        <p>High-connectivity states dominate the top of the incident count — but no state is untouched. The concentration in urbanised, high-internet-penetration regions reflects both higher incidence and higher reporting rates. Rural and lower-connectivity states likely have significant under-reporting.</p>
+      </div>
+      <div class="states-list">
+        <div class="state-row">
+          <span class="state-row-name">Haryana / Delhi NCR</span>
+          <div class="state-bar-wrap"><div class="state-bar" style="width:100%"></div></div>
+          <span class="state-row-count">24</span>
+        </div>
+        <div class="state-row">
+          <span class="state-row-name">Maharashtra</span>
+          <div class="state-bar-wrap"><div class="state-bar" style="width:62.5%"></div></div>
+          <span class="state-row-count">15</span>
+        </div>
+        <div class="state-row">
+          <span class="state-row-name">Karnataka</span>
+          <div class="state-bar-wrap"><div class="state-bar" style="width:58.3%"></div></div>
+          <span class="state-row-count">14</span>
+        </div>
+        <div class="state-row">
+          <span class="state-row-name">Jammu &amp; Kashmir</span>
+          <div class="state-bar-wrap"><div class="state-bar" style="width:58.3%"></div></div>
+          <span class="state-row-count">14</span>
+        </div>
+        <div class="state-row">
+          <span class="state-row-name">Gujarat</span>
+          <div class="state-bar-wrap"><div class="state-bar" style="width:58.3%"></div></div>
+          <span class="state-row-count">14</span>
+        </div>
+      </div>
+      <div class="card-body" style="margin-top: 16px;">
+        <p>The presence of Jammu &amp; Kashmir in the top five is notable — it reflects both the region's specific vulnerability to cross-border disinformation and a strong local reporting culture around AI-related harms compared to the national average.</p>
+      </div>
+    </div>
+
+    <!-- 3. Who Gets Hurt the Most -->
+    <div class="content-card">
+      <span class="card-eyebrow">03 / Affected Populations</span>
+      <h2 class="card-title">Who Gets Hurt the Most</h2>
+
+      <div class="sub-heading">Women — Specifically Gendered Harm</div>
+      <div class="card-body">
+        <p>A substantial proportion of documented incidents involve harms specifically targeting women. Unlike financial fraud — where the goal is theft — the primary objective in gendered AI harm is reputational damage, coercion, or silencing. Key patterns:</p>
+      </div>
+      <ul class="bullet-list">
+        <li>Explicit deepfakes created to shame victims or extract money through blackmail (sextortion)</li>
+        <li>Political deepfakes targeting female candidates and elected officials to suppress participation</li>
+        <li>Morphed images circulated in professional networks to damage career prospects</li>
+        <li>AI-generated intimate content used as leverage in domestic abuse contexts</li>
+      </ul>
+      <div class="card-body" style="margin-top: 12px;">
+        <p>Critically, shame stops most victims from reporting. The social stigma attached to being the subject of explicit deepfakes — even when the victim is entirely blameless — means actual incidence is significantly higher than documented cases suggest.</p>
+      </div>
+
+      <div class="sub-heading" style="margin-top:24px">Elderly &amp; Digitally New Users</div>
+      <div class="card-body">
+        <p>Rapid COVID-era digital onboarding brought millions of first-time internet users online — many of them elderly or from previously unconnected communities — without accompanying safety literacy. This population became prime targets for voice cloning fraud and digital arrest scams.</p>
+      </div>
+      <ul class="bullet-list">
+        <li>Elderly victims often believe the money is irretrievably gone and the system will not help — so they do not report</li>
+        <li>Rural victims may not know cyber police stations exist or how to access the national cybercrime helpline 1930</li>
+        <li>The shame of having been deceived creates an additional barrier to coming forward</li>
+      </ul>
+    </div>
+
+    <!-- 4. Under-Reporting -->
+    <div class="content-card">
+      <span class="card-eyebrow">04 / The Under-Reporting Problem</span>
+      <h2 class="card-title">Why Our Numbers Are a Floor</h2>
+      <div class="alert-box">
+        <p>Our database almost certainly represents a significant undercount. Sextortion victims do not report due to shame. Elderly fraud victims believe the system will not help. Rural victims face access barriers to reporting channels. Every number in this database is a floor — the real scale of AI-enabled harm in India is larger, possibly by an order of magnitude.</p>
+      </div>
+      <div class="card-body" style="margin-top: 18px;">
+        <p>This is not unique to India: under-reporting is a documented feature of AI harm globally. What makes the Indian context distinct is the scale of the digitally new population combined with the absence of accessible, trusted, local-language reporting pathways. Building those pathways is as important as documenting incidents after the fact.</p>
+      </div>
+    </div>
+
+    <!-- 5. India vs EU Governance -->
+    <div class="content-card">
+      <span class="card-eyebrow">05 / Governance Comparison</span>
+      <h2 class="card-title">India vs EU Governance Approach</h2>
+      <div class="card-body" style="margin-bottom: 18px;">
+        <p>India and the EU have taken fundamentally different approaches to AI governance. The comparison reveals both where India has moved quickly and where structural gaps remain.</p>
+      </div>
+      <div class="gov-compare">
+        <div class="gov-col gov-col-india">
+          <span class="gov-col-label">India's Approach</span>
+          <div class="gov-point"><span class="gov-dot-india">■</span><span>DPDPA covers data protection but does not classify AI by risk level</span></div>
+          <div class="gov-point"><span class="gov-dot-india">■</span><span>MeitY guidelines use risk-proportionate language but leave "high-risk" undefined</span></div>
+          <div class="gov-point"><span class="gov-dot-india">■</span><span>No equivalent of the EU prohibition on real-time public biometric surveillance</span></div>
+          <div class="gov-point"><span class="gov-dot-india">■</span><span>Sectoral, adaptive approach — leverages existing IT Act and DPDPA</span></div>
+          <div class="gov-point"><span class="gov-dot-india">■</span><span>Mostly reactive governance: policy follows documented incidents</span></div>
+          <div class="gov-point"><span class="gov-dot-india">■</span><span>MANAV framework and Delhi Declaration (2026) signal proactive positioning</span></div>
+        </div>
+        <div class="gov-col gov-col-eu">
+          <span class="gov-col-label">EU AI Act (2024)</span>
+          <div class="gov-point"><span class="gov-dot-eu">■</span><span>Four risk tiers with binding obligations at each level</span></div>
+          <div class="gov-point"><span class="gov-dot-eu">■</span><span>"Unacceptable risk" systems prohibited outright: social scoring, real-time biometric surveillance in public spaces</span></div>
+          <div class="gov-point"><span class="gov-dot-eu">■</span><span>High-risk systems require strict accuracy, transparency, and human oversight requirements</span></div>
+          <div class="gov-point"><span class="gov-dot-eu">■</span><span>Limited-risk systems must disclose when users are interacting with AI</span></div>
+          <div class="gov-point"><span class="gov-dot-eu">■</span><span>Minimal-risk systems: no mandatory requirements</span></div>
+          <div class="gov-point"><span class="gov-dot-eu">■</span><span>Independent national oversight bodies in each member state</span></div>
+        </div>
+      </div>
+      <div class="gov-note">
+        India will need more structured, tier-based regulation if governance is to keep pace with high-risk AI deployments in consequential domains — particularly where systems make or influence decisions about employment, credit, criminal justice, or public safety.
+      </div>
+    </div>
+
+    <!-- 6. Values -->
+    <div class="content-card">
+      <span class="card-eyebrow">06 / Guiding Values</span>
+      <h2 class="card-title">Values That Should Guide the Response</h2>
+      <div class="card-body" style="margin-bottom: 18px;">
+        <p>Technical and legal solutions are necessary but insufficient. Five values should guide how India — government, platforms, civil society, and individuals — responds to AI harm:</p>
+      </div>
+      <div class="value-grid">
+        <div class="value-card">
+          <span class="value-icon">🧠</span>
+          <div class="value-title">Digital Literacy</div>
+          <div class="value-desc">Practical skills for evaluating digital content must be embedded in school curricula and community programmes. Accessible, local-language verification tools can reach rural populations before the next wave of sophisticated scams arrives.</div>
+        </div>
+        <div class="value-card">
+          <span class="value-icon">🔍</span>
+          <div class="value-title">Transparency</div>
+          <div class="value-desc">Mandatory labelling of AI-generated content should be standard across platforms. Fact-checking infrastructure on WhatsApp, Facebook, and YouTube must be funded and maintained. DPDPA explainability requirements need real enforcement teeth.</div>
+        </div>
+        <div class="value-card">
+          <span class="value-icon">🔐</span>
+          <div class="value-title">Consent &amp; Privacy</div>
+          <div class="value-desc">Using someone's image or voice without consent should carry clear legal consequences. Civil remedies — not just criminal prosecution — are needed so that victims who cannot face police have a realistic pathway to accountability.</div>
+        </div>
+        <div class="value-card">
+          <span class="value-icon">⚖️</span>
+          <div class="value-title">Accountability</div>
+          <div class="value-desc">Accountability must run through every level: individuals who create harmful content, platforms that host and amplify it, and AI companies whose tools enable harm at scale. Clearer, non-negotiable accountability chains reduce the diffusion of responsibility.</div>
+        </div>
+        <div class="value-card">
+          <span class="value-icon">🏥</span>
+          <div class="value-title">Accessible Redress</div>
+          <div class="value-desc">Easier reporting mechanisms: a national portal, dedicated helplines with local-language support, and sustained investment in police capacity in smaller cities and rural districts. Justice delayed by inaccessibility is justice denied.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 7. MANAV Framework -->
+    <div class="manav-card">
+      <span class="manav-eyebrow">07 / India's Global Positioning</span>
+      <div class="manav-title">MANAV Framework &amp; the Delhi Declaration</div>
+      <div class="manav-body">
+        India's Prime Minister launched the MANAV framework at the AI Impact Summit held at Bharat Mandapam, New Delhi in February 2026 — positioning India as an active shaper of global AI governance rather than a rule-taker. The framework was subsequently signed as the "Delhi Declaration" by over 90 countries. MANAV stands for five foundational principles for responsible AI:
+      </div>
+      <div class="manav-acronym">
+        <div class="manav-letter">
+          <span class="manav-char">M</span>
+          <span class="manav-word">Moral</span>
+        </div>
+        <div class="manav-letter">
+          <span class="manav-char">A</span>
+          <span class="manav-word">Accountable</span>
+        </div>
+        <div class="manav-letter">
+          <span class="manav-char">N</span>
+          <span class="manav-word">National Sovereignty</span>
+        </div>
+        <div class="manav-letter">
+          <span class="manav-char">A</span>
+          <span class="manav-word">Accessible</span>
+        </div>
+        <div class="manav-letter">
+          <span class="manav-char">V</span>
+          <span class="manav-word">Valid Systems</span>
+        </div>
+      </div>
+      <div class="card-body" style="margin-top: 16px; color: var(--text-2); font-size: 0.88rem;">
+        <p style="margin: 0;">The Delhi Declaration marks a significant moment: India has moved from a largely reactive domestic posture to active participation in setting the global norms for AI governance. How this translates into binding domestic regulation will be the key test over the next legislative cycle.</p>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="footer-brand-name">AI Incident Database · India</span>
+        <p class="footer-brand-desc">Documenting AI-related harm across India from 2021 to 2025.</p>
+      </div>
+      <div class="footer-links">
+        <span class="footer-links-title">Explore</span>
+        <a href="index.html" class="footer-link">State Directory</a>
+        <a href="dashboard.html" class="footer-link">Dashboard</a>
+        <a href="timeline.html" class="footer-link">Timeline</a>
+        <a href="overall.html" class="footer-link">Interactive Map</a>
+        <a href="governance.html" class="footer-link">Governance</a>
+        <a href="methodology.html" class="footer-link">Methodology</a>
+      </div>
+    </div>
+    <div class="footer-bottom">B.Tech Project · IIIT Delhi · Dept. of Social Sciences &amp; Humanities · Anshul Jain · Dhruv Kantroo · Siddhant Gautam</div>
+  </footer>
+
+  <script>
+    const hb = document.getElementById('hamburger');
+    const dr = document.getElementById('drawer');
+    if(hb && dr){ hb.addEventListener('click',()=>{ hb.classList.toggle('open'); dr.classList.toggle('open'); }); }
+  </script>
+</body>
+</html>

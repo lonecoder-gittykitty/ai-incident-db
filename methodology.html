@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Methodology – AI Incident Database</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* ── Page-specific styles ── */
+    .page-hero {
+      position: relative;
+      padding: 64px 28px 56px;
+      border-bottom: 1px solid var(--card-border);
+      overflow: hidden;
+    }
+    .page-hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(240,165,0,0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(240,165,0,0.04) 1px, transparent 1px);
+      background-size: 40px 40px;
+      pointer-events: none;
+    }
+    .page-hero::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 60% 70% at 50% 0%, rgba(240,165,0,0.07), transparent);
+      pointer-events: none;
+    }
+    .page-hero-inner {
+      max-width: 700px;
+      margin: 0 auto;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+    .page-hero-eyebrow {
+      display: inline-block;
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: var(--amber);
+      background: rgba(240,165,0,0.1);
+      border: 1px solid rgba(240,165,0,0.22);
+      padding: 5px 16px;
+      border-radius: 20px;
+      margin-bottom: 22px;
+    }
+    .page-hero-title {
+      font-family: 'Syne', sans-serif;
+      font-size: clamp(2rem, 5.5vw, 3.2rem);
+      font-weight: 800;
+      color: var(--text);
+      line-height: 1.1;
+      letter-spacing: -0.025em;
+      margin-bottom: 18px;
+    }
+    .page-hero-sub {
+      font-size: 1.05rem;
+      color: var(--text-2);
+      max-width: 560px;
+      margin: 0 auto;
+      line-height: 1.75;
+    }
+
+    /* ── Main content wrap ── */
+    main.page-wrap {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 5rem;
+    }
+
+    /* ── Content card ── */
+    .content-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius-lg);
+      padding: 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    /* ── Section label + title ── */
+    .card-eyebrow {
+      font-size: 0.68rem;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--amber);
+      margin-bottom: 10px;
+      display: block;
+    }
+    .card-title {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 16px;
+      line-height: 1.3;
+    }
+    .card-body {
+      color: var(--text-2);
+      font-size: 0.93rem;
+      line-height: 1.8;
+    }
+    .card-body p { margin-bottom: 0.9rem; }
+    .card-body p:last-child { margin-bottom: 0; }
+    .card-body ul {
+      list-style: none;
+      padding: 0;
+      margin: 0.6rem 0 0;
+    }
+    .card-body ul li {
+      padding: 5px 0 5px 18px;
+      position: relative;
+      font-size: 0.93rem;
+      color: var(--text-2);
+      line-height: 1.65;
+    }
+    .card-body ul li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 12px;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--amber);
+      opacity: 0.75;
+    }
+
+    /* ── Caveat / callout box ── */
+    .callout-box {
+      border-left: 3px solid var(--amber);
+      background: rgba(240,165,0,0.05);
+      border-radius: 0 10px 10px 0;
+      padding: 16px 20px;
+      margin-top: 18px;
+    }
+    .callout-box p {
+      font-size: 0.92rem;
+      color: var(--text-2);
+      line-height: 1.75;
+      margin: 0;
+      font-style: italic;
+    }
+
+    /* ── Keyword pill tags ── */
+    .pill-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 16px;
+    }
+    .pill {
+      display: inline-block;
+      font-size: 0.76rem;
+      font-weight: 500;
+      padding: 5px 13px;
+      border-radius: 20px;
+      background: rgba(240,165,0,0.08);
+      border: 1px solid rgba(240,165,0,0.22);
+      color: var(--amber-2);
+      line-height: 1.4;
+    }
+
+    /* ── Fields recorded list ── */
+    .fields-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px 24px;
+      margin-top: 16px;
+    }
+    .field-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      font-size: 0.88rem;
+      color: var(--text-2);
+    }
+    .field-dot {
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: var(--amber);
+      flex-shrink: 0;
+      margin-top: 7px;
+    }
+    @media (max-width: 520px) { .fields-list { grid-template-columns: 1fr; } }
+
+    /* ── Criteria 3-column grid ── */
+    .criteria-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-top: 6px;
+    }
+    @media (max-width: 640px) { .criteria-grid { grid-template-columns: 1fr; } }
+    .criteria-card {
+      background: var(--navy-3);
+      border: 1px solid var(--card-border);
+      border-top: 3px solid var(--amber);
+      border-radius: var(--radius);
+      padding: 18px 16px;
+    }
+    .criteria-num {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.4rem;
+      font-weight: 800;
+      color: var(--amber);
+      margin-bottom: 8px;
+      line-height: 1;
+    }
+    .criteria-label {
+      font-family: 'Syne', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+    .criteria-desc {
+      font-size: 0.82rem;
+      color: var(--text-2);
+      line-height: 1.6;
+    }
+
+    /* ── Source tiers ── */
+    .source-tiers {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-top: 16px;
+    }
+    @media (max-width: 600px) { .source-tiers { grid-template-columns: 1fr; } }
+    .source-tier {
+      background: var(--navy-3);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 16px;
+    }
+    .tier-label {
+      font-size: 0.68rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      margin-bottom: 10px;
+      display: block;
+    }
+    .tier-right  { color: #fb923c; }
+    .tier-left   { color: #60a5fa; }
+    .tier-centre { color: #4ade80; }
+    .tier-sources {
+      list-style: none;
+      padding: 0; margin: 0;
+    }
+    .tier-sources li {
+      font-size: 0.83rem;
+      color: var(--text-2);
+      padding: 3px 0;
+    }
+
+    /* ── Ethical principles ── */
+    .principles-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 6px;
+    }
+    .principle-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      padding: 14px 16px;
+      background: var(--navy-3);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+    }
+    .principle-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--amber);
+      flex-shrink: 0;
+      margin-top: 5px;
+    }
+    .principle-title {
+      font-family: 'Syne', sans-serif;
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 3px;
+    }
+    .principle-desc {
+      font-size: 0.83rem;
+      color: var(--text-2);
+      line-height: 1.6;
+    }
+
+    /* ── Limitations ── */
+    .limitations-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 6px;
+    }
+    .limitation-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      padding: 14px 16px;
+      background: rgba(248,113,113,0.04);
+      border: 1px solid rgba(248,113,113,0.14);
+      border-radius: var(--radius);
+    }
+    .limitation-num {
+      font-family: 'Syne', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 800;
+      color: #f87171;
+      flex-shrink: 0;
+      min-width: 20px;
+      margin-top: 1px;
+    }
+    .limitation-text {
+      font-size: 0.88rem;
+      color: var(--text-2);
+      line-height: 1.65;
+    }
+
+    /* ── Future work ── */
+    .future-list {
+      list-style: none;
+      padding: 0;
+      margin-top: 6px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .future-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 0.9rem;
+      color: var(--text-2);
+      padding: 10px 14px;
+      background: var(--navy-3);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      line-height: 1.5;
+    }
+    .future-list li::before {
+      content: '→';
+      color: var(--amber);
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    /* ── Team ── */
+    .team-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 14px;
+    }
+    .team-pill {
+      background: var(--navy-3);
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      padding: 10px 18px;
+    }
+    .team-pill-name {
+      font-family: 'Syne', sans-serif;
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 2px;
+    }
+    .team-pill-id {
+      font-size: 0.76rem;
+      color: var(--text-3);
+    }
+    .advisor-box {
+      margin-top: 16px;
+      padding: 14px 18px;
+      background: rgba(240,165,0,0.05);
+      border: 1px solid rgba(240,165,0,0.18);
+      border-radius: var(--radius);
+      font-size: 0.88rem;
+      color: var(--text-2);
+    }
+    .advisor-box strong {
+      color: var(--amber);
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TOP NAV -->
+  <nav class="topnav">
+    <div class="topnav-inner">
+      <div class="topnav-brand">
+        <span class="brand-dot"></span>
+        <span class="brand-name">AI Incident Database</span>
+        <span class="brand-tag">India · 2021–2025</span>
+      </div>
+      <div class="topnav-links">
+        <a href="index.html" class="nav-link">States</a>
+        <a href="dashboard.html" class="nav-link">Dashboard</a>
+        <a href="timeline.html" class="nav-link">Timeline</a>
+        <a href="search.html" class="nav-link">Search</a>
+        <a href="overall.html" class="nav-link">Map</a>
+        <a href="governance.html" class="nav-link">Governance</a>
+        <a href="methodology.html" class="nav-link active">Methodology</a>
+        <a href="insights.html" class="nav-link">Insights</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <!-- MOBILE DRAWER -->
+  <div class="drawer" id="drawer">
+    <ul class="drawer-links">
+      <li><a href="index.html" class="drawer-link"><span>🗺️</span> All States</a></li>
+      <li><a href="dashboard.html" class="drawer-link"><span>📊</span> Dashboard</a></li>
+      <li><a href="timeline.html" class="drawer-link"><span>📅</span> Timeline</a></li>
+      <li><a href="search.html" class="drawer-link"><span>🔍</span> Search</a></li>
+      <li><a href="overall.html" class="drawer-link"><span>🗾</span> Map</a></li>
+      <li><a href="governance.html" class="drawer-link"><span>🏛️</span> Governance</a></li>
+      <li><a href="methodology.html" class="drawer-link"><span>📋</span> Methodology</a></li>
+      <li><a href="insights.html" class="drawer-link"><span>💡</span> Insights</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <header class="page-hero">
+    <div class="page-hero-inner">
+      <span class="page-hero-eyebrow">Research Methodology</span>
+      <h1 class="page-hero-title">How We Built This Database</h1>
+      <p class="page-hero-sub">A transparent account of our data collection, classification, and ethical approach — and what the database does not capture.</p>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="page-wrap">
+
+    <!-- 1. Background & Motivation -->
+    <div class="content-card">
+      <span class="card-eyebrow">01 / Background</span>
+      <h2 class="card-title">Project Background &amp; Motivation</h2>
+      <div class="card-body">
+        <p>This project began in 2021 out of a recognition that no centralised documentation of AI-related harms in India existed. While global conversations about AI risk were accelerating, the lived experience of Indian citizens — facing deepfakes, voice-cloning fraud, and algorithmic bias — was going largely unrecorded in any systematic way.</p>
+        <p>The launch of ChatGPT in November 2022 was a turning point. It dramatically lowered the technical barrier to AI misuse, and within months deepfakes, voice cloning, and AI-generated disinformation became tools readily available to bad actors. Financial fraud cases involving AI voice impersonation began appearing in state police records across India.</p>
+        <p>COVID-19 lockdowns had simultaneously pushed India online at unprecedented speed — creating large populations that were connected but not protected. First-time internet users in rural districts encountered AI-enabled scams before developing any digital safety literacy.</p>
+        <p>We drew inspiration from the Global AI Incident Database (Partnership on AI), which has been tracking AI incidents internationally since 2021. However, we found that it systematically under-represents non-Western contexts: incidents from India rarely appear, and when they do, they lack the state-level specificity needed for governance analysis. This database aims to fill that gap — providing granular, India-specific documentation that can inform both research and policy.</p>
+      </div>
+    </div>
+
+    <!-- 2. Scope -->
+    <div class="content-card">
+      <span class="card-eyebrow">02 / Scope</span>
+      <h2 class="card-title">Scope of Study</h2>
+      <div class="card-body">
+        <p>The database covers all 28 states and Union Territories of India for which publicly documented AI misuse incidents could be identified. The time range is 2021 through 2025 — capturing both the pre-GenAI period and the rapid escalation that followed the generative AI wave.</p>
+        <p>Our focus is on publicly reported incidents, primarily those covered by news media. We do not claim to capture the full universe of AI-related harm in India — only what surfaces in the public record.</p>
+      </div>
+      <div class="callout-box">
+        <p>This database captures only what gets reported. Incidents that go unreported due to shame, lack of awareness, or absence of legal frameworks are not counted. Our numbers are a floor, not a ceiling.</p>
+      </div>
+    </div>
+
+    <!-- 3. Data Collection -->
+    <div class="content-card">
+      <span class="card-eyebrow">03 / Data Collection</span>
+      <h2 class="card-title">How We Collected Data</h2>
+      <div class="card-body">
+        <p>Incidents were identified through systematic keyword searches across Indian and international news archives, court records, parliamentary questions, and civil society reports. The primary search terms used:</p>
+      </div>
+      <div class="pill-group">
+        <span class="pill">AI-assisted financial fraud</span>
+        <span class="pill">Obscene deepfake / morphed image</span>
+        <span class="pill">Surveillance technologies and biometric risks</span>
+        <span class="pill">Algorithmic bias and unequal treatment</span>
+        <span class="pill">Psychological harm from AI</span>
+        <span class="pill">Digital arrest / impersonation scam</span>
+        <span class="pill">Voice cloning fraud</span>
+        <span class="pill">AI-generated political content / electoral deepfake</span>
+      </div>
+      <div class="card-body" style="margin-top: 20px;">
+        <p>For each incident recorded, we captured the following fields:</p>
+      </div>
+      <div class="fields-list">
+        <div class="field-item"><span class="field-dot"></span><span>State and date of incident</span></div>
+        <div class="field-item"><span class="field-dot"></span><span>Plain-language description</span></div>
+        <div class="field-item"><span class="field-dot"></span><span>AI technology involved</span></div>
+        <div class="field-item"><span class="field-dot"></span><span>Type of harm caused</span></div>
+        <div class="field-item"><span class="field-dot"></span><span>Who was affected</span></div>
+        <div class="field-item"><span class="field-dot"></span><span>Financial impact (where reported)</span></div>
+        <div class="field-item"><span class="field-dot"></span><span>Authority response</span></div>
+        <div class="field-item"><span class="field-dot"></span><span>Source link to original reporting</span></div>
+      </div>
+    </div>
+
+    <!-- 4. Filtering Criteria -->
+    <div class="content-card">
+      <span class="card-eyebrow">04 / Filtering Criteria</span>
+      <h2 class="card-title">What Qualified as an Incident</h2>
+      <div class="card-body" style="margin-bottom: 18px;">
+        <p>Not every AI-adjacent news story was included. Three criteria had to be satisfied for an incident to enter the database:</p>
+      </div>
+      <div class="criteria-grid">
+        <div class="criteria-card">
+          <div class="criteria-num">01</div>
+          <div class="criteria-label">Direct AI Involvement</div>
+          <div class="criteria-desc">The incident had to involve AI in a direct and meaningful way — not tangentially. A scammer who happened to use a smartphone did not qualify; a scammer who used voice-cloning software to impersonate a relative did.</div>
+        </div>
+        <div class="criteria-card">
+          <div class="criteria-num">02</div>
+          <div class="criteria-label">Documented Harm</div>
+          <div class="criteria-desc">Actual financial loss, reputational damage, psychological impact, or credible risk to an identifiable person or group had to be present. Speculative future risks without a concrete incident were excluded.</div>
+        </div>
+        <div class="criteria-card">
+          <div class="criteria-num">03</div>
+          <div class="criteria-label">Credible Source</div>
+          <div class="criteria-desc">Anonymous blogs, unverifiable social media claims, and clearly partisan sites with no corroboration from independent outlets were excluded. Where possible, incidents were verified across two or more independent sources.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 5. Source Triangulation -->
+    <div class="content-card">
+      <span class="card-eyebrow">05 / Source Strategy</span>
+      <h2 class="card-title">Source Triangulation Strategy</h2>
+      <div class="card-body">
+        <p>Indian media operates within a pronounced political landscape, where outlets on different ends of the spectrum may report — or ignore — the same incident depending on its political valence. To counter this bias, we deliberately sourced across the political spectrum.</p>
+        <p>Our working assumption: if a genuine AI-harm incident occurred, it is likely to get reported across media of different political alignments, because AI misuse against ordinary citizens does not map cleanly onto ideological divides. An elderly person defrauded by a voice-cloning scam is neither a left-wing nor a right-wing story.</p>
+      </div>
+      <div class="source-tiers">
+        <div class="source-tier">
+          <span class="tier-label tier-right">Right-leaning</span>
+          <ul class="tier-sources">
+            <li>OpIndia</li>
+            <li>Republic TV</li>
+            <li>Zee News</li>
+          </ul>
+        </div>
+        <div class="source-tier">
+          <span class="tier-label tier-left">Left-leaning</span>
+          <ul class="tier-sources">
+            <li>The Wire</li>
+            <li>Scroll.in</li>
+            <li>NewsClick</li>
+          </ul>
+        </div>
+        <div class="source-tier">
+          <span class="tier-label tier-centre">Centrist / Wire-of-record</span>
+          <ul class="tier-sources">
+            <li>The Hindu</li>
+            <li>NDTV</li>
+            <li>Times of India</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- 6. Ethical Principles -->
+    <div class="content-card">
+      <span class="card-eyebrow">06 / Ethics</span>
+      <h2 class="card-title">Ethical Principles in Data Handling</h2>
+      <div class="card-body" style="margin-bottom: 16px;">
+        <p>Documenting harm requires care. Five principles guided our approach throughout the project. Victims' personal details have been anonymised where identification was not essential to understanding the incident, and explicit content has not been reproduced in any form.</p>
+      </div>
+      <div class="principles-list">
+        <div class="principle-item">
+          <span class="principle-dot"></span>
+          <div>
+            <div class="principle-title">Accountability</div>
+            <div class="principle-desc">Incidents are documented with enough specificity to hold actors — individuals, platforms, or institutions — accountable for the harm caused, without embellishment.</div>
+          </div>
+        </div>
+        <div class="principle-item">
+          <span class="principle-dot"></span>
+          <div>
+            <div class="principle-title">Fairness</div>
+            <div class="principle-desc">We have not documented incidents selectively by political affiliation of the accused or the victim. AI harm affects everyone; our database should reflect that.</div>
+          </div>
+        </div>
+        <div class="principle-item">
+          <span class="principle-dot"></span>
+          <div>
+            <div class="principle-title">Respect for Consent and Autonomy</div>
+            <div class="principle-desc">Victims documented in this database did not consent to the original harm. We minimise secondary exposure by omitting identifying personal details wherever the incident can be understood without them.</div>
+          </div>
+        </div>
+        <div class="principle-item">
+          <span class="principle-dot"></span>
+          <div>
+            <div class="principle-title">Transparency About Decision-Making</div>
+            <div class="principle-desc">This methodology page exists precisely to make our inclusion criteria, source strategy, and limitations visible. Readers should be able to interrogate our choices.</div>
+          </div>
+        </div>
+        <div class="principle-item">
+          <span class="principle-dot"></span>
+          <div>
+            <div class="principle-title">Do No Secondary Harm</div>
+            <div class="principle-desc">Careless documentation can re-traumatise victims or provide a how-to guide for bad actors. We have been deliberate about the level of technical detail included in incident descriptions.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 7. Limitations -->
+    <div class="content-card">
+      <span class="card-eyebrow">07 / Limitations</span>
+      <h2 class="card-title">What This Database Cannot Tell You</h2>
+      <div class="card-body" style="margin-bottom: 16px;">
+        <p>Honest research requires clear-eyed acknowledgement of its limits. Four structural limitations bear directly on how this database should be read and cited:</p>
+      </div>
+      <div class="limitations-list">
+        <div class="limitation-item">
+          <span class="limitation-num">01</span>
+          <span class="limitation-text">Built almost entirely on English-language sources. Incidents reported only in Hindi, Tamil, Telugu, Bengali, Marathi, or other regional-language outlets are systematically absent — which likely means underrepresentation of incidents in non-metro areas where regional press dominates.</span>
+        </div>
+        <div class="limitation-item">
+          <span class="limitation-num">02</span>
+          <span class="limitation-text">Only publicly reported cases are captured. The vast majority of AI-enabled harm never reaches a reporter, a police station, or a civil court. Every figure in this database should be understood as a lower bound on actual incidence.</span>
+        </div>
+        <div class="limitation-item">
+          <span class="limitation-num">03</span>
+          <span class="limitation-text">Does not capture slow, diffuse harms: the quiet algorithmic bias baked into employment screening tools, credit-scoring systems, or medical diagnostics used at scale across India. These harms are real but do not manifest as discrete incidents that make the news.</span>
+        </div>
+        <div class="limitation-item">
+          <span class="limitation-num">04</span>
+          <span class="limitation-text">The incident-based approach cannot measure the gap between documented incidents and registered FIRs, or between FIRs and convictions. How the state responds to AI harm once it is reported is a separate — and equally important — research question that this database cannot answer alone.</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 8. Future Work -->
+    <div class="content-card">
+      <span class="card-eyebrow">08 / Future Work</span>
+      <h2 class="card-title">Where This Research Goes Next</h2>
+      <div class="card-body" style="margin-bottom: 14px;">
+        <p>Several directions would meaningfully extend the value of this dataset:</p>
+      </div>
+      <ul class="future-list">
+        <li>Incorporate regional-language sources through partnerships with language-specific fact-checkers and regional journalism networks</li>
+        <li>Build a self-reported incident pathway — a form that allows victims to submit incidents directly, with appropriate safeguards</li>
+        <li>Partner with civil society organisations (iCall, iSafe, Cyber Peace Foundation) to capture cases that reach counsellors before they reach police</li>
+        <li>Quantitative analysis: response rates by state, FIR-to-incident gap analysis, regulatory timeline correlations between incidents and policy responses</li>
+      </ul>
+    </div>
+
+    <!-- Team -->
+    <div class="content-card">
+      <span class="card-eyebrow">Research Team</span>
+      <h2 class="card-title">Team &amp; Affiliation</h2>
+      <div class="team-row">
+        <div class="team-pill">
+          <div class="team-pill-name">Anshul Jain</div>
+          <div class="team-pill-id">2023102</div>
+        </div>
+        <div class="team-pill">
+          <div class="team-pill-name">Dhruv Kantroo</div>
+          <div class="team-pill-id">2022167</div>
+        </div>
+        <div class="team-pill">
+          <div class="team-pill-name">Siddhant Gautam</div>
+          <div class="team-pill-id">2021100</div>
+        </div>
+      </div>
+      <div class="advisor-box">
+        <strong>BTP Advisor:</strong> Prof. Dr. Manohar Kumar — Department of Social Sciences and Humanities, IIIT Delhi
+      </div>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="footer-brand-name">AI Incident Database · India</span>
+        <p class="footer-brand-desc">Documenting AI-related harm across India from 2021 to 2025.</p>
+      </div>
+      <div class="footer-links">
+        <span class="footer-links-title">Explore</span>
+        <a href="index.html" class="footer-link">State Directory</a>
+        <a href="dashboard.html" class="footer-link">Dashboard</a>
+        <a href="timeline.html" class="footer-link">Timeline</a>
+        <a href="overall.html" class="footer-link">Interactive Map</a>
+        <a href="governance.html" class="footer-link">Governance</a>
+        <a href="insights.html" class="footer-link">Insights</a>
+      </div>
+    </div>
+    <div class="footer-bottom">B.Tech Project · IIIT Delhi · Dept. of Social Sciences &amp; Humanities · Anshul Jain · Dhruv Kantroo · Siddhant Gautam</div>
+  </footer>
+
+  <script>
+    const hb = document.getElementById('hamburger');
+    const dr = document.getElementById('drawer');
+    if(hb && dr){ hb.addEventListener('click',()=>{ hb.classList.toggle('open'); dr.classList.toggle('open'); }); }
+  </script>
+</body>
+</html>
