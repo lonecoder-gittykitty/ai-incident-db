@@ -1479,7 +1479,9 @@ const governanceData = {
       type: "Awareness Campaign",
       description: "Bhopal Police issued a public advisory warning citizens about the rising use of AI voice-cloning tools by cybercriminals to impersonate family members and friends in distress calls. The advisory urged people to always verify emergency calls through a secondary contact before transferring money — one of MP's earliest official responses to AI-enabled fraud.",
       link: "https://timesofindia.indiatimes.com/city/bhopal/ai-voice-cloning-aids-cyber-crimes-cops-issue-warning-against-scam/articleshow/103743850.cms"
-    }
+    },
+  ],
+
   "Karnataka": [
     {
       title: "Karnataka Proposes Fake News Law with 7-Year Jail Term",
