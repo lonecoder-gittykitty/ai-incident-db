@@ -547,13 +547,16 @@ This was one of India's first cases to directly tackle AI deepfake misuse in fin
 ],
 "Arunachal Pradesh": [
   {
-    title: "Elon Musk’s Deepfake Videos on RSS-BJP Conspiracy ",
+    title: "Elon Musk’s Deepfake Videos on RSS-BJP Conspiracy",
     date: "Mar 7, 2025",
-    summary:`Videos circulating on social media claim that Elon Musk accused the BJP and RSS of scheming to provoke ethnic conflict in Arunachal Pradesh.
-    Fact-checkers found these videos to be deepfakes — they were digitally altered or entirely generated using AI. In the videos, the lip movements didn’t match the audio, and the same footage of Musk was reused in multiple clips — signs of manipulation. No credible news reports or official records confirmed Musk ever made the statements shown in the videos. The conclusion: the claim of Musk exposing a BJP/RSS conspiracy in Arunachal Pradesh via those videos is false — the media is manipulated. `,
-    link:"https://newschecker.in/ai-deepfake/elon-musks-deepfake-videos-on-bjp-rss-conspiracy-in-arunachal-pradesh-debunked"
-
-
+    summary: `Videos circulating on social media claim that Elon Musk accused the BJP and RSS of scheming to provoke ethnic conflict in Arunachal Pradesh. Fact-checkers found these videos to be deepfakes — they were digitally altered or entirely generated using AI. In the videos, the lip movements didn’t match the audio, and the same footage of Musk was reused in multiple clips — signs of manipulation. No credible news reports or official records confirmed Musk ever made the statements shown in the videos. The conclusion: the claim of Musk exposing a BJP/RSS conspiracy in Arunachal Pradesh via those videos is false — the media is manipulated.`,
+    link: "https://newschecker.in/ai-deepfake/elon-musks-deepfake-videos-on-bjp-rss-conspiracy-in-arunachal-pradesh-debunked"
+  },
+  {
+    title: "Arunachal Pradesh — First NE State to Integrate Generative AI into Governance",
+    date: "Feb 26, 2025",
+    summary: `Arunachal Pradesh became the first Northeast Indian state to integrate Generative AI into governance, deploying it to analyze Monthly Development Reports from 67 departments. The AI system flags delays, identifies trends, and enables data-driven decisions. Combined with 100% e-Office rollout and satellite-based project monitoring, it marks a shift toward real-time, technology-driven administration statewide.`,
+    link: "https://arunachal24.in/arunachal-pradesh-becomes"
   }
 ],
 
@@ -2123,49 +2126,6 @@ const governanceData = {
       link: "https://northeasttoday.in/northeast/tripura-belonia-teacher-loses-rs-56176-in-online-fraud-urges-police-action/"
     }
   ],
-
-  "Arunachal Pradesh": [
-    {
-      title: "Newschecker Fact-Check Debunks Elon Musk Deepfake on Arunachal Pradesh",
-      date: "Mar 07, 2025",
-      type: "Platform Action",
-      description: "Newschecker, an IFCN-certified Indian fact-checking organisation, published a formal debunk of deepfake videos falsely depicting Elon Musk making statements about a BJP/RSS conspiracy in Arunachal Pradesh. The fact-check identified technical markers — mismatched lip movements, reused footage across multiple clips — confirming AI manipulation. Meta and X removed the flagged videos following the fact-check report, demonstrating the platform-civil society coordination mechanism that now governs AI misinformation responses in India.",
-      link: "https://newschecker.in/ai-deepfake/elon-musks-deepfake-videos-on-bjp-rss-conspiracy-in-arunachal-pradesh-debunked"
-    },
-    {
-      title: "Election Commission AI Content Rules Apply to Arunachal Pradesh Elections",
-      date: "2024",
-      type: "Electoral Regulation",
-      description: "The Election Commission of India's 2024 guidelines on AI and deepfake content in political campaigns apply to Arunachal Pradesh's state electoral processes. All AI-generated or digitally edited political media must carry visible disclaimers. The EC's dedicated AI monitoring cell, active across 14 social media platforms, covers Arunachal Pradesh and has the authority to direct removal of electoral deepfakes within 3 hours during silence periods. The Elon Musk deepfake case illustrates the state's vulnerability to such cross-border AI disinformation targeting tribal and border regions.",
-      link: "https://eci.gov.in/files/file/14897-election-commission-of-india-handbook-on-combating-misinformation/"
-    },
-    {
-      title: "IT Act and BNS 2023 — Applicable Legal Framework",
-      date: "2023",
-      type: "Legislation",
-      description: "In the absence of Arunachal Pradesh-specific AI policy, deepfake-related offences are handled under the IT Act 2000 and the Bharatiya Nyaya Sanhita 2023. The state police cyber cell registers cases under Section 66D (cheating by personation via computer), Section 505 IPC/BNS equivalents (statements causing public mischief), and the relevant deepfake provisions introduced under the IT Rules 2021 amendments. Given the state's proximity to a sensitive international border, central agencies including CERT-In also coordinate on cases involving political disinformation.",
-      link: "https://legislative.gov.in/acts/bharatiya-nyaya-sanhita-2023/"
-    },
-    {
-      title: "Arunachal Pradesh — First NE State to Integrate Generative AI into Governance",
-      date: "Feb 26, 2025",
-      type: "Policy Framework",
-      description: "Arunachal Pradesh became the first Northeast Indian state to integrate Generative AI into governance, deploying it to analyze Monthly Development Reports from 67 departments. The AI system flags delays, identifies trends, and enables data-driven decisions. Combined with 100% e-Office rollout and satellite-based project monitoring, it marks a shift toward real-time, technology-driven administration statewide.",
-      link: "https://arunachal24.in/arunachal-pradesh-becomes"
-    },
-    {
-      title: "Itanagar Woman Blackmailed via AI-Assisted Fake Social Media Profile",
-      date: "Jun 30, 2025",
-      summary: `A 30-year-old Itanagar man was arrested after downloading a woman's photographs from social media, creating a fake profile impersonating her, and using it to extort money under threat of spreading the images. Itanagar police traced the accused through digital forensics. The case highlighted AI-assisted identity theft and image-based harassment in a state with no dedicated cyber police infrastructure — complaints must be routed through the general cyber cell of Arunachal Pradesh Police.`,
-      link: "https://www.sentinelassam.com/north-east-india-news/arunachal-news/arunachal-pradesh-police-arrests-man-for-blackmailing-woman-using-fake-social-media-profile"
-    },
-    {
-      title: "Arunachal Pradesh Among States With No Dedicated Cyber Police Station",
-      date: "2023",
-      summary: `The 2023 NCRB annual report identified Arunachal Pradesh as one of 11 states and UTs without a dedicated cyber police station. The state recorded 470 cybercrime complaints in 2023, with ₹765.79 lakh at risk, but lacks specialist infrastructure to investigate AI-enabled fraud, deepfakes, and digital arrest scams. Victims must rely on the general Itanagar cyber cell, causing significant delays in registration, investigation, and fund freeze requests — a structural gap that widens the harm from AI-enabled crimes.`,
-      link: "https://www.prsindia.org/sites/default/files/bill_files/Annual-Report-2023-NCRB.pdf"
-    }
-  ]
 
 };
 
