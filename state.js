@@ -639,15 +639,6 @@ They forced him to wash the Brahmin’s feet and drink it as a punishment. `,
 
 
     },
-    { title: "AI-Manipulated Investment Scam", date: "August 4, 2025",
-      summary: `A businessman in Pune saw a fake AI-made video that looked like a well known share trading expert.
-He downloaded the investment app through a whatsap group 
-Between March 27 and May 9, he sent a total of Rs. 54.6 lakh, to different fake bank accounts.  
-The app showed he had "earned" Rs. 2.52 crore, around more than 400% profit without withdrawing. 
-Police later found that only ₹10 lakh could be tracked to one account, the rest of the money was moved through Tether cryptocurrency to foreign scammers. 
-Total of 5 people were arrested - 2 from MP and 3 from Delhi`,
-link: "https://indianexpress.com/article/cities/pune/deepfake-video-share-fraud-mp-delhi-siphon-fund-crypto-route-10167811/"
-},
     { title: "The Khargone AI Voice Cloning Kidnapping Scam", date: "Mar 18, 2024",
       summary: `A mother in Khargone, Madhya Pradesh, received a terrifying phone call from an unknown number.
 On the call, she heard the AI-cloned voice of her 19-year-old daughter, who studies in Indore. The fake voice was crying and saying "mumma," claiming she had been kidnapped.
@@ -663,32 +654,12 @@ Police issued a warning saying AI voice-cloning scams are increasing fast and pe
 The article highlights how AI makes scams more convincing and harder to detect than traditional fraud..`,
 link: "https://timesofindia.indiatimes.com/city/bhopal/ai-voice-cloning-aids-cyber-crimes-cops-issue-warning-against-scam/articleshow/103743850.cms"
      },
-    {
-      title: "Khargone AI Voice Scam Triggers Police Advisory on Voice Cloning",
-      date: "Mar 18, 2024",
-      type: "Awareness Campaign",
-      description: "Following the Khargone voice cloning kidnapping scam where a mother transferred ₹50,000 to fraudsters mimicking her daughter's voice, MP Police issued statewide guidance urging citizens to always verify calls from unknown numbers before transferring money.",
-      link: "https://timesofindia.indiatimes.com/india/fooled-by-your-own-kid-chilling-rise-of-ai-voice-cloning-scams/articleshow/108569446.cms"
-    },
-    {
-      title: "5 Arrested in Deepfake Investment Scam — Crypto Trail Traced",
-      date: "Aug 04, 2025",
-      type: "Law Enforcement",
-      description: "Police arrested 5 people (2 from MP, 3 from Delhi) in connection with a deepfake investment scam that defrauded a Pune businessman of ₹54.6 lakh. Investigators traced funds moved through Tether cryptocurrency to foreign accounts — highlighting challenges of cross-border AI fraud prosecution.",
-      link: "https://indianexpress.com/article/cities/pune/deepfake-video-share-fraud-mp-delhi-siphon-fund-crypto-route-10167811/"
-    },
   {
     title: "AI Voice Cloning Fraud — Play School Owner Duped of ₹97,500, Indore",
     date: "Jan 2026",
     summary: `Smita Sinha (name changed), running a small play school in Indore, Madhya Pradesh, lost ₹97,500 after fraudsters used AI voice cloning to impersonate her cousin — a UP Police personnel — claiming urgent funds for cardiac surgery. Fabricated QR codes and transaction alerts convinced her the money was going to a hospital. FIR registered at Lasudia police station on January 7, 2026 under BNS 2023 and the IT Act. Police described the voice replication as having "alarming accuracy." Reported as Madhya Pradesh's first confirmed AI voice-cloning fraud case.`,
     link: "https://the420.in/ai-voice-cloning-fraud-madhya-pradesh-indore-play-school-owner-duped/"
   },
-  {
-    title: "AI Voice Cloning Used to Lure and Assault Tribal Girls — Sidhi, Madhya Pradesh",
-    date: "2024",
-    summary: `In Sidhi district, MP, a group of four accused used a voice cloning application to impersonate a female professor and contact tribal girls with promises of scholarship opportunities. Victims were directed to isolated locations where they were sexually assaulted. More than four tribal girls were reported as victims. FIRs were registered; the accused used the AI voice tool specifically to overcome victims' hesitation at unknown male callers — highlighting the use of generative AI to facilitate gender-based violence against marginalised communities.`,
-    link: "https://mojostory.com/stories/accused-use-ai-voice-cloning-to-lure-and-assault-tribal-girls-in-madhya-pradesh-551377"
-  }
 
   ],
   "Tamil Nadu": [
