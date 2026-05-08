@@ -960,112 +960,38 @@ link : 'https://www.boomlive.in/fact-check/viral-video-rally-protest-manipur-cla
     {
       title: "Pahalgam Terror Attack — AI-Generated Victim Photos Go Viral",
       date: "Apr 23, 2025",
-      summary: `On April 22, 2025, terrorists killed 26 tourists at Baisaran Valley, Pahalgam. Within hours, AI-generated images falsely claiming to show victims flooded social media. 
-Fact-checkers at Newschecker and Logically Facts ran the images through AI detection tools (Hive Moderation, SightEngine, WasitAI) which found them 96–99% likely to be AI-generated. 
-Telltale signs included unnaturally shaped limbs, indistinct faces, and glossy textures typical of generative AI.
-The images gathered over 257,000 views on X before being debunked. The incident was the most fact-checked event in India in April 2025, accounting for 23% of all BOOM fact-checks that month.`,
+      summary: `On April 22, 2025, terrorists killed 26 tourists at Baisaran Valley, Pahalgam. Within hours, AI-generated images falsely claiming to show victims flooded social media. Fact-checkers at Newschecker and Logically Facts ran the images through AI detection tools (Hive Moderation, SightEngine, WasitAI) which found them 96–99% likely to be AI-generated. Telltale signs included unnaturally shaped limbs, indistinct faces, and glossy textures typical of generative AI. The images gathered over 257,000 views on X before being debunked. The incident was the most fact-checked event in India in April 2025, accounting for 23% of all BOOM fact-checks that month.`,
       link: "https://newschecker.in/ai-deepfake/pahalgam-terror-attack-ai-generated-photo-goes-viral"
-    },
-    {
-      title: "Deepfake Trump Videos Falsely Warn Pakistan After Pahalgam Attack",
-      date: "Apr 25, 2025",
-      summary: `Multiple AI-manipulated videos of US President Donald Trump circulated on social media claiming he warned Pakistan against attacking India after the Pahalgam attack.
-In the videos, Trump's voice was AI-cloned to say "If Pakistan attacks India, I will destroy Pakistan. Modi is my friend."
-Newschecker found the clips were manipulated versions of a 2016 C-SPAN video, with AI voice cloning overlaid. Trump never made such statements.
-The videos spread across Facebook and X, capitalising on public anger after the terror attack.`,
-      link: "https://newschecker.in/ai-deepfake/pahalgam-terror-attack-viral-videos-of-donald-trump-warning-pakistan-against-attacking-india-is-deepfake"
     },
     {
       title: "Operation Sindoor — AI Deepfakes of Modi, Amit Shah, Jaishankar 'Apologising'",
       date: "May 10, 2025",
-      summary: `During India's Operation Sindoor military response (May 7–10, 2025), deepfake videos of PM Narendra Modi, Home Minister Amit Shah, and External Affairs Minister S. Jaishankar falsely showing them apologising to Pakistan and admitting defeat went massively viral.
-BOOM extracted audio from these videos and ran them through Deepfake-o-meter (University at Buffalo's Media Forensics Lab), confirming all were AI-generated.
-PIB Fact Check issued an emergency alert: "This fake video has been created using AI technology."
-India's Chief of Defence Services General Anil Chauhan admitted that 15% of operational time during Operation Sindoor was spent debunking fake news, underlining the real military cost of AI disinformation.`,
+      summary: `During India's Operation Sindoor military response (May 7–10, 2025), deepfake videos of PM Narendra Modi, Home Minister Amit Shah, and External Affairs Minister S. Jaishankar falsely showing them apologising to Pakistan and admitting defeat went massively viral. BOOM extracted audio from these videos and ran them through Deepfake-o-meter (University at Buffalo's Media Forensics Lab), confirming all were AI-generated. PIB Fact Check issued an emergency alert: "This fake video has been created using AI technology." India's Chief of Defence Services General Anil Chauhan admitted that 15% of operational time during Operation Sindoor was spent debunking fake news, underlining the real military cost of AI disinformation.`,
       link: "https://factly.in/ai-generated-videos-are-being-falsely-shared-as-pm-modi-amit-shah-and-jaishankar-apologising-for-launching-operation-sindoor/"
     },
     {
       title: "Operation Sindoor — Deepfake of Pakistan PM Shehbaz Sharif 'Conceding Defeat'",
       date: "May 09, 2025",
-      summary: `A deepfake video of Pakistan PM Shehbaz Sharif, edited to show him lamenting defeat and a lack of support from China and the UAE, went viral across Indian social media during Operation Sindoor.
-The original video actually showed Sharif commending Pakistan's Air Force response. AI voice cloning and lip-sync technology were used to fabricate an entirely different speech.
-Fact-checkers at BOOM, Alt News, and IFJ debunked the clip. It was shared over 700,000 times before being widely debunked — illustrating how AI disinformation can outpace verification in wartime.`,
+      summary: `A deepfake video of Pakistan PM Shehbaz Sharif, edited to show him lamenting defeat and a lack of support from China and the UAE, went viral across Indian social media during Operation Sindoor. The original video actually showed Sharif commending Pakistan's Air Force response. AI voice cloning and lip-sync technology were used to fabricate an entirely different speech. Fact-checkers at BOOM, Alt News, and IFJ debunked the clip. It was shared over 700,000 times before being widely debunked — illustrating how AI disinformation can outpace verification in wartime.`,
       link: "https://www.ifj.org/media-centre/news/detail/category/ai/article/ifjblog-ai-deepfakes-and-the-fog-of-war-disinformation-in-the-2025-india-pakistan-conflict"
     },
     {
       title: "Deepfake of Former Indian Army Chief General Malik 'Praising Pakistan'",
       date: "Dec 19, 2025",
-      summary: `Pakistani propaganda-linked accounts circulated a deepfake video falsely showing former Indian Army Chief General V.P. Malik praising Pakistan's military and admitting the destruction of Indian Rafale jets and S-400 systems.
-The original video was an ANI interview where General Malik actually said India has "better weapons and equipment" than Pakistan.
-Newschecker used Google Lens to trace the original. General Malik himself called it out publicly: "It is a deepfake. Pakistani ISI at work!"
-Security analysts noted such disinformation campaigns intensified after Operation Sindoor, targeting senior defence officials to undermine military morale.`,
+      summary: `Pakistani propaganda-linked accounts circulated a deepfake video falsely showing former Indian Army Chief General V.P. Malik praising Pakistan's military and admitting the destruction of Indian Rafale jets and S-400 systems. The original video was an ANI interview where General Malik actually said India has "better weapons and equipment" than Pakistan. Newschecker used Google Lens to trace the original. General Malik himself called it out publicly: "It is a deepfake. Pakistani ISI at work!" Security analysts noted such disinformation campaigns intensified after Operation Sindoor, targeting senior defence officials to undermine military morale.`,
       link: "https://thecommunemag.com/isi-at-work-deepfake-video-falsely-shows-former-army-chief-ved-malik-praising-pakistan/"
     },
     {
       title: "AI Deepfakes of Naval Chief and DGNO — Infowarfare After Operation Sindoor",
       date: "Nov 29, 2025",
-      summary: `Deepfake videos of Chief of Naval Staff Admiral Dinesh K. Tripathi and the Director General of Naval Operations (DGNO) circulated, falsely showing them criticising the Indian government and admitting operational losses during Operation Sindoor.
-India's Deepfakes Analysis Unit (DAU) confirmed the audio in both clips was entirely synthetic. A separate deepfake targeted Army Chief General Upendra Dwivedi with a fabricated WION logo overlay — debunked by PIB Fact Check.
-The campaign was part of a coordinated cross-border information warfare operation timed with Pakistan's test of a ship-launched ballistic missile.`,
+      summary: `Deepfake videos of Chief of Naval Staff Admiral Dinesh K. Tripathi and the Director General of Naval Operations (DGNO) circulated, falsely showing them criticising the Indian government and admitting operational losses during Operation Sindoor. India's Deepfakes Analysis Unit (DAU) confirmed the audio in both clips was entirely synthetic. A separate deepfake targeted Army Chief General Upendra Dwivedi with a fabricated WION logo overlay — debunked by PIB Fact Check. The campaign was part of a coordinated cross-border information warfare operation timed with Pakistan's test of a ship-launched ballistic missile.`,
       link: "https://www.wionews.com/world/infowarfare-pakistan-uses-ai-deep-fakes-of-indian-military-leaders-to-spread-misinformation-indian-army-deep-fake-infowar-1764419695262"
     },
     {
       title: "Pahalgam to Operation Sindoor — India's Largest AI Disinformation Wave",
       date: "May 07, 2025",
-      summary: `The April–May 2025 period saw India's worst AI-driven disinformation surge on record. After the Pahalgam attack and Operation Sindoor, social media was flooded with AI-generated images, deepfake military videos, fabricated government advisories, and recycled war footage from Gaza, Iran, and Sudan falsely labelled as Indian military operations.
-BOOM published 69 Operation Sindoor-related fact-checks in 4 days; 68% contained old or unrelated footage. Grok AI chatbot on X spread false battlefield claims, outpacing human fact-checkers by a factor of 86 (MIT study).
-Fake donation campaigns, phishing links disguised as news alerts, and AI-generated "ATM shutdown" warnings went viral. Times Now, Zee News, ABP News, and Aaj Tak aired unverified AI content as news.
-India's MeitY deployed its Deepfakes Analysis Unit (DAU) for the first time in a wartime context, offering a WhatsApp fact-check bot to citizens.`,
+      summary: `The April–May 2025 period saw India's worst AI-driven disinformation surge on record. After the Pahalgam attack and Operation Sindoor, social media was flooded with AI-generated images, deepfake military videos, fabricated government advisories, and recycled war footage from Gaza, Iran, and Sudan falsely labelled as Indian military operations. BOOM published 69 Operation Sindoor-related fact-checks in 4 days; 68% contained old or unrelated footage. Grok AI chatbot on X spread false battlefield claims, outpacing human fact-checkers by a factor of 86 (MIT study). Fake donation campaigns, phishing links disguised as news alerts, and AI-generated "ATM shutdown" warnings went viral. Times Now, Zee News, ABP News, and Aaj Tak aired unverified AI content as news.`,
       link: "https://www.boomlive.in/boom-research/boom-misinformation-report-may-2025-operation-sindoor-india-pakistan-armed-conflict-28733"
-    },
-    {
-      title: "MeitY Deepfakes Analysis Unit Deployed During Operation Sindoor",
-      date: "May 2025",
-      type: "Law Enforcement",
-      description: "Following the Pahalgam terror attack (April 22, 2025) and Operation Sindoor (May 7–10, 2025), MeitY deployed its Deepfakes Analysis Unit (DAU) for the first time in a wartime context. The DAU launched a WhatsApp-based fact-check bot for citizens and coordinated with PIB Fact Check to issue emergency debunks of AI-generated videos falsely showing senior leaders — PM Modi, Amit Shah, and External Affairs Minister Jaishankar — apologising to Pakistan. This marked India's first use of a dedicated government AI verification body during an active military operation.",
-      link: "https://www.boomlive.in/boom-research/boom-misinformation-report-may-2025-operation-sindoor-india-pakistan-armed-conflict-28733"
-    },
-    {
-      title: "PIB Fact Check Issues Emergency Alerts on Operation Sindoor Deepfakes",
-      date: "May 10, 2025",
-      type: "Regulatory Advisory",
-      description: "The Press Information Bureau's Fact Check unit issued a series of emergency public alerts during Operation Sindoor, explicitly warning citizens that AI-generated deepfake videos of PM Modi, Home Minister Amit Shah, and Defence officials were circulating. PIB's alerts — including the statement 'This fake video has been created using AI technology' — were among the fastest official debunks in Indian government history, issued within hours of videos going viral.",
-      link: "https://factly.in/ai-generated-videos-are-being-falsely-shared-as-pm-modi-amit-shah-and-jaishankar-apologising-for-launching-operation-sindoor/"
-    },
-    {
-      title: "Army Chief Acknowledges AI Disinformation Cost — 15% of Operational Time Lost",
-      date: "May 2025",
-      type: "Policy",
-      description: "India's Chief of Defence Services General Anil Chauhan publicly admitted that 15% of operational time during Operation Sindoor was spent countering fake news and AI-generated disinformation — including deepfakes of military leaders. This acknowledgment represents a formal recognition by India's highest military authority of AI disinformation as an operational security threat, and has since informed discussions on a dedicated military counter-disinformation doctrine.",
-      link: "https://www.ifj.org/media-centre/news/detail/category/ai/article/ifjblog-ai-deepfakes-and-the-fog-of-war-disinformation-in-the-2025-india-pakistan-conflict"
-    },
-    {
-      title: "Internet Suspensions and Social Media Monitoring in J&K Post-Pahalgam",
-      date: "Apr 2025",
-      type: "Law Enforcement",
-      description: "Following the Pahalgam attack, J&K authorities implemented targeted internet restrictions in sensitive areas and directed district police to actively monitor social media for AI-generated content designed to incite communal violence or spread false narratives about casualties. Police advisories warned citizens that sharing AI-generated fake images or videos related to the attack was a punishable offence under the IT Act and BNS.",
-      link: "https://newschecker.in/ai-deepfake/pahalgam-terror-attack-ai-generated-photo-goes-viral"
-    },
-    {
-      title: "Jammu & Kashmir Artificial Intelligence Mission (JK-AIM)",
-      date: "Mar 06, 2026",
-      type: "Policy Framework",
-      description: "J&K's IT Department initiated the Jammu & Kashmir Artificial Intelligence Mission (JK-AIM) in March 2026 to integrate AI into governance and public service delivery. A high-level Steering Committee involving IIT Jammu, BISAG-N, and IndiaAI Mission CEO was constituted. The roadmap includes a Centre of Excellence in Emerging Technologies, Data Innovation Labs, and AI pilots across five priority governance sectors.",
-      link: "https://www.greaterkashmir.com/jammu/jk-govt-begins-process-to-establish-ai-mission-for-governance"
-    },
-    {
-      title: "Holistic Agriculture Development Programme Integrated with AI",
-      date: "Nov 25, 2025",
-      type: "Policy",
-      description: "J&K's ₹5,013 crore Holistic Agriculture Development Programme integrates AI-powered monitoring systems and real-time tracking tools across 29 agricultural projects. The Output Tracking App (OTA) monitors 75,000+ operational units, while the Kisan Sathi Portal and Daksh Kisan LMS use data analytics for transparent service delivery, farmer skill-building, and evidence-based decision-making — generating ₹298 crore revenue and strengthening grassroots AI-enabled governance.",
-      link: "https://hadp.in/"
-    },
-    {
-      title: "Global Centre of Excellence for AI in Healthcare at AIIMS Jammu",
-      date: "Dec 30, 2024",
-      type: "Partnership",
-      description: "AIIMS Jammu proposed establishing a Global Centre of Excellence for AI in Healthcare to the Union Health Ministry, in collaboration with UK and Israeli institutions. The centre aims to deploy AI-enabled diagnostics, predictive medicine, and clinical decision support systems to enhance patient care accuracy, reduce treatment costs, and improve healthcare delivery speed in the underserved J&K region.",
-      link: "https://kashmirobserver.net/2025/12/30/aiims-jammu-proposes-traumatology-institute-ai-centre-for-healthcare"
     }
   ],
   
@@ -2020,6 +1946,16 @@ const governanceData = {
       type: "Legislation",
       description: "MeitY notified the Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Amendment Rules, 2026. The amendments define a new category of synthetically generated content (SGI) and impose due diligence obligations on intermediaries that enable the creation or dissemination of deepfakes — marking India's first enforceable rule specifically targeting AI-generated synthetic media.",
       link: "https://www.csohate.org/2026/02/11/ai-impact-summit-2026/"
+    }
+  ],
+
+  "Jammu & Kashmir": [
+    {
+      title: "Jammu & Kashmir Artificial Intelligence Mission (JK-AIM)",
+      date: "Mar 06, 2026",
+      type: "Policy Framework",
+      description: "J&K's IT Department initiated the Jammu & Kashmir Artificial Intelligence Mission (JK-AIM) in March 2026 to integrate AI into governance and public service delivery. A high-level Steering Committee involving IIT Jammu, BISAG-N, and IndiaAI Mission CEO was constituted. The roadmap includes a Centre of Excellence in Emerging Technologies, Data Innovation Labs, and AI pilots across five priority governance sectors.",
+      link: "https://www.greaterkashmir.com/jammu/jk-govt-begins-process-to-establish-ai-mission-for-governance"
     }
   ],
 
