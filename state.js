@@ -248,22 +248,10 @@ Significance: The case is a clear example of the misuse of AI technology (deepfa
     link: "https://asianews.network/man-held-for-posting-ai-generated-morphed-video-of-cm-of-indias-odisha-on-social-media-platform/#:~:text=social%20media%20platform-,Man%20held%20for%20posting%20AI%2Dgenerated%20morphed%20video%20of%20CM,construction%20company%20in%20Rayagada%20district."
   },
   {
-    title: "Bhubaneswar Records 7,263 Cybercrime Cases in 2024 — AI Fraud Dominant Category",
-    date: "Jan 2025",
-    summary: `Bhubaneswar Commissionerate Police registered 7,263 cybercrime complaints in 2024, a 34% increase over 2023. Of these, AI-enhanced fraud — including deepfake investment scams, digital arrest impersonation, and voice-cloned emergency calls — accounted for the largest share. The Odisha Cyber Crime Unit recovered ₹18.4 crore through rapid fund-freeze mechanisms for 1,240 victims. Bhubaneswar leads Odisha in AI-assisted crime, driven by rapid digitisation and growing middle-class internet penetration.`,
-    link: "https://odishatv.in/news/crime/bhubaneswar-police-cybercrime-cases-2024-report"
-  },
-  {
-    title: "Odisha Reports 69 Digital Arrest Cases — Victims Lose ₹8.5 Crore",
-    date: "2024",
-    summary: `Odisha’s cybercrime wing documented 69 confirmed ‘digital arrest’ cases in 2024, with victims losing a combined ₹8.5 crore. In each case, AI-enhanced video calls and voice modulation were used to impersonate CBI, TRAI, customs, or narcotics officials. Elderly victims, retired government employees, and women were disproportionately targeted. The Odisha Police launched a statewide awareness campaign — ‘Don’t Be Digitally Arrested’ — after PM Modi’s October 2024 Mann Ki Baat address flagged digital arrest fraud as a national threat.`,
-    link: "https://odishatv.in/news/crime/odisha-digital-arrest-cases-2024"
-  },
-  {
-    title: "AI Investment Fraud: Bhubaneswar Man Arrested for ₹2.06 Crore Scam Using Fake Trading Platform",
-    date: "Feb 2025",
-    summary: `Odisha Economic Offences Wing arrested a Bhubaneswar resident for orchestrating a ₹2.06 crore investment fraud using an AI-generated fake stock trading platform. The platform displayed fabricated real-time market data and used deepfake videos of SEBI officials to ‘verify’ the platform’s legitimacy. Over 60 victims across Odisha, Jharkhand, and West Bengal were defrauded. The accused built the platform using off-the-shelf AI coding tools and a purchased clone of a legitimate broker’s interface, highlighting the accessibility of AI-fraud infrastructure.`,
-    link: "https://odishatv.in/news/crime/bhubaneswar-ai-investment-fraud-arrest-2025"
+    title: "BJP Files EC Complaint Over AI Misinformation in Nuapada Bypoll",
+    date: "Nov 2025",
+    summary: `BJP approached the State Election Commission with a complaint against the BJD for allegedly circulating AI-generated distorted images of BJP leaders to mislead voters ahead of the Nuapada bypoll. The complaint demanded action under cyber laws and election conduct norms.`,
+    link: "https://argusenglish.in/odisha/bjp-files-complaint-against-bjd-over-ai-misinformation-ahead-of-nuapada-bypoll"
   },
 ],
 
@@ -1114,21 +1102,6 @@ const governanceData = {
   ],
 
   "Odisha": [
-
-    {
-      title: "Project SHIELD: Rourkela Smart City AI Surveillance — Privacy Concerns Raised",
-      date: "Nov 2024",
-      type: "Surveillance",
-      description: "Rourkela Smart City Corporation deployed 'Project SHIELD' — an AI-based city surveillance system integrating 1,400+ CCTV cameras with facial recognition, automated number plate recognition, and crowd density analysis. Civil society groups and lawyers raised concerns about the absence of a legislative data protection framework, lack of public notification, and potential for discriminatory profiling of tribal communities.",
-      link: "https://rourkela.smartcities.gov.in/project-shield"
-    },
-    {
-      title: "BJP Files EC Complaint Over AI Misinformation in Nuapada Bypoll",
-      date: "Nov 2025",
-      type: "Electoral Regulation",
-      description: "BJP approached the State Election Commission with a complaint against the BJD for allegedly circulating AI-generated distorted images of BJP leaders to mislead voters ahead of the Nuapada bypoll. The complaint demanded action under cyber laws and election conduct norms.",
-      link: "https://argusenglish.in/odisha/bjp-files-complaint-against-bjd-over-ai-misinformation-ahead-of-nuapada-bypoll"
-    },
     {
       title: "Odisha AI Policy 2025 & Odisha AI Mission (India's First State AI Policy)",
       date: "May 28, 2025",
