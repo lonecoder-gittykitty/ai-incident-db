@@ -1115,27 +1115,6 @@ const governanceData = {
 
   "West Bengal": [
     {
-      title: "Police Notices Issued Over Mamata Banerjee Deepfake Dancing Video",
-      date: "May 06, 2024",
-      type: "Law Enforcement",
-      description: "Kolkata Police issued notices under Section 42 CrPC to X (Twitter) users who shared a viral deepfake of CM Mamata Banerjee dancing, threatening legal action. The response highlighted the gendered nature of deepfake targeting and the legal tools available — though platform cooperation remained limited.",
-      link: "https://www.indiatoday.in/india/story/kolkata-police-notice-x-users-meme-spoof-video-mamata-banerjee-lil-yachty-2535968-2024-05-06"
-    },
-    {
-      title: "WEBEL — AI-Powered Surveillance for Safe City Project",
-      date: "Jun 25, 2023",
-      type: "Surveillance",
-      description: "West Bengal's WEBEL implemented AI-driven surveillance infrastructure across the state: CCTV-based Face Recognition System under the Safe City Project (Phase-II), an Intelligent Traffic Management System (ITMS) with AI-powered automatic number plate recognition, speed detection, and seat belt detection, plus AI-based attendance systems. Under the Nirbhaya Project, 1,020 CCTV cameras with AI capabilities were deployed within Kolkata Police jurisdiction for women's safety.",
-      link: "https://webel.in/Artificial-Intelligence"
-    },
-    {
-      title: "'Duare Sarkar' — Predictive Analytics for Doorstep Governance",
-      date: "Jan 24, 2025",
-      type: "Policy Framework",
-      description: "West Bengal's flagship 'Duare Sarkar' (Government at Doorstep) programme uses machine learning algorithms and predictive analytics to deliver public service benefits to citizens. The AI-powered portal enables enrollment across twelve identified welfare schemes, using data-driven targeting to match eligible beneficiaries with appropriate government services — representing one of India's largest state-level deployments of ML in direct citizen-centric welfare delivery.",
-      link: "https://indiaai.gov.in/government/government-of-west-bengal"
-    },
-    {
       title: "National Emerging Technology Summit & Bengal Silicon Valley AI Ecosystem",
       date: "Nov 25, 2024",
       type: "Policy",
