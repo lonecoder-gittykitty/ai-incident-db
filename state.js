@@ -173,17 +173,6 @@ A First Information Report (FIR) was filed under the IT Act for this offense.`,
     link: " https://timesofindia.indiatimes.com/city/raipur/cons-pose-as-cbi-rbi-officers-cops-to-dupe-raipur-residents/articleshow/123461900.cms"
 
   },
-  {
-    title: "Scams / Identity Fraud",
-    date: "Oct 11, 2025",
-    summary: `Chhattisgarh Police, under "Operation Cyber Shield," busted a big inter-state scam involving fake matrimony services.
-11 people were arrested from Jamshedpur (Jharkhand) and Bilaspur (Chhattisgarh). 
-The gang used 262 fake social media accounts on Instagram, Facebook, and YouTube to create "matrimony profiles." 
-Victims paid money into mule bank accounts to get "matrimonial details" (like biodata, address), but after payment, they were ghosted. 
-A case was registered for fraud involving 79 mule accounts in HDFC Bank. 
-Police said this scam reflects how social media is being misused to run financial frauds.`,
-    link: "https://timesofindia.indiatimes.com/city/raipur/cyber-shield-op-busts-massive-online-matrimony-scam-11-held-in-jharkhand-and-chhattisgarh/articleshow/124481969.cms"
-  }
 ],
 
 "Assam": [
