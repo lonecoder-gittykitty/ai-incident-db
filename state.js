@@ -851,12 +851,6 @@ link : 'https://www.boomlive.in/fact-check/viral-video-rally-protest-manipur-cla
       link: "https://factly.in/ai-generated-videos-are-being-falsely-shared-as-pm-modi-amit-shah-and-jaishankar-apologising-for-launching-operation-sindoor/"
     },
     {
-      title: "Operation Sindoor — Deepfake of Pakistan PM Shehbaz Sharif 'Conceding Defeat'",
-      date: "May 09, 2025",
-      summary: `A deepfake video of Pakistan PM Shehbaz Sharif, edited to show him lamenting defeat and a lack of support from China and the UAE, went viral across Indian social media during Operation Sindoor. The original video actually showed Sharif commending Pakistan's Air Force response. AI voice cloning and lip-sync technology were used to fabricate an entirely different speech. Fact-checkers at BOOM, Alt News, and IFJ debunked the clip. It was shared over 700,000 times before being widely debunked — illustrating how AI disinformation can outpace verification in wartime.`,
-      link: "https://www.ifj.org/media-centre/news/detail/category/ai/article/ifjblog-ai-deepfakes-and-the-fog-of-war-disinformation-in-the-2025-india-pakistan-conflict"
-    },
-    {
       title: "Deepfake of Former Indian Army Chief General Malik 'Praising Pakistan'",
       date: "Dec 19, 2025",
       summary: `Pakistani propaganda-linked accounts circulated a deepfake video falsely showing former Indian Army Chief General V.P. Malik praising Pakistan's military and admitting the destruction of Indian Rafale jets and S-400 systems. The original video was an ANI interview where General Malik actually said India has "better weapons and equipment" than Pakistan. Newschecker used Google Lens to trace the original. General Malik himself called it out publicly: "It is a deepfake. Pakistani ISI at work!" Security analysts noted such disinformation campaigns intensified after Operation Sindoor, targeting senior defence officials to undermine military morale.`,
@@ -868,14 +862,8 @@ link : 'https://www.boomlive.in/fact-check/viral-video-rally-protest-manipur-cla
       summary: `Deepfake videos of Chief of Naval Staff Admiral Dinesh K. Tripathi and the Director General of Naval Operations (DGNO) circulated, falsely showing them criticising the Indian government and admitting operational losses during Operation Sindoor. India's Deepfakes Analysis Unit (DAU) confirmed the audio in both clips was entirely synthetic. A separate deepfake targeted Army Chief General Upendra Dwivedi with a fabricated WION logo overlay — debunked by PIB Fact Check. The campaign was part of a coordinated cross-border information warfare operation timed with Pakistan's test of a ship-launched ballistic missile.`,
       link: "https://www.wionews.com/world/infowarfare-pakistan-uses-ai-deep-fakes-of-indian-military-leaders-to-spread-misinformation-indian-army-deep-fake-infowar-1764419695262"
     },
-    {
-      title: "Pahalgam to Operation Sindoor — India's Largest AI Disinformation Wave",
-      date: "May 07, 2025",
-      summary: `The April–May 2025 period saw India's worst AI-driven disinformation surge on record. After the Pahalgam attack and Operation Sindoor, social media was flooded with AI-generated images, deepfake military videos, fabricated government advisories, and recycled war footage from Gaza, Iran, and Sudan falsely labelled as Indian military operations. BOOM published 69 Operation Sindoor-related fact-checks in 4 days; 68% contained old or unrelated footage. Grok AI chatbot on X spread false battlefield claims, outpacing human fact-checkers by a factor of 86 (MIT study). Fake donation campaigns, phishing links disguised as news alerts, and AI-generated "ATM shutdown" warnings went viral. Times Now, Zee News, ABP News, and Aaj Tak aired unverified AI content as news.`,
-      link: "https://www.boomlive.in/boom-research/boom-misinformation-report-may-2025-operation-sindoor-india-pakistan-armed-conflict-28733"
-    }
   ],
-  
+
   "Meghalaya": [
     {
       title: "Deepfake Controversy — 'Sweet Zannat' Influencer Case",
