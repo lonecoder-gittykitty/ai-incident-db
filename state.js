@@ -976,48 +976,6 @@ Experts confirmed the clip had markers of AI body-swap deepfake technology. The 
       link: "https://zeenews.india.com/viral/year-ender-2025-viral-videos-19-minute-mms-leaks-digital-privacy-2999174.html"
     },
     {
-      title: "₹424 Lakh Lost to Cybercrime — Meghalaya's Growing Digital Vulnerability",
-      date: "2023 (documented 2024)",
-      summary: `According to government data reported via the Citizen Financial Cyber Fraud Reporting Management System, Meghalaya recorded 654 cybercrime complaints involving ₹424.2 lakh in attempted fraud in 2023.
-While not all cases were AI-specific, the trend reflects rising digital vulnerability in a state with low digital literacy. Experts noted that AI-enabled phishing and scam calls are increasingly penetrating smaller northeastern states as smartphone adoption rises.`,
-      link: "https://www.sentinelassam.com/topheadlines/assam-7621-cases-of-cyber-fraud-in-2023"
-    },
-    {
-      title: "National Commission for Women Takes Cognisance of AI Deepfake MMS Cases",
-      date: "Nov 2025",
-      type: "Judicial Action",
-      description: "The National Commission for Women (NCW) took suo motu cognisance of a wave of AI-generated deepfake MMS scandals targeting women content creators in November 2025, including the 'Sweet Zannat' case from Meghalaya. The NCW issued notices to state police and directed them to file FIRs under the Prohibition of Sexually Explicit Deep Fake Material Rules 2025 and the IT Act. The Commission also called for platforms to deploy automated deepfake detection before content goes viral.",
-      link: "https://zeenews.india.com/viral/year-ender-2025-viral-videos-19-minute-mms-leaks-digital-privacy-2999174.html"
-    },
-    {
-      title: "Citizen Financial Cyber Fraud Reporting System — Meghalaya Enrolled",
-      date: "2023 (documented 2024)",
-      type: "Law Enforcement",
-      description: "Meghalaya is enrolled in the Ministry of Home Affairs' Citizen Financial Cyber Fraud Reporting and Management System, through which 654 cybercrime complaints involving ₹424.2 lakh were registered in 2023. The system enables real-time coordination between police, banks, and payment platforms to freeze fraudulent transactions within the golden hour. Meghalaya Police Cyber Cell has been directed by I4C to increase capacity for AI-enabled fraud detection as cases rise.",
-      link: "https://www.sentinelassam.com/topheadlines/assam-7621-cases-of-cyber-fraud-in-2023"
-    },
-    {
-      title: "Prohibition of Sexually Explicit Deep Fake Material Rules, 2025 — Northeast Application",
-      date: "2025",
-      type: "Legislation",
-      description: "The central government's Prohibition of Sexually Explicit Deep Fake Material Rules 2025 directly applies to cases like the 'Sweet Zannat' deepfake controversy in Meghalaya. The rules criminalise creation, storage, and distribution of AI-generated sexually explicit content of identifiable individuals. Offenders face up to 7 years imprisonment and fines up to ₹10 lakh. State police in the Northeast have been directed by MeitY to register cases under these rules in addition to existing IT Act provisions.",
-      link: "https://www.meity.gov.in"
-    },
-    {
-      title: "First Regional AI Impact Conference 2025 & Data/AI Lab MoU",
-      date: "Dec 04, 2025",
-      type: "Policy Framework",
-      description: "Meghalaya hosted India's first Regional AI Impact Conference (December 2025) in Shillong, organised by IndiaAI Mission and MeitY with IIM Shillong, attracting 700+ delegates. CM Conrad Sangma unveiled AI use in weather prediction for farmers, pregnant mother tracking, and spring mapping. An MoU with IndiaAI established two Data & AI Labs, plus BHASHINI Hackathon for Khasi and Garo language AI model training was launched.",
-      link: "https://newsable.asianetnews.com/amp/india/meghalayas-first-regional-ai-conference-focuses-on-citizen-empowerment-articleshow-k6bphlz"
-    },
-    {
-      title: "Meghalaya AI for Good Society (MAIGS) — Ethical AI Governance Body",
-      date: "Dec 03, 2025",
-      type: "Policy Framework",
-      description: "Meghalaya launched the Meghalaya AI for Good Society (MAIGS) at the Regional AI Impact Conference (December 2025) — a dedicated body ensuring AI adoption in the state remains safe, transparent, and people-centric. MAIGS introduced free Ethical AI Badges and Certifications for individuals and organisations, establishing ethical guardrails against algorithmic bias, privacy violations, and opaque decision-making as AI expands across governance, healthcare, and education sectors.",
-      link: "https://themeghalayanexpress.com/maigs-to-ensure-safe-people-centric-use-of-ai/"
-    },
-    {
       title: "Shillong Lawyer Loses ₹90,000 to AI Voice Scam Mimicking Senior Advocate",
       date: "Nov 25, 2025",
       summary: `A Shillong-based lawyer received an AI-generated voice call perfectly mimicking her senior advocate, instructing her to transfer money urgently. She complied and transferred ₹90,000 before realising the fraud. The transaction was traced through multiple phone numbers linked to Bihar and Haryana; authorities arrested a man whose SIM card had been misused — Justice HS Thangkhiew noted he "had no idea his number was being used." The case was highlighted at a High Court of Meghalaya training programme on emerging cyber threats, demonstrating how modern AI voice crimes operate across jurisdictions with no physical criminal presence in the victim's state.`,
@@ -1028,12 +986,6 @@ While not all cases were AI-specific, the trend reflects rising digital vulnerab
       date: "2024",
       summary: `Over 700 Meghalaya residents fell victim to a fraudulent investment scheme through the "Datameer" (also known as "DAAI") app, which promised unrealistic returns of up to 40%. Victims invested savings believing the platform was legitimate; Meghalaya Police recovered only ₹2.42 crore from the enormous amounts defrauded. The scam operated through AI-assisted customer interfaces that simulated profit dashboards and delayed withdrawals, preventing victims from realising they had been cheated until the app stopped responding. The case became Meghalaya's largest documented online investment fraud.`,
       link: "https://hubnetwork.in/meghalaya-police-bust-multi-crore-online-investment-scam-over-700-victims-defrauded/"
-    },
-    {
-      title: "Cybercrime Helpline Calls Increase 8x in Two Years — AI Fraud Driving Surge",
-      date: "2024",
-      summary: `Calls to the National Cyber Crime Helpline from Meghalaya increased eightfold — from 1,069 calls in 2022 to 8,414 calls in 2024. Law enforcement officials attributed the surge primarily to AI-enabled fraud: voice cloning scams, deepfake investment videos featuring celebrity faces, and fake government impersonation calls. The scale of the increase, in a state with limited cybercrime investigation infrastructure, reflects a structural gap between rising AI-enabled harm and state capacity to respond.`,
-      link: "https://assamtribune.com/north-east/shillong-lawyer-duped-of-rs-90000-in-ai-voice-scam-mimicking-senior-advocate-1599026"
     }
   ],
   
@@ -1356,6 +1308,44 @@ While not all cases were AI-specific, the trend reflects rising digital vulnerab
 // GOVERNANCE DATA — state-wise policy & legal responses
 // ─────────────────────────────────────────────────────────
 const governanceData = {
+
+  "Meghalaya": [
+    {
+      title: "National Commission for Women Takes Cognisance of AI Deepfake MMS Cases",
+      date: "Nov 2025",
+      type: "Judicial Action",
+      description: "The National Commission for Women (NCW) took suo motu cognisance of a wave of AI-generated deepfake MMS scandals targeting women content creators in November 2025, including the 'Sweet Zannat' case from Meghalaya. The NCW issued notices to state police and directed them to file FIRs under the Prohibition of Sexually Explicit Deep Fake Material Rules 2025 and the IT Act. The Commission also called for platforms to deploy automated deepfake detection before content goes viral.",
+      link: "https://zeenews.india.com/viral/year-ender-2025-viral-videos-19-minute-mms-leaks-digital-privacy-2999174.html"
+    },
+    {
+      title: "Citizen Financial Cyber Fraud Reporting System — Meghalaya Enrolled",
+      date: "2023 (documented 2024)",
+      type: "Law Enforcement",
+      description: "Meghalaya is enrolled in the Ministry of Home Affairs' Citizen Financial Cyber Fraud Reporting and Management System, through which 654 cybercrime complaints involving ₹424.2 lakh were registered in 2023. The system enables real-time coordination between police, banks, and payment platforms to freeze fraudulent transactions within the golden hour. Meghalaya Police Cyber Cell has been directed by I4C to increase capacity for AI-enabled fraud detection as cases rise.",
+      link: "https://www.sentinelassam.com/topheadlines/assam-7621-cases-of-cyber-fraud-in-2023"
+    },
+    {
+      title: "Prohibition of Sexually Explicit Deep Fake Material Rules, 2025 — Northeast Application",
+      date: "2025",
+      type: "Legislation",
+      description: "The central government's Prohibition of Sexually Explicit Deep Fake Material Rules 2025 directly applies to cases like the 'Sweet Zannat' deepfake controversy in Meghalaya. The rules criminalise creation, storage, and distribution of AI-generated sexually explicit content of identifiable individuals. Offenders face up to 7 years imprisonment and fines up to ₹10 lakh. State police in the Northeast have been directed by MeitY to register cases under these rules in addition to existing IT Act provisions.",
+      link: "https://www.meity.gov.in"
+    },
+    {
+      title: "First Regional AI Impact Conference 2025 & Data/AI Lab MoU",
+      date: "Dec 04, 2025",
+      type: "Policy Framework",
+      description: "Meghalaya hosted India's first Regional AI Impact Conference (December 2025) in Shillong, organised by IndiaAI Mission and MeitY with IIM Shillong, attracting 700+ delegates. CM Conrad Sangma unveiled AI use in weather prediction for farmers, pregnant mother tracking, and spring mapping. An MoU with IndiaAI established two Data & AI Labs, plus BHASHINI Hackathon for Khasi and Garo language AI model training was launched.",
+      link: "https://newsable.asianetnews.com/amp/india/meghalayas-first-regional-ai-conference-focuses-on-citizen-empowerment-articleshow-k6bphlz"
+    },
+    {
+      title: "Meghalaya AI for Good Society (MAIGS) — Ethical AI Governance Body",
+      date: "Dec 03, 2025",
+      type: "Policy Framework",
+      description: "Meghalaya launched the Meghalaya AI for Good Society (MAIGS) at the Regional AI Impact Conference (December 2025) — a dedicated body ensuring AI adoption in the state remains safe, transparent, and people-centric. MAIGS introduced free Ethical AI Badges and Certifications for individuals and organisations, establishing ethical guardrails against algorithmic bias, privacy violations, and opaque decision-making as AI expands across governance, healthcare, and education sectors.",
+      link: "https://themeghalayanexpress.com/maigs-to-ensure-safe-people-centric-use-of-ai/"
+    }
+  ],
 
   "Andhra Pradesh": [
     {
