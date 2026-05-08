@@ -435,17 +435,17 @@ link: "https://www.business-standard.com/pti-stories/national/andhra-police-bust
 
 "Tripura": [
   {
-    title: "Tripura Communal Violence (Oct 2021) – Social Media Algorithmic Amplification & Misinformation",
-    date: " 5 Nov 2021", 
-    summary: `In October 2021, large rallies by groups like VHP, Bajrang Dal, RSS, and Hindu Jagran Manch in Tripura turned violent after claims of attacks on Hindus in Bangladesh.
-The violence led to mosques vandalized, Muslim shops burnt, and homes attacked across districts such as Panisagar and Gomati.
-The situation escalated due to communal messaging and rumors spread through WhatsApp and Facebook.`,
-    link: "https://www.aljazeera.com/news/2021/11/5/india-tripura-muslims-mosques-violence-bjp-vhp"
+    title: "Agartala Municipal Corporation Defrauded of ₹16.38 Crore in AI-Assisted Scam",
+    date: "2024",
+    summary: `The Agartala Municipal Corporation (AMC) — a government body — was defrauded of ₹16.38 crore in a sophisticated impersonation and social engineering scheme. Fraudsters used AI-generated official documentation and identity cloning to pose as government contractors and extract payments. The case highlights how AI-enabled fraud has moved beyond targeting individual citizens to directly defrauding public institutions, threatening governance infrastructure in smaller northeastern states with limited cybersecurity protocols.`,
+    link: "https://www.sentinelassam.com/north-east-india-news/tripura-news/tripura-agartala-municipal-corporation-defrauded-of-rs-1638-crore-in-scam"
   },
-  // {
-  //   title: "-",
-  //   date: "-"
-  // }
+  {
+    title: "Tripura Teacher Loses ₹56,176 in Online Fraud — Pattern of Small-Town Targeting",
+    date: "2025",
+    summary: `A teacher from Belonia, Tripura, lost ₹56,176 in an online fraud and urged police action. The case exemplifies the targeting of government employees and educators in Tripura's smaller towns through AI-assisted phishing and impersonation calls. Victims in tier-2 towns of northeastern states are particularly vulnerable due to limited digital literacy, absence of local cybercrime units, and lack of awareness about AI-enabled fraud methods. The teacher's case highlights that even educated professionals with stable income are being successfully targeted by increasingly sophisticated AI-enabled scams.`,
+    link: "https://northeasttoday.in/northeast/tripura-belonia-teacher-loses-rs-56176-in-online-fraud-urges-police-action/"
+  }
 ],
 
 "Uttarakhand": [
@@ -1781,13 +1781,6 @@ const governanceData = {
 
   "Tripura": [
     {
-      title: "Post-Violence Social Media Review Prompts Platform Content Removal",
-      date: "Nov 05, 2021",
-      type: "Platform Action",
-      description: "Following communal violence in Tripura in October 2021 — escalated by WhatsApp and Facebook misinformation — platforms removed flagged content under government direction. The incident prompted early calls for algorithmic accountability and faster content moderation in communally sensitive regions.",
-      link: "https://www.aljazeera.com/news/2021/11/5/india-tripura-muslims-mosques-violence-bjp-vhp"
-    },
-    {
       title: "India's First State AI Policy & Tripura AI Centre of Excellence",
       date: "Feb 27, 2026",
       type: "Policy Framework",
@@ -1801,30 +1794,6 @@ const governanceData = {
       description: "Tripura — India's only fully paperless state from Cabinet to Gram Panchayats — began integrating AI tools into e-Office, e-Cabinet, and the Beneficiary Management System (BMS) for data-driven decision-making and faster service delivery. The Directorate of Economics & Statistics conducted a three-day generative AI workshop upskilling 60+ officials (including census personnel) in AI-enabled governance, planning, and policy formulation.",
       link: "https://apacnewsnetwork.com/2025/05/tripura-to-integrate-ai-tools-into-administrative-processes-for-efficient-governance/"
     },
-    {
-      title: "₹51.49 Crore Lost to Cyber Fraud in Tripura — 269 Victims",
-      date: "Jul 2025",
-      summary: `Tripura's DGP released official figures showing ₹51.49 crore lost to cyber fraud, affecting 269 individuals across the state. Losses grew exponentially: ₹1.98 crore (2021) → ₹4.62 crore (2022) → ₹9 crore (2023) → ₹25.54 crore (2024) → ₹9.77 crore (Jan–Jul 2025 alone). Digital arrest scams using AI-generated police impersonation, fake government portals, and deepfake video calls are leading methods. Only ₹33.84 lakh has been recovered. Authorities have seized 20,387 bank accounts linked to cybercrime and frozen ₹5.76 crore expected to be refunded. Tripura lacks a dedicated cyber police station, severely limiting investigation capacity.`,
-      link: "https://northeasttoday.in/northeast/cyber-fraud-of-%E2%82%B9514933303-reported-in-tripura-dgp-anurag-urges-citizens-to-stay-vigilant/"
-    },
-    {
-      title: "Five-Member Fraud Gang Busted in East Agartala Using AI Impersonation",
-      date: "Feb 27, 2025",
-      summary: `East Agartala Police Station officials raided and arrested a five-member fraud gang operating AI-assisted digital arrest scams. The gang impersonated police, tax officials, and government agents using fake official IDs, deepfake video call setups, and AI-generated authority letters. Multiple mobile phones, Aadhaar cards, PAN cards, ATM cards, bank passbooks, and cash were seized. The gang operated interstate, targeting victims across Tripura and neighbouring states with fake electricity/gas bills, RTO challans, and lottery fraud as additional vectors.`,
-      link: "https://www.northeasttoday.in/2025/02/27/tripura-five-member-fraud-gang-busted-in-police-raid-cybercrime-investigation-underway/"
-    },
-    {
-      title: "Agartala Municipal Corporation Defrauded of ₹16.38 Crore in AI-Assisted Scam",
-      date: "2024",
-      summary: `The Agartala Municipal Corporation (AMC) — a government body — was defrauded of ₹16.38 crore in a sophisticated impersonation and social engineering scheme. Fraudsters used AI-generated official documentation and identity cloning to pose as government contractors and extract payments. The case highlights how AI-enabled fraud has moved beyond targeting individual citizens to directly defrauding public institutions, threatening governance infrastructure in smaller northeastern states with limited cybersecurity protocols.`,
-      link: "https://www.sentinelassam.com/north-east-india-news/tripura-news/tripura-agartala-municipal-corporation-defrauded-of-rs-1638-crore-in-scam"
-    },
-    {
-      title: "Tripura Teacher Loses ₹56,176 in Online Fraud — Pattern of Small-Town Targeting",
-      date: "2025",
-      summary: `A teacher from Belonia, Tripura, lost ₹56,176 in an online fraud and urged police action. The case exemplifies the targeting of government employees and educators in Tripura's smaller towns through AI-assisted phishing and impersonation calls. Victims in tier-2 towns of northeastern states are particularly vulnerable due to limited digital literacy, absence of local cybercrime units, and lack of awareness about AI-enabled fraud methods. The teacher's case highlights that even educated professionals with stable income are being successfully targeted by increasingly sophisticated AI-enabled scams.`,
-      link: "https://northeasttoday.in/northeast/tripura-belonia-teacher-loses-rs-56176-in-online-fraud-urges-police-action/"
-    }
   ],
 
   "Haryana/ Delhi": [
