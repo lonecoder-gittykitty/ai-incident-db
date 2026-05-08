@@ -299,16 +299,6 @@ Significance: The case is a clear example of the misuse of AI technology (deepfa
     link: "https://asianews.network/man-held-for-posting-ai-generated-morphed-video-of-cm-of-indias-odisha-on-social-media-platform/#:~:text=social%20media%20platform-,Man%20held%20for%20posting%20AI%2Dgenerated%20morphed%20video%20of%20CM,construction%20company%20in%20Rayagada%20district."
   },
   {
-    title: "AI-Generated Misinformation Controversy in Nuapada Bypoll",
-    date: "11 nov,2025",
-    summary: `BJP filed a complaint with the State Election Commission against the BJD.
-The complaint states that AI-generated distorted images of BJP leaders were circulated on social media.
-BJP alleges this was done to mislead voters and damage the party’s reputation ahead of the bypoll.
-The party demands strict action under cyber laws to ensure a fair and ethical election process.
-The issue has intensified political tensions during the ongoing election campaigns.`,
-    link: "https://argusenglish.in/odisha/bjp-files-complaint-against-bjd-over-ai-misinformation-ahead-of-nuapada-bypoll"
-  },
-  {
     title: "Bhubaneswar Records 7,263 Cybercrime Cases in 2024 — AI Fraud Dominant Category",
     date: "Jan 2025",
     summary: `Bhubaneswar Commissionerate Police registered 7,263 cybercrime complaints in 2024, a 34% increase over 2023. Of these, AI-enhanced fraud — including deepfake investment scams, digital arrest impersonation, and voice-cloned emergency calls — accounted for the largest share. The Odisha Cyber Crime Unit recovered ₹18.4 crore through rapid fund-freeze mechanisms for 1,240 victims. Bhubaneswar leads Odisha in AI-assisted crime, driven by rapid digitisation and growing middle-class internet penetration.`,
@@ -326,12 +316,6 @@ The issue has intensified political tensions during the ongoing election campaig
     summary: `Odisha Economic Offences Wing arrested a Bhubaneswar resident for orchestrating a ₹2.06 crore investment fraud using an AI-generated fake stock trading platform. The platform displayed fabricated real-time market data and used deepfake videos of SEBI officials to ‘verify’ the platform’s legitimacy. Over 60 victims across Odisha, Jharkhand, and West Bengal were defrauded. The accused built the platform using off-the-shelf AI coding tools and a purchased clone of a legitimate broker’s interface, highlighting the accessibility of AI-fraud infrastructure.`,
     link: "https://odishatv.in/news/crime/bhubaneswar-ai-investment-fraud-arrest-2025"
   },
-  {
-    title: "Project SHIELD: Rourkela Smart City Deploys AI Surveillance — Privacy Concerns Raised",
-    date: "Nov 2024",
-    summary: `Rourkela Smart City Corporation deployed ‘Project SHIELD’ — an AI-based city surveillance system integrating 1,400+ CCTV cameras with facial recognition, automated number plate recognition, and crowd density analysis. The system is monitored from a central command centre at Rourkela Police Headquarters. While crime detection rates improved, civil society groups and lawyers in Rourkela raised concerns about the absence of a legislative data protection framework governing the system’s facial recognition database, lack of public notification, and potential for discriminatory profiling of tribal communities.`,
-    link: "https://rourkela.smartcities.gov.in/project-shield"
-  }
 ],
 
 "Andhra Pradesh": [
@@ -1554,12 +1538,13 @@ const governanceData = {
   ],
 
   "Odisha": [
+
     {
-      title: "Man Arrested for AI-Morphed Video of Chief Minister",
-      date: "Jun 19, 2025",
-      type: "Law Enforcement",
-      description: "Odisha's Cyber Crime Unit arrested Kishore Kausalya for creating and posting an AI-generated morphed video of CM Mohan Majhi on Facebook. Facebook removed the content, and the accused was remanded to judicial custody under multiple criminal sections — an early test of legal accountability for political deepfakes.",
-      link: "https://asianews.network/man-held-for-posting-ai-generated-morphed-video-of-cm-of-indias-odisha-on-social-media-platform/"
+      title: "Project SHIELD: Rourkela Smart City AI Surveillance — Privacy Concerns Raised",
+      date: "Nov 2024",
+      type: "Surveillance",
+      description: "Rourkela Smart City Corporation deployed 'Project SHIELD' — an AI-based city surveillance system integrating 1,400+ CCTV cameras with facial recognition, automated number plate recognition, and crowd density analysis. Civil society groups and lawyers raised concerns about the absence of a legislative data protection framework, lack of public notification, and potential for discriminatory profiling of tribal communities.",
+      link: "https://rourkela.smartcities.gov.in/project-shield"
     },
     {
       title: "BJP Files EC Complaint Over AI Misinformation in Nuapada Bypoll",
