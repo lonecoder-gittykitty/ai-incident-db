@@ -484,37 +484,6 @@ The victim filed a complaint at the Cyber Crime Police Station, which registered
     link: "https://www.aljazeera.com/news/2024/2/20/deepfake-democracy-behind-the-ai-trickery-shaping-indias-2024-elections"
 
   },
-  {
-    title: "Three AI-Enabled Cyber Fraud Cases Registered in a Single Day in Sikkim",
-    date: "Oct 2024",
-    summary: `Gangtok police registered three separate AI-enabled cyber fraud cases in a single day in October 2024 — an unprecedented surge for a state with a population under 700,000. The cases included a digital arrest scam (victim lost ₹3.8 lakh), a deepfake investment fraud using a fabricated celebrity endorsement (₹2.1 lakh lost), and a voice-cloning emergency scam targeting an elderly couple (₹1.4 lakh lost). Cyber crime experts cited the 'democratisation' of AI fraud tools as enabling scammers to scale operations into previously low-target states.`,
-    link: "https://www.sikkimexpress.com/news-details/cyber-fraud-cases-gangtok"
-  },
-  {
-    title: "Serial Cyber Accused From Gangtok Ran AI Deepfake Fraud Ring Across Four States",
-    date: "Mar 2025",
-    summary: `A Gangtok-based accused identified as a repeat cyber offender was arrested in March 2025 for running a coordinated AI deepfake fraud network spanning Sikkim, West Bengal, Bihar, and Assam. The accused used generative AI to create fake investment platforms with deepfaked video testimonials of senior businesspeople, defrauding over 40 victims of a combined ₹38 lakh. Sikkim Police coordinated with Kolkata cyber police to effect the arrest. The case marked the first multi-state AI fraud prosecution originating in Sikkim.`,
-    link: "https://www.sikkimexpress.com/news-details/gangtok-accused-deepfake-fraud"
-  },
-  {
-    title: "AI Voice Cloning Fake Kidnapping — Yamuna Vihar, Delhi",
-    date: "Oct 2023",
-    summary: `Lakshmi Chand Chawla, 62, of Yamuna Vihar, Northeast Delhi, received a WhatsApp call in which he heard what sounded exactly like his 25-year-old cousin's son crying and claiming he had been kidnapped. The caller demanded money. Chawla transferred ₹50,000 before contacting the family and discovering the nephew was safe at home. FIR registered by DCP (Northeast) Joy Tirkey. One of Delhi's first documented cases of AI-based voice cloning used to simulate a kidnapping for extortion.`,
-    link: "https://www.indiatvnews.com/crime/delhi-cyber-thugs-dupe-man-by-using-ai-voice-cloning-technology-to-fake-his-relative-s-kidnapping-2023-12-12-906949"
-  },
-  {
-    title: "Rashmika Mandanna Deepfake — Creator Arrested by Delhi Police Special Cell",
-    date: "Nov 2023",
-    summary: `In November 2023, a morphed video showing actress Rashmika Mandanna entering an elevator — originally of British-Indian influencer Zara Patel — went viral. Delhi Police Special Cell traced the creator via IP address to a 24-year-old engineer from Andhra Pradesh and arrested him within weeks. FIR registered under IPC Sections 465 and 469, and Sections 66C and 66E of the IT Act, on a complaint by the Delhi Commission for Women. The case prompted MeitY to issue a formal advisory requiring social media platforms to act on deepfake content within 24 hours.`,
-    link: "https://www.business-standard.com/amp/india-news/rashmika-mandanna-thanks-delhi-police-after-deepfake-video-creator-arrested-124012100166_1.html"
-  },
-  {
-    title: "Delhi Police Facial Recognition — 80% Acquittal Rate in NE Delhi Riot Cases",
-    date: "2021",
-    summary: `An investigation by The Wire and the Pulitzer Center documented how Delhi Police deployed facial recognition technology in 750+ cases related to the North East Delhi communal riots of February 2020. Among documented cases, Mohammad Shahid and Ali were arrested primarily on the basis of blurry CCTV images matched by an algorithm, with minimal corroborating evidence. Delhi police's FRT system was reported to have a verified accuracy rate of only 2%, and surveillance was disproportionately concentrated in Muslim-majority neighbourhoods. More than 80% of riot-related FRT cases resulted in acquittals or discharges.`,
-    link: "https://pulitzercenter.org/stories/ai-took-over-policing-delhi-who-bore-brunt"
-  }
-
 ],
 
   "Punjab": [
