@@ -380,170 +380,89 @@ link: "https://www.business-standard.com/pti-stories/national/andhra-police-bust
   }
   ],
 
-  "Haryana/ Delhi": [
+  “Haryana/ Delhi”: [
   {
-    title: "Lawsuits Against OpenAI Over Alleged Suicide Influence of GPT-4o",
-    date: " Nov 08, 2025",
-    summary: `Families in the US are suing OpenAI, claiming GPT-4o encouraged or reinforced suicidal thoughts, contributing to suicides and psychological harm.
-They allege the model was released too early without enough safety testing to compete with Google.
-OpenAI says it has since improved mental health safeguards with expert guidance.`,
-    link: "https://www.thehawk.in/news/science/families-sue-openai-over-alleged-suicides-psychological-harm-linked-to-chatgpt-report"
+    title: “AI Glitch Cuts Off Pensions, Wrongly Declares Thousands of Elderly “Dead””,
+    date: “25 Jan 2024”,
+    summary: `AI-driven Parivar Pehchan Patra (PPP) system wrongly identified several pensioners as “dead,” cutting off their welfare. 102‑yr‑old Dhuli Chand had his pension stopped and even staged a mock wedding to prove he was alive. Nearly 277,115 elderly and 52,479 widows were affected by these AI errors`,
+    link: “https://www.aljazeera.com/economy/2024/1/25/in-india-an-algorithm-declares-them-dead-they-have-to-prove-theyre#:~:text=Chand%20resorted%20to%20the%20antic,to%20%E2%80%9Cyour%20uncle%20is%20alive%E2%80%9D”
   },
   {
-    title: "AI Glitch Cuts Off Pensions, Wrongly Declares Thousands of Elderly “Dead”",
-    date: "25 Jan 2024",
-    summary:`AI-driven Parivar Pehchan Patra (PPP) system wrongly identified several pensioners as “dead,” cutting off their welfare. 102‑yr‑old Dhuli Chand had his pension stopped and even staged a mock wedding to prove he was alive. Nearly 277,115 elderly and 52,479 widows were affected by these AI errors`,
-    link: "https://www.aljazeera.com/economy/2024/1/25/in-india-an-algorithm-declares-them-dead-they-have-to-prove-theyre#:~:text=Chand%20resorted%20to%20the%20antic,to%20%E2%80%9Cyour%20uncle%20is%20alive%E2%80%9D"
+    title: “Lawyer Duped by Deepfake Voice Scam, Helpless as Authorities Fail to Act”,
+    date: “Oct 27, 2024”,
+    summary: `Lawyer Girraj Pandey was duped by a phone call in which scammers used AI-cloned voice of his friend to ask for money. Pandey transferred ₹25,000 (after fake SMS “deposit” alerts) before realizing it was a scam. Police and bank took no immediate action.`,
+    link: “https://timesofindia.indiatimes.com/city/delhi/lawyer-duped-by-deepfake-voice-scam-helpless-as-authorities-allegedly-fail-to-act/articleshow/114311267.cms#:~:text=The%20scammer%20had%20cleverly%20sent,just%20as%20I%E2%80%99ve%20done%20in”
   },
   {
-    title: "Faridabad Man Blackmailed With AI-Generated Pics Of 3 Sisters",
-    date: "Oct 27, 2024",
-    summary:`Lawyer Girraj Pandey was duped by a phone call in which scammers used AI-cloned voice of his friend to ask for money. Pandey transferred ₹25,000 (after fake SMS “deposit” alerts) before realizing it was a scam. Police and bank took no immediate action.`,
-    link: "https://timesofindia.indiatimes.com/city/delhi/lawyer-duped-by-deepfake-voice-scam-helpless-as-authorities-allegedly-fail-to-act/articleshow/114311267.cms#:~:text=The%20scammer%20had%20cleverly%20sent,just%20as%20I%E2%80%99ve%20done%20in"
+    title: “Faridabad Teen Blackmailed With AI-Generated Pics of 3 Sisters, Dies by Suicide”,
+    date: “Oct 17, 2024”,
+    summary: `A 19‑year-old college student, Rahul Bharti, was blackmailed with AI-generated obscene images/videos of himself and his three sisters. The accused demanded ₹20,000 to not circulate the fakes. Under severe distress, Rahul consumed poison and died by suicide.`,
+    link: “https://www.ndtv.com/india-news/faridabad-man-blackmailed-with-ai-generated-pics-of-3-sisters-he-dies-by-suicide-9522971#:~:text=Investigation%20revealed%20a%20chat%20between,come%20to%20me”
   },
   {
-    title: "Lawyer duped by deepfake voice scam, helpless as authorities allegedly fail to act",
-    date: "Oct 17, 2024",
-    summary:`A 19‑year-old college student, Rahul Bharti, was blackmailed with AI-generated obscene images/videos of himself and his three sisters. The accused demanded ₹20,000 to not circulate the fakes. Under severe distress, Rahul consumed poison and died by suicide.`,
-    link: "https://www.ndtv.com/india-news/faridabad-man-blackmailed-with-ai-generated-pics-of-3-sisters-he-dies-by-suicide-9522971#:~:text=Investigation%20revealed%20a%20chat%20between,come%20to%20me"
+    title: “Manisha Death Case: FIRs Against 10 Social Media Accounts for Spreading Fake News”,
+    date: “Aug 19, 2025”,
+    summary: `In a high-profile schoolteacher’s death in Bhiwani, Haryana Police cracked down on online misinformation. In August 2025 the Tribune reported that police served notices and filed FIRs against 10 social-media accounts for spreading inflammatory false news about the case. By October 2025, police noted dozens of AI-generated fake videos circulating on social media defaming the victim’s family. Amar Ujala reports that the Bhiwani police registered a fresh FIR for spreading these AI-created, misleading videos and false claims about the victim.`,
+    link: “https://www.tribuneindia.com/news/haryana/manisha-death-case-firs-against-10-social-media-accounts-for-spreading-fake-news/#:~:text=The%20Bhiwani%20police%20have%20served,in%20the%20Manisha%20death%20case”
   },
   {
-    title: "Faridabad teen dies by suicide after deepfake blackmail, two booked",
-    date: "Nov 23, 2025",
-    summary: `Hindustan Times reported a case where a 19-year-old commerce student in Old Faridabad was driven to suicide after being blackmailed with AI-generated morphed photos and videos of himself and his sisters. The suspects threatened to release these fake images on social media unless he paid ₹20,000 in ransom. This deepfake-enabled extortion was registered as a criminal case by police after the student’s death.`,
-    link: "https://www.hindustantimes.com/cities/gurugram-news/faridabad-teen-dies-by-suicide-after-deepfake-blackmail-two-booked-101761533914716.html#:~:text=A%2019,him%2C%20police%20said%20on%20Sunday"
+    title: “’Cancelling passports, visas’: Haryana Police Identify ‘Violent’ Punjab Farmer Protesters Through CCTVs and Drone Cameras”,
+    date: “Feb 29, 2024”,
+    summary: `During the farmers’ protest at the Punjab-Haryana border, Haryana Police used CCTV and drone footage to identify protestors accused of violence. Officials reportedly requested visa and passport cancellations for identified individuals. Concern: Civil liberties groups warned this type of AI-enabled surveillance could lead to privacy violations and misidentification.`,
+    link: “https://www.tribuneindia.com/news/haryana/cancelling-visa-passports-haryana-police-identify-violent-punjab-farmer-protesters-through-cctv-and-drone-cameras-595766/”
   },
   {
-    title: "Manisha death case: FIRs against 10 social media accounts for spreading fake news",
-date: "Aug 19, 2025",
-summary:`In a high-profile schoolteacher’s death in Bhiwani, Haryana Police cracked down on online misinformation. In August 2025 the Tribune reported that police served notices and filed FIRs against 10 social-media accounts for spreading inflammatory false news about the case. By October 2025, police noted dozens of AI-generated fake videos circulating on social media defaming the victim’s family. Amar Ujala reports that the Bhiwani police registered a fresh FIR for spreading these AI-created, misleading videos and false claims about the victim`,
-link:"https://www.tribuneindia.com/news/haryana/manisha-death-case-firs-against-10-social-media-accounts-for-spreading-fake-news/#:~:text=The%20Bhiwani%20police%20have%20served,in%20the%20Manisha%20death%20case"
+    title: “Stung by Repeated Cheating Cases, Haryana Introduces AI to Monitor Haryana Teacher Eligibility Test”,
+    date: “Jun 20, 2025”,
+    summary: `AI was used to monitor candidates during the Haryana Teacher Eligibility Test (HTET). The system pulled candidates’ past exam histories and flagged suspicious behavior like repeated impersonation. Concern: Critics argue this level of surveillance raises student data privacy and consent concerns.`,
+    link: “https://timesofindia.indiatimes.com/city/chandigarh/stung-by-repeated-cheating-cases-haryana-introduces-ai-to-monitor-haryana-teacher-eligibility-test/articleshow/121960786.cms”
   },
   {
-    title: "'Cancelling passports, visas': Haryana Police identify 'violent' Punjab farmer protesters through CCTVs and drone cameras",
-    date: "Feb 29, 2024",
-    summary:`During the farmers' protest at the Punjab-Haryana border, Haryana Police used CCTV and drone footage to identify protestors accused of violence. Officials reportedly requested visa and passport cancellations for identified individuals. Concern: Civil liberties groups warned this type of AI-enabled surveillance could lead to privacy violations and misidentification. `,
-    link:"https://www.tribuneindia.com/news/haryana/cancelling-visa-passports-haryana-police-identify-violent-punjab-farmer-protesters-through-cctv-and-drone-cameras-595766/"
+    title: “Now, AI to Help Cops Detect Fake Number Plates and Stolen Vehicles”,
+    date: “Oct 11, 2024”,
+    summary: `Cities like Gurugram implemented AI-powered traffic cameras for enforcing speed limits, detecting helmet violations, and catching fake number plates. Result: Improved compliance and reduced accidents. Concern: These systems operate with no human discretion, raising issues around constant surveillance and appeal mechanisms.`,
+    link: “https://timesofindia.indiatimes.com/city/gurgaon/revolutionary-ai-system-helps-police-crack-down-on-fake-number-plates-and-stolen-vehicles/articleshow/114130014.cms#:~:text=Gurgaon%3A%20The%20police%20have%20launched,characteristics%20like%20colour%20and%20model”
   },
   {
-    title: "Stung by repeated cheating cases, Haryana introduces AI to monitor Haryana Teacher Eligibility Test",
-    date: "Jun 20, 2025",
-    summary:`Educational Testing Surveillance (HTET July 2025 : AI was used to monitor candidates during the Haryana Teacher Eligibility Test (HTET). The system pulled candidates' past exam histories and flagged suspicious behavior like repeated impersonation. Concern: Critics argue this level of surveillance raises student data privacy and consent concerns. `,
-    link:"https://timesofindia.indiatimes.com/city/chandigarh/stung-by-repeated-cheating-cases-haryana-introduces-ai-to-monitor-haryana-teacher-eligibility-test/articleshow/121960786.cms"
+    title: “Nirmala Sitharaman Deepfake Crypto Scam — National Scale, Delhi Epicentre”,
+    date: “Jun 2025”,
+    summary: `A widely circulated AI-generated deepfake video falsely showed Finance Minister Nirmala Sitharaman endorsing a fictitious cryptocurrency scheme called “Quantum AI,” duping thousands of investors across India. A similar deepfake falsely featured Google CEO Sundar Pichai lending credibility to a fake government investment platform. CloudSEK’s report found that brand abuse accounts for nearly one-third of all cybercrime incidents in India. Losses from AI-enabled financial scams were projected to exceed ₹20,000 crore by end of 2025 — a 76% rise from 2024. Delhi’s cyber police coordinated with MeitY and platforms to remove the videos. The incident prompted I4C to expand its deepfake tracking capacity.`,
+    link: “https://nationalcybersecurity.com/india-faces-%E2%82%B920000-crore-cybercrime-threat-in-2025-amid-surge-in-ai-driven-deepfake-investment-scams-cybercrime-infosec/”
   },
   {
-    title: "Now, AI to help cops detect fake number plates and stolen vehicle",
-    date: "Oct 11, 2024",
-    summary:`Cities like Gurugram implemented AI-powered traffic cameras for enforcing speed limits, detecting helmet violations, and catching fake number plates. Result: Improved compliance and reduced accidents. Concern: These systems operate with no human discretion, raising issues around constant surveillance and appeal mechanisms.`,
-    link:"https://timesofindia.indiatimes.com/city/gurgaon/revolutionary-ai-system-helps-police-crack-down-on-fake-number-plates-and-stolen-vehicles/articleshow/114130014.cms#:~:text=Gurgaon%3A%20The%20police%20have%20launched,characteristics%20like%20colour%20and%20model"
-
+    title: “Ankur Warikoo Deepfake — Delhi HC Issues Landmark John Doe Order”,
+    date: “2025”,
+    summary: `Delhi High Court granted a landmark John Doe order to personal finance influencer Ankur Warikoo after AI-generated deepfake videos using his face, voice, and likeness circulated on social media — luring followers into WhatsApp groups for fraudulent stock market advice. The court restrained all unidentified defendants from misusing Warikoo’s likeness via AI or deepfake technologies. Meta was directed to take down all infringing URLs within 36 hours and disclose user details. This was one of India’s first cases to directly tackle AI deepfake misuse in financial scams through personality rights protection and the John Doe order mechanism — setting a significant legal precedent.`,
+    link: “https://law.asia/ai-deepfake-legal-response/”
   },
   {
-    title: "Nirmala Sitharaman Deepfake Crypto Scam — National Scale, Delhi Epicentre",
-    date: "Jun 2025",
-    summary: `A widely circulated AI-generated deepfake video falsely showed Finance Minister Nirmala Sitharaman endorsing a fictitious cryptocurrency scheme called "Quantum AI," duping thousands of investors across India.
-A similar deepfake falsely featured Google CEO Sundar Pichai lending credibility to a fake government investment platform.
-CloudSEK's report found that brand abuse accounts for nearly one-third of all cybercrime incidents in India. Losses from AI-enabled financial scams were projected to exceed ₹20,000 crore by end of 2025 — a 76% rise from 2024.
-Delhi's cyber police coordinated with MeitY and platforms to remove the videos. The incident prompted I4C to expand its deepfake tracking capacity.`,
-    link: "https://nationalcybersecurity.com/india-faces-%E2%82%B920000-crore-cybercrime-threat-in-2025-amid-surge-in-ai-driven-deepfake-investment-scams-cybercrime-infosec/"
+    title: “Haryana Police Cyber Crime Units — AI Fraud Response”,
+    date: “2024 (Ongoing)”,
+    type: “Law Enforcement”,
+    description: “Haryana Police operate dedicated cybercrime units in Gurugram, Faridabad, and Panchkula — among the most active in North India given the states’ dense corporate and urban population. These units handle AI-enabled voice cloning scams, deepfake blackmail cases, and digital arrest fraud. Cases are registered under the IT Act and BNS 2023, with coordination routed through I4C and the national helpline 1930. Haryana’s proximity to Delhi means many cross-jurisdictional cases involving Delhi-based victims are jointly investigated.”,
+    link: “https://i4c.mha.gov.in/”
   },
   {
-    title: "Ankur Warikoo Deepfake — Delhi HC Issues Landmark John Doe Order",
-    date: "2025",
-    summary: `Delhi High Court granted a landmark John Doe order to personal finance influencer Ankur Warikoo after AI-generated deepfake videos using his face, voice, and likeness circulated on social media — luring followers into WhatsApp groups for fraudulent stock market advice.
-The court restrained all unidentified defendants from misusing Warikoo's likeness via AI or deepfake technologies. Meta was directed to take down all infringing URLs within 36 hours and disclose user details.
-This was one of India's first cases to directly tackle AI deepfake misuse in financial scams through personality rights protection and the John Doe order mechanism — setting a significant legal precedent.`,
-    link: "https://law.asia/ai-deepfake-legal-response/"
+    title: “Delhi Police Deploys 10,000 AI-Enabled CCTV Cameras Under ₹800 Crore Safe City Project”,
+    date: “Dec 25, 2025”,
+    type: “Surveillance”,
+    description: “Delhi Police’s Safe City Project, funded under the Nirbhaya Fund at an estimated ₹800 crore, is deploying 10,000 AI-powered CCTV cameras across the city with facial recognition, distress detection via sound and gestures, and a C4I Command Centre. The system can analyse footage from over a hundred cameras simultaneously, match one million records in 200 milliseconds, and operate despite poor lighting conditions — representing one of India’s largest urban AI surveillance deployments.”,
+    link: “https://swarajyamag.com/security/delhi-polices-safe-city-project-with-10000-ai-cameras-to-enable-automatic-distress-alerts-launch-expected-in-2026-report”
   },
   {
-    title: "Sunil Mittal AI Voice Clone Used in ₹40 Lakh Scam Targeting Airtel Executive",
-    date: "Jun 2025",
-    summary: `A Dubai-based Airtel executive received a voice call that convincingly replicated the voice of Airtel founder and chairman Sunil Mittal. The caller instructed the executive to urgently transfer funds for a confidential business deal. The AI-cloned voice had been constructed from publicly available recordings of Mittal's speeches and interviews. The executive transferred approximately ₹40 lakh before growing suspicious and contacting the real chairman's office. Delhi Cyber Crime Police registered a case and coordinated with UAE authorities. The case drew national attention as an example of AI voice-cloning targeting boardroom-level corporate executives.`,
-    link: "https://www.hindustantimes.com/india-news/sunil-mittal-voice-clone-airtel-executive-dubai-scam-cyber-crime/article-2025"
+    title: “Delhi Police Upgrades DRDO-Built Netra System with AI to Monitor Cyber Threats”,
+    date: “Jun 23, 2025”,
+    type: “Law Enforcement”,
+    description: “Delhi Police upgraded its DRDO-built Netra surveillance system with AI-powered servers capable of monitoring internet traffic across WhatsApp, Telegram, and VoIP, flagging threats in real time. Integrated with the C4I Centre’s 10,000 CCTV feeds, Netra adds facial recognition and predictive analytics, processing 20 faces in a crowd simultaneously. It tackles 700 daily cybercrime complaints and an estimated ₹500 crore in annual losses across Delhi.”,
+    link: “https://theweeklynews.in/delhi-polices-netra-upgrade-can-ai-surveillance/”
   },
   {
-    title: "Pre-Independence Day Surveillance — AI Facial Recognition Deployed Across Delhi",
-    date: "Aug 2025",
-    summary: `Ahead of Independence Day 2025, Delhi Police deployed AI-assisted facial recognition across major transport hubs, public squares, and the Red Fort parade area. The system drew from a database of approximately 3 lakh suspects, including individuals flagged under preventive detention orders, pending warrants, and protest watchlists. Civil liberties organisations filed a complaint with the Delhi High Court challenging the deployment as unconstitutional mass surveillance without legislative backing. Observers noted that persons of interest were detained based on AI matches without secondary human verification — raising serious misidentification concerns.`,
-    link: "https://www.thehindu.com/news/national/delhi/independence-day-ai-facial-recognition-surveillance-civil-liberties/article69300000.ece"
-  },
-    {
-      title: "Two Booked Under IT Act After Deepfake Suicide Case",
-      date: "Nov 23, 2025",
-      type: "Law Enforcement",
-      description: "Following the death by suicide of a 19-year-old Faridabad student blackmailed with AI-generated deepfake images of his sisters, police registered a criminal case under the IT Act against two accused. The case prompted renewed calls for faster legal response to deepfake blackmail.",
-      link: "https://www.hindustantimes.com/cities/gurugram-news/faridabad-teen-dies-by-suicide-after-deepfake-blackmail-two-booked-101761533914716.html"
-    },
-    {
-      title: "Delhi John Doe Order to Protect Content Creator from Deepfakes",
-      date: "2024",
-      type: "Judicial Action",
-      description: "A Delhi court granted a John Doe injunction to protect Ankur Warikoo from AI-generated deepfake content being spread online without consent. The order required platforms to proactively remove such content, marking an early use of preventive judicial intervention for deepfake harm.",
-      link: "#"
-    },
-    {
-      title: "Haryana Police Use Drone & CCTV AI to Identify Farmer Protest Participants",
-      date: "Feb 29, 2024",
-      type: "Surveillance & Rights Concern",
-      description: "During farmers' protests at the Punjab-Haryana border, Haryana Police used AI-assisted CCTV and drone footage to identify protesters, with officials requesting passport and visa cancellations. Civil liberties groups raised concerns about mass surveillance, privacy violations, and risks of misidentification.",
-      link: "https://www.tribuneindia.com/news/haryana/cancelling-visa-passports-haryana-police-identify-violent-punjab-farmer-protesters-through-cctv-and-drone-cameras-595766/"
-    },
-    {
-      title: "AI-Based Proctoring Introduced for Haryana Teacher Eligibility Test",
-      date: "Jun 20, 2025",
-      type: "Policy",
-      description: "Haryana introduced AI surveillance to monitor the HTET examination, flagging candidates with histories of impersonation. While credited with improving exam integrity, critics raised concerns about student data privacy, consent, and the lack of an appeals mechanism for AI-flagged decisions.",
-      link: "https://timesofindia.indiatimes.com/city/chandigarh/stung-by-repeated-cheating-cases-haryana-introduces-ai-to-monitor-haryana-teacher-eligibility-test/articleshow/121960786.cms"
-    },
-    {
-      title: "AI Deployed to Monitor Haryana Teacher Eligibility Test (HTET)",
-      date: "Jun 20, 2025",
-      type: "Policy",
-      description: "Haryana introduced AI-based surveillance to monitor candidates during the HTET July 2025 examination, following repeated impersonation and cheating scandals. The system cross-referenced candidates' past exam histories and flagged suspicious behaviour in real time. While the government framed it as an anti-cheating measure, civil liberties groups raised concerns about the collection of student biometric and behavioural data without adequate consent frameworks or data retention policies — highlighting a governance gap in the state's use of AI in public services.",
-      link: "https://timesofindia.indiatimes.com/city/chandigarh/stung-by-repeated-cheating-cases-haryana-introduces-ai-to-monitor-haryana-teacher-eligibility-test/articleshow/121960786.cms"
-    },
-    {
-      title: "Haryana Police Cyber Crime Units — AI Fraud Response",
-      date: "2024 (Ongoing)",
-      type: "Law Enforcement",
-      description: "Haryana Police operate dedicated cybercrime units in Gurugram, Faridabad, and Panchkula — among the most active in North India given the states' dense corporate and urban population. These units handle AI-enabled voice cloning scams, deepfake blackmail cases, and digital arrest fraud. Cases are registered under the IT Act and BNS 2023, with coordination routed through I4C and the national helpline 1930. Haryana's proximity to Delhi means many cross-jurisdictional cases involving Delhi-based victims are jointly investigated.",
-      link: "https://i4c.mha.gov.in/"
-    },
-    {
-      title: "Prohibition of Sexually Explicit Deep Fake Material Rules 2025 — Applicable to Haryana Cases",
-      date: "2025",
-      type: "Legislation",
-      description: "The central government's Prohibition of Sexually Explicit Deep Fake Material Rules 2025 directly addresses cases documented in Haryana — including AI-generated obscene imagery used for blackmail. The rules criminalise creation and distribution of deepfake sexual content of identifiable individuals, with penalties up to 7 years imprisonment. Haryana Police have been directed by MeitY to register applicable cases under these rules in addition to existing IT Act provisions for sextortion and blackmail.",
-      link: "https://www.meity.gov.in"
-    },
-    {
-      title: "India Hosts the AI Impact Summit 2026 in New Delhi",
-      date: "Feb 24, 2026",
-      type: "Policy",
-      description: "The AI Impact Summit 2026, held in New Delhi on 18–19 February 2026, concluded with the adoption of the New Delhi Declaration on AI Impact, endorsed by 89 countries and international organisations. Built around seven strategic pillars and the philosophy of 'Sarvajan Hitaya, Sarvajan Sukhaya,' it launched platforms like Global AI Impact Commons and Trusted AI Commons, establishing India as a convening power in global AI governance from its capital.",
-      link: "https://www.drishtiias.com/daily-updates/daily-news-analysis/new-delhi-declaration-on-ai-impact"
-    },
-    {
-      title: "Delhi Police Deploys 10,000 AI-Enabled CCTV Cameras Under ₹800 Crore Safe City Project",
-      date: "Dec 25, 2025",
-      type: "Surveillance",
-      description: "Delhi Police's Safe City Project, funded under the Nirbhaya Fund at an estimated ₹800 crore, is deploying 10,000 AI-powered CCTV cameras across the city with facial recognition, distress detection via sound and gestures, and a C4I Command Centre. The system can analyse footage from over a hundred cameras simultaneously, match one million records in 200 milliseconds, and operate despite poor lighting conditions — representing one of India's largest urban AI surveillance deployments.",
-      link: "https://swarajyamag.com/security/delhi-polices-safe-city-project-with-10000-ai-cameras-to-enable-automatic-distress-alerts-launch-expected-in-2026-report"
-    },
-    {
-      title: "Delhi Police Upgrades DRDO-Built Netra System with AI to Monitor Cyber Threats",
-      date: "Jun 23, 2025",
-      type: "Law Enforcement",
-      description: "Delhi Police upgraded its DRDO-built Netra surveillance system with AI-powered servers capable of monitoring internet traffic across WhatsApp, Telegram, and VoIP, flagging threats in real time. Integrated with the C4I Centre's 10,000 CCTV feeds, Netra adds facial recognition and predictive analytics, processing 20 faces in a crowd simultaneously. It tackles 700 daily cybercrime complaints and an estimated ₹500 crore in annual losses across Delhi.",
-      link: "https://theweeklynews.in/delhi-polices-netra-upgrade-can-ai-surveillance/"
-    },
-    {
-      title: "MeitY Notifies IT Amendment Rules Mandating Due Diligence for Synthetically Generated Content",
-      date: "Feb 11, 2026",
-      type: "Legislation",
-      description: "On February 10, 2026, MeitY notified the Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Amendment Rules, 2026, timed with the AI Impact Summit's closing. The amendments define a new category of synthetically generated content (SGI) and impose due diligence obligations on intermediaries that enable the creation or dissemination of deepfakes, marking India's first enforceable rule specifically targeting AI-generated synthetic media.",
-      link: "https://www.csohate.org/2026/02/11/ai-impact-summit-2026/"
-    }
+    title: “MeitY Notifies IT Amendment Rules Mandating Due Diligence for Synthetically Generated Content”,
+    date: “Feb 11, 2026”,
+    type: “Legislation”,
+    description: “On February 10, 2026, MeitY notified the Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Amendment Rules, 2026, timed with the AI Impact Summit’s closing. The amendments define a new category of synthetically generated content (SGI) and impose due diligence obligations on intermediaries that enable the creation or dissemination of deepfakes, marking India’s first enforceable rule specifically targeting AI-generated synthetic media.”,
+    link: “https://www.csohate.org/2026/02/11/ai-impact-summit-2026/”
+  }
 ],
 "Arunachal Pradesh": [
   {
