@@ -665,14 +665,6 @@ link : 'https://www.boomlive.in/fact-check/viral-video-rally-protest-manipur-cla
   
   "Meghalaya": [
     {
-      title: "Deepfake Controversy — 'Sweet Zannat' Influencer Case",
-      date: "Nov 2025",
-      summary: `Meghalaya-based Instagram creator 'Sweet Zannat' was drawn into a deepfake controversy when a 19-minute alleged private video circulated online.
-The video triggered intense online speculation and caused significant distress to the creator. The episode was part of a series of AI-generated MMS scandals in November 2025 involving women content creators across India.
-Experts confirmed the clip had markers of AI body-swap deepfake technology. The case added to national debate about digital consent, online privacy, and the weaponisation of AI to harm women's reputations.`,
-      link: "https://zeenews.india.com/viral/year-ender-2025-viral-videos-19-minute-mms-leaks-digital-privacy-2999174.html"
-    },
-    {
       title: "Shillong Lawyer Loses ₹90,000 to AI Voice Scam Mimicking Senior Advocate",
       date: "Nov 25, 2025",
       summary: `A Shillong-based lawyer received an AI-generated voice call perfectly mimicking her senior advocate, instructing her to transfer money urgently. She complied and transferred ₹90,000 before realising the fraud. The transaction was traced through multiple phone numbers linked to Bihar and Haryana; authorities arrested a man whose SIM card had been misused — Justice HS Thangkhiew noted he "had no idea his number was being used." The case was highlighted at a High Court of Meghalaya training programme on emerging cyber threats, demonstrating how modern AI voice crimes operate across jurisdictions with no physical criminal presence in the victim's state.`,
@@ -899,27 +891,6 @@ Experts confirmed the clip had markers of AI body-swap deepfake technology. The 
 const governanceData = {
 
   "Meghalaya": [
-    {
-      title: "National Commission for Women Takes Cognisance of AI Deepfake MMS Cases",
-      date: "Nov 2025",
-      type: "Judicial Action",
-      description: "The National Commission for Women (NCW) took suo motu cognisance of a wave of AI-generated deepfake MMS scandals targeting women content creators in November 2025, including the 'Sweet Zannat' case from Meghalaya. The NCW issued notices to state police and directed them to file FIRs under the Prohibition of Sexually Explicit Deep Fake Material Rules 2025 and the IT Act. The Commission also called for platforms to deploy automated deepfake detection before content goes viral.",
-      link: "https://zeenews.india.com/viral/year-ender-2025-viral-videos-19-minute-mms-leaks-digital-privacy-2999174.html"
-    },
-    {
-      title: "Citizen Financial Cyber Fraud Reporting System — Meghalaya Enrolled",
-      date: "2023 (documented 2024)",
-      type: "Law Enforcement",
-      description: "Meghalaya is enrolled in the Ministry of Home Affairs' Citizen Financial Cyber Fraud Reporting and Management System, through which 654 cybercrime complaints involving ₹424.2 lakh were registered in 2023. The system enables real-time coordination between police, banks, and payment platforms to freeze fraudulent transactions within the golden hour. Meghalaya Police Cyber Cell has been directed by I4C to increase capacity for AI-enabled fraud detection as cases rise.",
-      link: "https://www.sentinelassam.com/topheadlines/assam-7621-cases-of-cyber-fraud-in-2023"
-    },
-    {
-      title: "Prohibition of Sexually Explicit Deep Fake Material Rules, 2025 — Northeast Application",
-      date: "2025",
-      type: "Legislation",
-      description: "The central government's Prohibition of Sexually Explicit Deep Fake Material Rules 2025 directly applies to cases like the 'Sweet Zannat' deepfake controversy in Meghalaya. The rules criminalise creation, storage, and distribution of AI-generated sexually explicit content of identifiable individuals. Offenders face up to 7 years imprisonment and fines up to ₹10 lakh. State police in the Northeast have been directed by MeitY to register cases under these rules in addition to existing IT Act provisions.",
-      link: "https://www.meity.gov.in"
-    },
     {
       title: "First Regional AI Impact Conference 2025 & Data/AI Lab MoU",
       date: "Dec 04, 2025",
@@ -1238,6 +1209,13 @@ const governanceData = {
 
   "Assam": [
     {
+      title: "Citizen Financial Cyber Fraud Reporting System — Assam Leads Northeast",
+      date: "2023 (documented 2024)",
+      type: "Law Enforcement",
+      description: "Assam recorded 7,621 cybercrime complaints involving ₹3,441.8 lakh through the MHA's Citizen Financial Cyber Fraud Reporting and Management System in 2023 — the highest among all northeastern states. The system enables real-time coordination between police, banks, and payment platforms to freeze fraudulent transactions within the golden hour. Assam Police Cyber Cell coordinates with I4C to recover funds lost to AI-enabled phishing, fake investment apps, and voice cloning scams.",
+      link: "https://www.sentinelassam.com/topheadlines/assam-7621-cases-of-cyber-fraud-in-2023"
+    },
+    {
       title: "Tinsukia Techie Arrested for AI-Morphed Explicit Images",
       date: "Jul 14, 2025",
       type: "Law Enforcement",
@@ -1479,7 +1457,9 @@ const governanceData = {
       type: "Awareness Campaign",
       description: "Bhopal Police issued a public advisory warning citizens about the rising use of AI voice-cloning tools by cybercriminals to impersonate family members and friends in distress calls. The advisory urged people to always verify emergency calls through a secondary contact before transferring money — one of MP's earliest official responses to AI-enabled fraud.",
       link: "https://timesofindia.indiatimes.com/city/bhopal/ai-voice-cloning-aids-cyber-crimes-cops-issue-warning-against-scam/articleshow/103743850.cms"
-    }
+    },
+  ],
+
   "Karnataka": [
     {
       title: "Karnataka Proposes Fake News Law with 7-Year Jail Term",
@@ -1712,6 +1692,23 @@ const governanceData = {
       type: "Surveillance",
       description: "MoRTH approved India's first AI-based road safety project in UP with ₹100 million budget allocation, using big data analytics to identify accident-prone zones and generate real-time risk dashboards. At Maha Kumbh 2025 in Prayagraj, 2,700 AI-enhanced CCTV cameras with facial recognition were deployed for crowd surge detection, barricade breach alerts, fire detection, and reuniting lost visitors — managing approximately 1 crore daily visitors.",
       link: "https://news.fundsforngos.org/2025/07/31/india-launches-first-ai-powered-road-safety-project-in-uttar-pradesh/"
+    },
+  ],
+
+  "Central Government": [
+    {
+      title: "National Commission for Women Takes Cognisance of AI Deepfake MMS Cases",
+      date: "Nov 2025",
+      type: "Judicial Action",
+      description: "The National Commission for Women (NCW) took suo motu cognisance of a wave of AI-generated deepfake MMS scandals targeting women content creators in November 2025. The NCW issued notices to state police and directed them to file FIRs under the Prohibition of Sexually Explicit Deep Fake Material Rules 2025 and the IT Act. The Commission also called for platforms to deploy automated deepfake detection before content goes viral.",
+      link: "https://zeenews.india.com/viral/year-ender-2025-viral-videos-19-minute-mms-leaks-digital-privacy-2999174.html"
+    },
+    {
+      title: "Prohibition of Sexually Explicit Deep Fake Material Rules, 2025",
+      date: "2025",
+      type: "Legislation",
+      description: "The central government notified the Prohibition of Sexually Explicit Deep Fake Material Rules 2025, criminalising the creation, storage, and distribution of AI-generated sexually explicit content of identifiable individuals. Offenders face up to 7 years imprisonment and fines up to ₹10 lakh. State police across India have been directed by MeitY to register cases under these rules in addition to existing IT Act provisions.",
+      link: "https://www.meity.gov.in"
     },
   ],
 
