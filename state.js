@@ -416,6 +416,12 @@ link: "https://www.business-standard.com/pti-stories/national/andhra-police-bust
     date: "2025",
     summary: `Delhi High Court granted a landmark John Doe order to personal finance influencer Ankur Warikoo after AI-generated deepfake videos using his face, voice, and likeness circulated on social media — luring followers into WhatsApp groups for fraudulent stock market advice. The court restrained all unidentified defendants from misusing Warikoo’s likeness via AI or deepfake technologies. Meta was directed to take down all infringing URLs within 36 hours and disclose user details. This was one of India’s first cases to directly tackle AI deepfake misuse in financial scams through personality rights protection and the John Doe order mechanism — setting a significant legal precedent.`,
     link: "https://law.asia/ai-deepfake-legal-response/"
+  },
+  {
+    title: "Delhi Police Facial Recognition System Deployment — Mass Surveillance Concerns",
+    date: "Aug 2021",
+    summary: `Delhi Police deployed a Facial Recognition System (FRS) for surveillance and criminal identification, issued via e-tender. The system enables mass surveillance through AI-powered facial recognition without adequate privacy safeguards, risking violations of civil liberties and potential algorithmic bias in identification. Data security remains a critical concern — similar police facial recognition systems were compromised in Uttar Pradesh and Tamil Nadu, exposing over 800,000 data lines containing information on 50,000+ individuals, demonstrating systemic vulnerabilities in government AI deployments.`,
+    link: "https://www.medianama.com/2021/08/223-facial-recognition-technology-policing-delhi-2/"
   }
 ],
 "Arunachal Pradesh": [
@@ -543,58 +549,15 @@ GNET researchers documented how the synthetic content amplified sectarian grieva
 The video showed him speaking against TMC and BJP, mentioning Sandeshkhali, corruption, demonetization, and corporate nexus.
 The party publicly stated that AI was used to simulate what he "would have said" if he were healthy and present.`,
     link: "https://www.thehindu.com/elections/lok-sabha/cpim-releases-ai-generated-video-of-buddhadeb-seeking-the-support-of-left-candidates/article68142045.ece"
-  },{
-  title: "Mamata Banerjee Deepfake Dancing Video",
+  },
+  {
+    title: "Mamata Banerjee Deepfake Dancing Video",
     date: "May 6, 2024",
     summary : `What Happened: During the 2024 Lok Sabha elections, an AI-generated video showed West Bengal Chief Minister Mamata Banerjee dancing in a saree, created using the free "Viggle" platform by superimposing her image over American rapper Lil Yachty's concert footage. The audio was altered to mock party defectors joining Modi. The video garnered 1.1 million views on X, prompting Kolkata Police to issue notices threatening legal action under Section 42 CrPC against those who shared it.
     Accessible deepfake technology was weaponized for political manipulation during elections, targeting a female politician without consent to damage her image and confuse voters. The incident reveals stark differential treatment—while a similar AI-generated dancing video of PM Modi reached 30 million views and received his light-hearted response, Mamata's video triggered police investigation and arrest threats. This demonstrates how easily available AI tools enable electoral interference with gendered and politically motivated consequences.
     `,
     link: "https://www.indiatoday.in/india/story/kolkata-police-notice-x-users-meme-spoof-video-mamata-banerjee-lil-yachty-2535968-2024-05-06"
   },
-  {
-    title: "KOLKATA POLICE FACIAL RECOGNITION SYSTEM DEPLOYMENT",
-    date: "August 23, 2025",
-   summary : ` In February 2020, Kolkata Police issued an e-tender for a facial recognition system using CDAC Kolkata software for surveillance and criminal identification. The deployment expanded with the establishment of a dedicated AI Cell at Bhawani Bhawan headquarters in November 2024, led by an Additional Director General, to systematically integrate AI into policing practices across West Bengal.
-    The system enables mass surveillance through AI-powered facial recognition without adequate privacy safeguards, risking violations of civil liberties and potential algorithmic bias in identification. Data security remains a critical concern—part of a broader Indian trend where similar police facial recognition systems were compromised, notably in Uttar Pradesh and Tamil Nadu where breaches exposed over 800,000 data lines containing information on 50,000+ individuals, demonstrating systemic vulnerabilities in government AI deployments.
-    `,
-    link: "https://www.medianama.com/2021/08/223-facial-recognition-technology-policing-delhi-2/"
-  },
-  {
-    title: "West Bengal School Teacher Arrested for Role in ₹1.05 Crore Deepfake Scam",
-    date: "Jan 22, 2025",
-    summary: `A government school teacher from West Bengal was arrested in January 2025 for his involvement in a ₹1.05 crore AI-enabled fraud that had originally targeted victims in Kerala. The accused was part of a pan-India cybercrime network that used deepfake video calls and AI-generated voice impersonation to pose as customs and narcotics officials. Victims were told their packages had been intercepted and were held under 'digital arrest' until they transferred large sums to clear their names. The cross-state arrest highlighted how AI-enabled crime rings recruit members across India using online channels.`,
-    link: "https://timesofindia.indiatimes.com/city/kolkata/west-bengal-teacher-arrested-deepfake-digital-arrest-scam/articleshow/117450000.cms"
-  },
-  {
-    title: "Pahalgam Attack — Bengali Social Media Flooded with AI-Generated Inflammatory Content",
-    date: "Apr 2025",
-    summary: `Following the April 2025 Pahalgam terror attack, West Bengal — with its large Muslim population and history of communal tension — was specifically targeted by AI-generated inflammatory content designed to stoke religious unrest. BOOM's fact-check team in Kolkata identified dozens of AI-generated images and manipulated videos circulating in Bengali-language WhatsApp groups and Facebook pages, falsely depicting violence against Hindus in Bengal. State police issued advisories and filed FIRs against accounts found to be coordinating disinformation. The AI-driven campaign was identified as part of the same cross-border information warfare operation that struck J&K.`,
-    link: "https://www.boomlive.in/fact-check/west-bengal-pahalgam-attack-ai-generated-communal-misinformation-bengali"
-  },
-  {
-    title: "Kolkata Businessman Loses ₹75.5 Lakh in 12-Day AI Digital Arrest",
-    date: "Nov 2024",
-    summary: `A Kolkata businessman was held under AI-assisted 'digital arrest' for 12 consecutive days, losing ₹75.5 lakh to fraudsters posing as CBI and TRAI officials. The fraudsters used AI-generated fake arrest warrants, deepfake video calls featuring 'officers' in uniform, and continuous psychological pressure over video conferencing to prevent the victim from seeking help. Kolkata Police Cyber Crime Division traced the gang to a call centre in Rajasthan. Funds totalling ₹18 lakh were recovered through emergency freeze requests to banks.`,
-    link: "https://www.telegraphindia.com/west-bengal/kolkata-businessman-digital-arrest-75-lakh-2024"
-  },
-  {
-    title: "Abhijit Roy Gets Life Sentence for AI-Assisted Sextortion — Landmark Bengal Verdict",
-    date: "Feb 2025",
-    summary: `A Kolkata sessions court handed down a life sentence to Abhijit Roy, convicted of using AI image-generation tools to create morphed explicit images of a female colleague and using them for sustained sextortion. The case, which ran for four years, marked one of the first life sentences in West Bengal specifically citing AI-generated deepfake imagery as an aggravating factor in sentencing. The judgment was widely cited by women's rights organisations as a precedent for treating AI-enabled image-based sexual abuse as equivalent to physical sexual violence in terms of sentencing severity.`,
-    link: "https://www.telegraphindia.com/west-bengal/abhijit-roy-life-sentence-ai-sextortion-2025"
-  },
-  {
-    title: "Siliguri Man Faces AI-Generated Fake FIR, Threatened With ₹50 Lakh Crypto 'Bail'",
-    date: "Aug 2024",
-    summary: `A Siliguri resident was targeted by fraudsters who sent him an AI-generated fake FIR bearing a fabricated police seal, claiming he was accused of money laundering. The fraudsters demanded ₹50 lakh in cryptocurrency as 'bail security' before the 'case was filed in court.' The victim, a retired teacher, was about to transfer funds when his son intervened and alerted Siliguri Police. Cyber police identified the accused as operating from a fake call centre in Jharkhand. The case illustrates the use of AI document forgery — generating convincing official documents — as a new phase of digital extortion.`,
-    link: "https://www.telegraphindia.com/west-bengal/siliguri-fake-fir-ai-crypto-bail-threat-2024"
-  },
-  {
-    title: "West Bengal Faces ₹1,200 Crore Annual AI Cybercrime Losses — Highest in Eastern India",
-    date: "2024",
-    summary: `West Bengal recorded estimated annual losses of ₹1,200 crore to AI-enhanced cybercrime in 2024 — the highest of any state in eastern or northeastern India. This figure, compiled by the state CID cyber wing, includes digital arrest fraud, deepfake investment scams, voice-cloning blackmail, and AI-assisted identity theft. The state's densely networked urban areas (Kolkata, Howrah, Asansol) and high financial literacy levels made residents attractive targets for sophisticated AI fraud operations coordinated from out-of-state call centres.`,
-    link: "https://www.telegraphindia.com/west-bengal/wb-cybercrime-losses-2024-annual-report"
-  }
 ],
 
 
@@ -1562,25 +1525,11 @@ const governanceData = {
 
   "West Bengal": [
     {
-      title: "Kolkata Police Establishes Dedicated AI Cell at Headquarters",
-      date: "Nov 2024",
-      type: "Law Enforcement",
-      description: "Kolkata Police established a dedicated AI Cell at Bhawani Bhawan headquarters, led by an Additional Director General, to systematically integrate AI into policing — including facial recognition for surveillance. Civil liberties advocates flagged the lack of privacy safeguards and legislative backing for mass deployment.",
-      link: "https://www.medianama.com/2021/08/223-facial-recognition-technology-policing-delhi-2/"
-    },
-    {
       title: "Police Notices Issued Over Mamata Banerjee Deepfake Dancing Video",
       date: "May 06, 2024",
       type: "Law Enforcement",
       description: "Kolkata Police issued notices under Section 42 CrPC to X (Twitter) users who shared a viral deepfake of CM Mamata Banerjee dancing, threatening legal action. The response highlighted the gendered nature of deepfake targeting and the legal tools available — though platform cooperation remained limited.",
       link: "https://www.indiatoday.in/india/story/kolkata-police-notice-x-users-meme-spoof-video-mamata-banerjee-lil-yachty-2535968-2024-05-06"
-    },
-    {
-      title: "West Bengal FIRs Filed Over AI Communal Content Post-Pahalgam Attack",
-      date: "Apr 2025",
-      type: "Law Enforcement",
-      description: "West Bengal Police filed FIRs against multiple social media accounts for circulating AI-generated communally inflammatory content in the wake of the Pahalgam terror attack. Bengali-language WhatsApp groups and Facebook pages were specifically targeted by coordinated disinformation. The state government issued a high-level directive to district SPs to monitor AI-generated content and proactively approach platforms for removal of content designed to incite communal violence.",
-      link: "https://www.telegraphindia.com/west-bengal/bengal-police-firs-ai-communal-content-pahalgam-2025"
     },
     {
       title: "WEBEL — AI-Powered Surveillance for Safe City Project",
