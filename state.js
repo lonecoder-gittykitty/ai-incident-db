@@ -2000,36 +2000,7 @@ const governanceData = {
     }
   ],
 
-  "Chhattisgarh": [
-    {
-      title: "Cambodia-Based Cyber Fraud Gang Busted Across 5 States",
-      date: "Aug 23, 2025",
-      type: "Law Enforcement",
-      description: "A Chhattisgarh-linked cyber gang operating from Cambodia — using AI-assisted impersonation of CBI, RBI, and police officials — was dismantled with 5 arrests across Delhi, UP, Maharashtra, and MP. The investigation was coordinated by multiple state cyber cells, illustrating emerging inter-state cooperation.",
-      link: "https://timesofindia.indiatimes.com/city/raipur/cons-pose-as-cbi-rbi-officers-cops-to-dupe-raipur-residents/articleshow/123461900.cms"
-    },
-    {
-      title: "IIIT Naya Raipur Student Suspended and Arrested for AI Image Abuse",
-      date: "Oct 09, 2024",
-      type: "Institutional Response",
-      description: "IIIT Naya Raipur suspended and facilitated the arrest of a student who used AI to create obscene morphed images of 36 female classmates. Cases were filed under the IT Act. The institution's swift response was noted as a positive example of university-level accountability for AI-enabled harassment.",
-      link: "https://www.jagran.com/news/national-iiit-student-arrested-for-aigenerated-obscene-images-of-36-students-40005275.html"
-    },
-    {
-      title: "Chief Minister's AI Mission — ₹100 Crore Annual Budget Allocation",
-      date: "Feb 24, 2026",
-      type: "Policy Framework",
-      description: "Chhattisgarh launched the Chief Minister's AI Mission in its 2026-27 'Sankalp' budget, committing ₹100 crore annually for five years. Part of a ₹1.72 lakh crore state budget, this is Chhattisgarh's first dedicated AI governance initiative — aiming to integrate AI into public service delivery, education, and industry, signalling a formal transition from reactive cybercrime response to proactive AI ecosystem building.",
-      link: "https://yourstory.com/2026/02/chhattisgarh-budget-2026-27-rs-1-72-lakh-crore-bastar-ai-mission"
-    },
-    {
-      title: "'One State – One Platform' AI-Powered E-Governance Platform",
-      date: "Mar 26, 2025",
-      type: "Policy Framework",
-      description: "Chhattisgarh's State Urban Development Agency (SUDA) launched a comprehensive e-governance project delivering fully online services across all 192 urban bodies under 'One State – One Platform' and 'Digital Chhattisgarh.' The project incorporates AI and data analytics to track patterns in citizen complaints, predict potential issues, and evaluate official performance — enabling evidence-based policy decisions and elevating urban administration to 'smart governance' across the state.",
-      link: "https://egov.eletsonline.com/2025/03/chhattisgarh-on-the-path-of-digital-progress-emergence-as-a-progressive-digital-state/"
-    }
-  ],
+  "Chhattisgarh": [],
 
   "Uttarakhand": [
     {
