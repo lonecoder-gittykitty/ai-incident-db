@@ -415,12 +415,6 @@ link: "https://www.business-standard.com/pti-stories/national/andhra-police-bust
     summary: `Videos circulating on social media claim that Elon Musk accused the BJP and RSS of scheming to provoke ethnic conflict in Arunachal Pradesh. Fact-checkers found these videos to be deepfakes — they were digitally altered or entirely generated using AI. In the videos, the lip movements didn’t match the audio, and the same footage of Musk was reused in multiple clips — signs of manipulation. No credible news reports or official records confirmed Musk ever made the statements shown in the videos. The conclusion: the claim of Musk exposing a BJP/RSS conspiracy in Arunachal Pradesh via those videos is false — the media is manipulated.`,
     link: "https://newschecker.in/ai-deepfake/elon-musks-deepfake-videos-on-bjp-rss-conspiracy-in-arunachal-pradesh-debunked"
   },
-  {
-    title: "Arunachal Pradesh — First NE State to Integrate Generative AI into Governance",
-    date: "Feb 26, 2025",
-    summary: `Arunachal Pradesh became the first Northeast Indian state to integrate Generative AI into governance, deploying it to analyze Monthly Development Reports from 67 departments. The AI system flags delays, identifies trends, and enables data-driven decisions. Combined with 100% e-Office rollout and satellite-based project monitoring, it marks a shift toward real-time, technology-driven administration statewide.`,
-    link: "https://arunachal24.in/arunachal-pradesh-becomes"
-  }
 ],
 
 "Tripura": [
@@ -1224,6 +1218,16 @@ Experts confirmed the clip had markers of AI body-swap deepfake technology. The 
 // GOVERNANCE DATA — state-wise policy & legal responses
 // ─────────────────────────────────────────────────────────
 const governanceData = {
+
+  "Arunachal Pradesh": [
+    {
+      title: "Arunachal Pradesh — First NE State to Integrate Generative AI into Governance",
+      date: "Feb 26, 2025",
+      type: "Policy Framework",
+      description: "Arunachal Pradesh became the first Northeast Indian state to integrate Generative AI into governance, deploying it to analyze Monthly Development Reports from 67 departments. The AI system flags delays, identifies trends, and enables data-driven decisions. Combined with 100% e-Office rollout and satellite-based project monitoring, it marks a shift toward real-time, technology-driven administration statewide.",
+      link: "https://arunachal24.in/arunachal-pradesh-becomes"
+    }
+  ],
 
   "Meghalaya": [
     {
