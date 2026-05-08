@@ -411,18 +411,6 @@ The victim filed a complaint at the Cyber Crime Police Station, which registered
     summary:`The Sikkim Democratic Front has issued a warning about the potential use of deepfake technology by the Sikkim Krantikari Morcha.`,
     link: "https://www.indiatodayne.in/sikkim/story/sikkim-deepfake-alert-in-state-sdf-warns-against-manipulative-tactics-by-skm-720016-2023-12-02"
   },
-  {
-    title: "Sikkim issues SOPs for e-challan amid public outrage over AI traffic system",date: "February 9, 2024",
-    summary:`Sikkim Transport Department issued a set of standard operating procedures follwoing widespread public backlash on AI generated challans. Local drivers claimed that many challans generated were false and unjustified`,
-    link: "https://northeastlivetv.com/around-ne/sikkim/facing-backlash-sikkim-issues-sops-for-e-challan-amid-public-outrage-over-ai-traffic-system-2/"
-  },
-
-  {
-    title: "Proliferation of Deepfakes Disrupting 2024 Lok Sabha Elections",date: "Feb 19, 2024",
-    summary:`An incident record tracking AI mishaps cites Sikkim among states affected by Lok Sabha-season deepfakes aimed at voters.`,
-    link: "https://www.aljazeera.com/news/2024/2/20/deepfake-democracy-behind-the-ai-trickery-shaping-indias-2024-elections"
-
-  },
 ],
 
   "Punjab": [
@@ -1347,13 +1335,6 @@ const governanceData = {
       type: "Policy Review",
       description: "Following widespread public complaints that AI-generated traffic challans were inaccurate and unjust, the Sikkim Transport Department issued Standard Operating Procedures for the e-challan system. The case became an example of public pressure successfully triggering governance review of automated AI decision-making.",
       link: "https://northeastlivetv.com/around-ne/sikkim/facing-backlash-sikkim-issues-sops-for-e-challan-amid-public-outrage-over-ai-traffic-system-2/"
-    },
-    {
-      title: "State-Wide AI Training for Government Officials — 'Smart Proposals, Smarter Governance'",
-      date: "Jul 08, 2025",
-      type: "Policy",
-      description: "Sikkim State Council of Science & Technology conducted a state-wide AI training programme titled 'Smart Proposals, Smarter Governance — One Day Training for Government Officials on AI Tools for DPR Preparation' across all six districts (Pakyong, Gangtok, Namchi, Mangan, Gyalshing, Soreng) plus eight batches for line departments. The programme equipped officials with practical AI skills for data-driven decision-making, DPR formulation, and workflow optimisation.",
-      link: "https://dstsikkim.gov.in/"
     },
     {
       title: "Digital India AI Awareness Workshop — Gangtok Smart City ICCC",
