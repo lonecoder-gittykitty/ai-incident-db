@@ -379,23 +379,11 @@ link: "https://www.business-standard.com/pti-stories/national/andhra-police-bust
     link: "https://www.tribuneindia.com/news/haryana/manisha-death-case-firs-against-10-social-media-accounts-for-spreading-fake-news/#:~:text=The%20Bhiwani%20police%20have%20served,in%20the%20Manisha%20death%20case"
   },
   {
-    title: "Nirmala Sitharaman Deepfake Crypto Scam — National Scale, Delhi Epicentre",
-    date: "Jun 2025",
-    summary: `A widely circulated AI-generated deepfake video falsely showed Finance Minister Nirmala Sitharaman endorsing a fictitious cryptocurrency scheme called "Quantum AI," duping thousands of investors across India. A similar deepfake falsely featured Google CEO Sundar Pichai lending credibility to a fake government investment platform. CloudSEK’s report found that brand abuse accounts for nearly one-third of all cybercrime incidents in India. Losses from AI-enabled financial scams were projected to exceed ₹20,000 crore by end of 2025 — a 76% rise from 2024. Delhi’s cyber police coordinated with MeitY and platforms to remove the videos. The incident prompted I4C to expand its deepfake tracking capacity.`,
-    link: "https://nationalcybersecurity.com/india-faces-%E2%82%B920000-crore-cybercrime-threat-in-2025-amid-surge-in-ai-driven-deepfake-investment-scams-cybercrime-infosec/"
+    title: "Haryana Police Use AI Surveillance to Identify Farmer Protesters, Cancel Passports and Visas",
+    date: "Feb 29, 2024",
+    summary: `During the farmers’ protest at the Punjab-Haryana border, Haryana Police used AI-assisted CCTV and drone footage to identify protesters and subsequently requested passport and visa cancellations for identified individuals. Civil liberties groups warned this type of AI-enabled surveillance could lead to privacy violations and misidentification of innocent people — a direct AI harm with real consequences for citizens’ freedom of movement and livelihood.`,
+    link: "https://www.tribuneindia.com/news/haryana/cancelling-visa-passports-haryana-police-identify-violent-punjab-farmer-protesters-through-cctv-and-drone-cameras-595766/"
   },
-  {
-    title: "Ankur Warikoo Deepfake — Delhi HC Issues Landmark John Doe Order",
-    date: "2025",
-    summary: `Delhi High Court granted a landmark John Doe order to personal finance influencer Ankur Warikoo after AI-generated deepfake videos using his face, voice, and likeness circulated on social media — luring followers into WhatsApp groups for fraudulent stock market advice. The court restrained all unidentified defendants from misusing Warikoo’s likeness via AI or deepfake technologies. Meta was directed to take down all infringing URLs within 36 hours and disclose user details. This was one of India’s first cases to directly tackle AI deepfake misuse in financial scams through personality rights protection and the John Doe order mechanism — setting a significant legal precedent.`,
-    link: "https://law.asia/ai-deepfake-legal-response/"
-  },
-  {
-    title: "Delhi Police Facial Recognition System Deployment — Mass Surveillance Concerns",
-    date: "Aug 2021",
-    summary: `Delhi Police deployed a Facial Recognition System (FRS) for surveillance and criminal identification, issued via e-tender. The system enables mass surveillance through AI-powered facial recognition without adequate privacy safeguards, risking violations of civil liberties and potential algorithmic bias in identification. Data security remains a critical concern — similar police facial recognition systems were compromised in Uttar Pradesh and Tamil Nadu, exposing over 800,000 data lines containing information on 50,000+ individuals, demonstrating systemic vulnerabilities in government AI deployments.`,
-    link: "https://www.medianama.com/2021/08/223-facial-recognition-technology-policing-delhi-2/"
-  }
 ],
 "Arunachal Pradesh": [
   {
@@ -1725,13 +1713,6 @@ const governanceData = {
 
   "Haryana/ Delhi": [
     {
-      title: "'Cancelling Passports, Visas': Haryana Police Identify Farmer Protesters Through CCTVs and Drones",
-      date: "Feb 29, 2024",
-      type: "Surveillance",
-      description: "During the farmers' protest at the Punjab-Haryana border, Haryana Police used AI-assisted CCTV and drone footage to identify protesters and requested passport and visa cancellations for identified individuals. Civil liberties groups warned this type of AI-enabled surveillance could lead to privacy violations and misidentification — a significant governance concern around state use of AI for political targeting.",
-      link: "https://www.tribuneindia.com/news/haryana/cancelling-visa-passports-haryana-police-identify-violent-punjab-farmer-protesters-through-cctv-and-drone-cameras-595766/"
-    },
-    {
       title: "Haryana Introduces AI to Monitor Haryana Teacher Eligibility Test (HTET)",
       date: "Jun 20, 2025",
       type: "Policy",
@@ -1744,13 +1725,6 @@ const governanceData = {
       type: "Surveillance",
       description: "Gurugram implemented AI-powered traffic cameras for enforcing speed limits, detecting helmet violations, and catching fake number plates. While the system improved compliance and reduced accidents, critics noted these systems operate with no human discretion — raising issues around constant surveillance and lack of appeal mechanisms for wrongly flagged vehicles.",
       link: "https://timesofindia.indiatimes.com/city/gurgaon/revolutionary-ai-system-helps-police-crack-down-on-fake-number-plates-and-stolen-vehicles/articleshow/114130014.cms#:~:text=Gurgaon%3A%20The%20police%20have%20launched,characteristics%20like%20colour%20and%20model"
-    },
-    {
-      title: "Haryana Police Cyber Crime Units — AI Fraud Response",
-      date: "2024 (Ongoing)",
-      type: "Law Enforcement",
-      description: "Haryana Police operate dedicated cybercrime units in Gurugram, Faridabad, and Panchkula — among the most active in North India. These units handle AI-enabled voice cloning scams, deepfake blackmail cases, and digital arrest fraud. Cases are registered under the IT Act and BNS 2023, with coordination routed through I4C and the national helpline 1930. Haryana's proximity to Delhi means many cross-jurisdictional cases are jointly investigated.",
-      link: "https://i4c.mha.gov.in/"
     },
     {
       title: "Delhi Police Deploys 10,000 AI-Enabled CCTV Cameras Under ₹800 Crore Safe City Project",
@@ -1767,12 +1741,19 @@ const governanceData = {
       link: "https://theweeklynews.in/delhi-polices-netra-upgrade-can-ai-surveillance/"
     },
     {
-      title: "MeitY Notifies IT Amendment Rules Mandating Due Diligence for Synthetically Generated Content",
-      date: "Feb 11, 2026",
-      type: "Legislation",
-      description: "MeitY notified the Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Amendment Rules, 2026. The amendments define a new category of synthetically generated content (SGI) and impose due diligence obligations on intermediaries that enable the creation or dissemination of deepfakes — marking India's first enforceable rule specifically targeting AI-generated synthetic media.",
-      link: "https://www.csohate.org/2026/02/11/ai-impact-summit-2026/"
-    }
+      title: "Delhi Police Facial Recognition System Deployment — Mass Surveillance Concerns",
+      date: "Aug 2021",
+      type: "Surveillance",
+      description: "Delhi Police deployed a Facial Recognition System (FRS) for surveillance and criminal identification via e-tender. The system enables mass surveillance through AI-powered facial recognition without adequate privacy safeguards, risking civil liberties violations and algorithmic bias in identification. Similar police FRS deployments in Uttar Pradesh and Tamil Nadu were compromised, exposing data on 50,000+ individuals — highlighting systemic vulnerabilities in government AI deployments.",
+      link: "https://www.medianama.com/2021/08/223-facial-recognition-technology-policing-delhi-2/"
+    },
+    {
+      title: "Ankur Warikoo Deepfake — Delhi HC Issues Landmark John Doe Order",
+      date: "2025",
+      type: "Judicial Action",
+      description: "Delhi High Court granted a landmark John Doe order to personal finance influencer Ankur Warikoo after AI-generated deepfake videos using his likeness lured followers into WhatsApp groups for fraudulent stock market advice. The court restrained all unidentified defendants from misusing his likeness via AI tools. Meta was directed to remove infringing URLs within 36 hours and disclose user details — one of India's first cases applying personality rights protection against deepfake financial fraud.",
+      link: "https://law.asia/ai-deepfake-legal-response/"
+    },
   ],
 
   "Jammu & Kashmir": [
