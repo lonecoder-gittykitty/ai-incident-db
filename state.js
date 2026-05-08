@@ -473,14 +473,6 @@ A man then took the phone and demanded a ransom of ₹3 lakh. In a panic, the mo
 A short time later, her husband managed to contact their daughter, who was safe at her hostel and had no idea the call had happened. The mother realized she had been scammed by a fake AI voice.`,
 link: "https://timesofindia.indiatimes.com/india/fooled-by-your-own-kid-chilling-rise-of-ai-voice-cloning-scams/articleshow/108569446.cms"
      },
-    { title: "Bhopal Police Warning on AI Voice Scams", date: "Sep 18, 2023",
-       summary: `Cyber-criminals in Bhopal started using AI voice-cloning tools to copy the voices of family members and friends.
-They then made calls using the cloned voice, pretending to be in urgent trouble or needing money.
-Victims believed the voice was real because it sounded exactly like their loved one.
-Police issued a warning saying AI voice-cloning scams are increasing fast and people must verify calls before sending money.
-The article highlights how AI makes scams more convincing and harder to detect than traditional fraud..`,
-link: "https://timesofindia.indiatimes.com/city/bhopal/ai-voice-cloning-aids-cyber-crimes-cops-issue-warning-against-scam/articleshow/103743850.cms"
-     },
   {
     title: "AI Voice Cloning Fraud — Play School Owner Duped of ₹97,500, Indore",
     date: "Jan 2026",
@@ -1480,6 +1472,14 @@ const governanceData = {
     }
   ],
 
+  "Madhya Pradesh": [
+    {
+      title: "Bhopal Police Advisory on AI Voice Cloning Scams",
+      date: "Sep 18, 2023",
+      type: "Awareness Campaign",
+      description: "Bhopal Police issued a public advisory warning citizens about the rising use of AI voice-cloning tools by cybercriminals to impersonate family members and friends in distress calls. The advisory urged people to always verify emergency calls through a secondary contact before transferring money — one of MP's earliest official responses to AI-enabled fraud.",
+      link: "https://timesofindia.indiatimes.com/city/bhopal/ai-voice-cloning-aids-cyber-crimes-cops-issue-warning-against-scam/articleshow/103743850.cms"
+    }
   "Karnataka": [
     {
       title: "Karnataka Proposes Fake News Law with 7-Year Jail Term",
